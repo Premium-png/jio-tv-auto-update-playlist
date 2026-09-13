@@ -1,8 +1,8 @@
-name: Live Event
+name: Automated LIVE
 
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '*/30 * * * *'
   workflow_dispatch:
 
 concurrency:
@@ -28,17 +28,33 @@ jobs:
           git config user.name "sportlive18"
           git config user.email "271363488+sportlive18@users.noreply.github.com"
 
-      - name: Sync and Update
+      - name: Download LiveEvent.m3u
         run: |
           export TZ="Asia/Kolkata"
+          URL="https://sayan-jiotv.spal75084.workers.dev/LiveEvent.m3u"
 
-          echo "🔄 Syncing repository..."
-          git fetch origin main
-          git rebase origin/main
+          echo "📥 Downloading: $URL"
+          HTTP_CODE=$(curl -sSL -w "%{http_code}" -o LiveEvent.m3u "$URL" || echo "000")
+          echo "HTTP status: $HTTP_CODE"
 
-          echo "📥 Downloading latest LiveEvent playlist..."
-          curl -fSL -o LiveEvent.m3u \
-            "https://sayan-jiotv.spal75084.workers.dev/LiveEvent.m3u"
+          echo "📄 File size: $(wc -c < LiveEvent.m3u) bytes"
+          echo "---- First 5 lines ----"
+          head -n 5 LiveEvent.m3u || true
+          echo "-----------------------"
+
+          if [ "$HTTP_CODE" != "200" ]; then
+            echo "❌ Download failed (HTTP $HTTP_CODE)"
+            exit 1
+          fi
+
+          if [ ! -s LiveEvent.m3u ]; then
+            echo "❌ Downloaded file is empty"
+            exit 1
+          fi
+
+          if ! head -n 1 LiveEvent.m3u | grep -q "#EXTM3U"; then
+            echo "⚠️ Warning: file does not start with #EXTM3U"
+          fi
 
           echo "🚀 LiveEvent Synced | IST: $(date +'%Y-%m-%d %H:%M:%S')"
 
@@ -58,27 +74,15 @@ jobs:
       - name: Push Changes
         run: |
           set -e
-          export TZ="Asia/Kolkata"
-
           for i in 1 2 3; do
             echo "🚀 Push attempt $i..."
-
             git fetch origin main
-
-            if ! git rebase origin/main; then
-              echo "⚠️ Rebase conflict detected"
-              git rebase --abort
-              exit 1
-            fi
-
+            git rebase origin/main || { git rebase --abort; exit 1; }
             if git push origin HEAD:main; then
-              echo "✅ Successfully pushed to main"
+              echo "✅ Pushed to main"
               exit 0
             fi
-
-            echo "⚠️ Push failed, retrying..."
             sleep 5
           done
-
           echo "❌ Failed to push after 3 attempts"
           exit 1
