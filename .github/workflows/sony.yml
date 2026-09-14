@@ -2,7 +2,7 @@ name: Update Sony Playlist
 
 on:
   schedule:
-    - cron: '0 */1 * * *'
+    - cron: '30 * * * *'      # every hour at minute 0 (UTC)
   workflow_dispatch:
   push:
     branches:
@@ -18,11 +18,11 @@ jobs:
       contents: write
 
     concurrency:
-      group: update-jtv2
+      group: update-sony
       cancel-in-progress: true
 
     env:
-      TZ: Asia/Kolkata                # sets timezone for commit message
+      TZ: Asia/Kolkata
 
     steps:
       - name: Checkout Repository
@@ -46,11 +46,6 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Install Dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests pytz
-
       - name: Run Script
         run: |
           python sony.py
@@ -64,10 +59,10 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Auto-update playlist ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+          git commit -m "Auto-update Sony playlist ($(date -u '+%Y-%m-%d %H:%M UTC'))"
 
-          # Safely incorporate remote changes, keeping our generated file on conflicts
+          # Rebase onto latest remote (keep our generated file on conflicts)
           git pull --rebase -X theirs origin main
 
-          # Push only if the remote hasn't moved since our rebase
+          # Push only if remote hasn't moved since rebase
           git push --force-with-lease origin main
