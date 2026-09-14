@@ -86,7 +86,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/CNTelugu_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=a23b609b33e254a48e4fc6fa7af0fd8d:4064c52328bfe9e6008776b48a431e4b
-#EXTHTTP:{"cookie": "__hdnea__=st=1789360601~exp=1789364201~acl=/bpk-tv/ZeeTVHD_BTS/WDVLive/*~hmac=347556368e7e23c2240ffd8a289a995a777b383461d3e6636bfe5bce8e775cc6"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1789364128~exp=1789367728~acl=/bpk-tv/ZeeTVHD_BTS/WDVLive/*~hmac=0deace335b0cf60fe9e79600690fb6d2af01eb141926ce6d410fa57fa60ad146"}
 #EXTVLCOPT:http-user-agent=Virat Kohli 🐐
 https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeTVHD_BTS/WDVLive/index.mpd
 
@@ -2942,7 +2942,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/CNTamil_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f45e69507f0f5aa1a6e82374efb0af25:f84348219837769feb5a26a7b1cd31dc
-#EXTHTTP:{"cookie": "__hdnea__=st=1789359999~exp=1789363599~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=e1933b5ad21d1ec49bb9fcd40eac797661649f44ce973de4b14589c85a669495"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1789363685~exp=1789367285~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=874fb9623e0dcc2175a4a238f20ca192b930bb2d0c7e6f62c37f2ae5d1842c5e"}
 #EXTVLCOPT:http-user-agent=Virat Kohli 🐐
 https://jiotvpllive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/index.mpd
 
