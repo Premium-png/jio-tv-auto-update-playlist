@@ -60,6 +60,16 @@
     "logo": "https://img.media.jio.com/tvpimages/56/92/302115_1749665579801_l_medium.jpg"
   },
   {
+    "id": "1108",
+    "name": "Star Sports 1 Hindi HD",
+    "stream_url": "https://jiotvpllive.cdn.jio.com//bpk-tv/Star_Sports_HD1_Hindi_BTS/WDVLive/index.mpd",
+    "cookie": "__hdnea__=st=1789390894~exp=1789412494~acl=/bpk-tv/Star_Sports_HD1_Hindi_BTS/WDVLive/*~hmac=1ca3900ff635448e16cb913b9b8047ed9e10a34a3e1f9f813d51c83fb5d8b1b1",
+    "cookie_expires": "15/9/2026 12:31:34 AM IST",
+    "key_id": "400131994b445d8c8817202248760fda",
+    "key": "2d56cb6f07a75b9aff165d534ae2bfc4",
+    "logo": "https://img.media.jio.com/tvpimages/5/6/301982_1749665314605_l_medium.jpg"
+  },
+  {
     "id": "362",
     "name": "Star Sports 1 Hindi",
     "stream_url": "https://jiotvpllive.cdn.jio.com//bpk-tv/Star_Sports_1_Hindi_BTS/WDVLive/index.mpd",
@@ -123,11 +133,21 @@
     "id": "3277",
     "name": "Star Sports 1 Tamil HD",
     "stream_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_HD_BTS/WDVLive/index.mpd",
-    "cookie": "__hdnea__=st=1789369705~exp=1789391305~acl=/bpk-tv/Star_Sports_1_Tamil_HD_BTS/WDVLive/*~hmac=e63db484600f6fcdcb87eef62333ac2d2a813b54121ac77961dd6bcc75536a28",
-    "cookie_expires": "14/9/2026 6:38:25 PM IST",
+    "cookie": "__hdnea__=st=1789391394~exp=1789412994~acl=/bpk-tv/Star_Sports_1_Tamil_HD_BTS/WDVLive/*~hmac=2a25e7553023147e7c215aba77fdb33c33a883a0824d2e63061dda4422bf6433",
+    "cookie_expires": "15/9/2026 12:39:54 AM IST",
     "key_id": "2272c0bc6b2e5cb090b1f55996e0026c",
     "key": "943923934de1d5536ab01c67fca8b337",
     "logo": "https://img.media.jio.com/tvpimages/19/19/302122_1749662923298_l_medium.jpg"
+  },
+  {
+    "id": "1124",
+    "name": "Star Sports 1 Tamil",
+    "stream_url": "https://jiotvpllive.cdn.jio.com//bpk-tv/Star_Sports_1_Tamil_BTS/WDVLive/index.mpd",
+    "cookie": "__hdnea__=st=1789390932~exp=1789412532~acl=/bpk-tv/Star_Sports_1_Tamil_BTS/WDVLive/*~hmac=c98f64b88843bfcbd7418d0c8ed7a3ae73739aa17e2061d04b246b157c4c1c6d",
+    "cookie_expires": "15/9/2026 12:32:12 AM IST",
+    "key_id": "d0d750ebd52b5756aa7fb833f61ceece",
+    "key": "4ae62a20c030c918aad24193c1dda229",
+    "logo": "https://img.media.jio.com/tvpimages/69/73/301995_1749664384503_l_medium.jpg"
   },
   {
     "id": "3278",
