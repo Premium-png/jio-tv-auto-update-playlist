@@ -1,5 +1,3 @@
-## Keep Help Everyone 😄
-
 ## Support This Project
 Your single click = big help ☕
 
