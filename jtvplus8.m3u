@@ -349,16 +349,10 @@ https://premiumplug.fun/zee/zee5.php/0-9-pictures.m3u8
 # ------------=== ⛨ 𝔼𝕩𝕥𝕣𝕒 | SonyLiv ===---------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023981/178947380134187_ENGvsSL26_1t20i_live_landscape_thumb.jpg" group-title="⛨ 𝔼𝕩𝕥𝕣𝕒  | SonyLiv",1st T20I - 15 Sep 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005444/criclive1509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1789535553~acl=/*~id=71965805240753138254699481776601~hmac=02c69c6aa5d94694b4406efa42cb5dba6ccb6590e4b072c637466a70215bbebf
+https://sonydaimenew.akamaized.net/hls/live/2005444/criclive1509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1789536159~acl=/*~id=77244288632473805431779012412043~hmac=3d1a9527a18b7e2bffb348b93167c206a09efacce89fcf8fdf3ddbf3944bf198
 
 # ------------=== ⛨ 𝔼𝕩𝕥𝕣𝕒 | FanCode ===---------------
 
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/AFG_IND_2026_FC-WEB12.jpg" group-title="⛨ 𝔼𝕩𝕥𝕣𝕒  | FanCode",ENGLISH - Afghanistan vs India
-#EXTHTTP:{"Origin":"","Referer":""}
-https://in-mc-flive.fancode.com/out/v1/ap-south-1/4248493_english_466708/ad-h264/index__1080p.m3u8?hdntl=Expires=1789578136~_GO=Generated~acl=/out/v1/ap-south-1/4248493_english_466708/ad-h264/*~Signature=AVl424O6nW37rERavyqMzOUtq4NcyTWdpSPltuHECtpaI5w8gPO77cJ1JzNUk3EzlREALnrLmqU2dFc3TCPoj-sf9JQC
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/AFG_IND_2026_FC-WEB12.jpg" group-title="⛨ 𝔼𝕩𝕥𝕣𝕒  | FanCode",HINDI - Afghanistan vs India
-#EXTHTTP:{"Origin":"","Referer":""}
-https://in-mc-flive.fancode.com/out/v1/ap-south-1/4248493_hindi_150048/ad-h264/index__1080p.m3u8?hdntl=Expires=1789578136~_GO=Generated~acl=/out/v1/ap-south-1/4248493_hindi_150048/ad-h264/*~Signature=AVl424OM7uC3vaXvpQSgo-CVq2K4rjKx63wFM1fretlPhDPjzwGcVvkGp4JMb9WcQI3un1sg-XIQ-Nn6JupGcMiOQ9YI
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249244_53070_ADK_MED_FC-Web.png" group-title="⛨ 𝔼𝕩𝕥𝕣𝕒  | FanCode",ENGLISH - Abu Dhabi Knight Riders Development vs MI Emirates Development
 #EXTHTTP:{"Origin":"","Referer":""}
 https://in-mc-flive.fancode.com/mumbai/4249244_english_hls_9b82b68f3797637_1ta-di_h264/1080p.m3u8?hdntl=Expires=1789578137~_GO=Generated~acl=/mumbai/4249244_english_hls_9b82b68f3797637_1ta-di_h264/*~Signature=AVl424Ph6gsNssXyjCqPiOzoN1SXSGO3JZ5fbers_yS_rZcPXLJIuRpBlnjapkZtHv0fB0nzesMRzMipZGGmdfol2eEF
