@@ -26,7 +26,7 @@ jobs:
         run: |
           export TZ="Asia/Kolkata"
           git pull origin main --rebase
-          curl -sS -L -o jtv2.m3u "https://mute-sunset-8225.streamstar18.workers.dev/"
+          curl -sS -L -o jtv2.m3u "https://raw.githubusercontent.com/darkbyteprojects/iptv_png/refs/heads/main/jiotv.m3u"
           echo "🚀 JIOTV  Synced | IST: $(date +'%Y-%m-%d %H:%M:%S')"
           
       - name: Commit and Push
