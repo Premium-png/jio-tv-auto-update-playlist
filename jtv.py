@@ -9,7 +9,7 @@ from typing import Dict, Any, Tuple
 from datetime import datetime
 from urllib.parse import urlparse, urlunparse, parse_qs, urlencode
 
-CHANNELS_URL = "https://sportlink10-ajp.pages.dev/jtv.json"
+CHANNELS_URL = "https://raw.githubusercontent.com/qwerty180506/json/refs/heads/main/Geoplus.json"
 COOKIE_URL = "https://allinonereborn2.online/jstrweb2/cookies.json"
 SPORTS_COOKIE_URL = "https://allinonereborn2.online/jtv-fetch/jstarcookie/cookie.json"
 
@@ -67,23 +67,22 @@ def get_normal_cookie() -> str:
     return ""
 
 
-# ---------------- SPORTS COOKIE EXTRACTION ----------------
+# ---------------- COOKIE EXTRACTION ----------------
 def _extract_cookie_from_url(url: str) -> Tuple[str, str]:
     """
-    Split an embedded cookie out of a sports URL.
+    Extract embedded token/cookie params from a JioTV URL.
 
-    JioTV sports URLs typically look like:
-        https://.../WDVLive/index.mpd?__cookie__=userId%3Dxxx%3BsessionId%3Dyyy&...
+    JioTV sports URLs embed the Akamai token as a query param:
+        https://.../WDVLive/index.mpd?__hdnea__=st=...~exp=...~hmac=...
 
-    The `__cookie__` (or `cookie`/`cookies`) parameter holds the actual HTTP
-    cookie value that must be sent as a header. Many DASH/M3U clients ignore
-    cookies embedded in the URL query string, so we must:
-        1. pull the cookie out,
-        2. strip it from the URL,
-        3. emit it as #EXTHTTP in M3U and in the JSON "cookie" field.
+    This token must be sent as an HTTP cookie header, NOT left in the URL
+    query string, because many DASH/M3U players ignore query-string tokens.
 
-    Returns (clean_url, cookie_value). If no cookie param exists, returns
-    (url, "") and the URL is left untouched.
+    Also handles generic params: __cookie__, cookie, cookies.
+
+    Returns (clean_url, cookie_string) where cookie_string includes the
+    param name, e.g. "__hdnea__=st=...". If no cookie param exists,
+    returns (url, "") with the URL untouched.
     """
     if not url:
         return url, ""
@@ -94,9 +93,12 @@ def _extract_cookie_from_url(url: str) -> Tuple[str, str]:
 
     params = parse_qs(parsed.query, keep_blank_values=True)
     cookie_val = ""
-    for key in ("__cookie__", "cookie", "cookies"):
+
+    # Priority: __hdnea__ (Akamai) first, then generic cookie params
+    for key in ("__hdnea__", "__cookie__", "cookie", "cookies"):
         if key in params:
-            cookie_val = params.pop(key)[0]
+            raw = params.pop(key)[0]
+            cookie_val = f"{key}={raw}"
             break
 
     if not cookie_val:
@@ -104,12 +106,8 @@ def _extract_cookie_from_url(url: str) -> Tuple[str, str]:
 
     new_query = urlencode(params, doseq=True)
     clean_url = urlunparse((
-        parsed.scheme,
-        parsed.netloc,
-        parsed.path,
-        parsed.params,
-        new_query,
-        parsed.fragment,
+        parsed.scheme, parsed.netloc, parsed.path,
+        parsed.params, new_query, parsed.fragment,
     ))
     return clean_url, cookie_val
 
@@ -121,7 +119,7 @@ def get_sports_data() -> Dict[str, Any]:
         {
             "sportsIds": {channel_id, ...},
             "sportsCookies": {
-                channel_id: {"url": clean_url, "cookie": cookie_value}
+                channel_id: {"url": clean_url, "cookie": cookie_string}
             }
         }
     """
@@ -186,23 +184,24 @@ def resolve_channel(channel, normal_cookie, sports_cookies):
 
     Returns (final_url, cookie_value, is_sports).
 
-    - Sports channel -> clean sports URL + extracted sports cookie
-                        (cookie may be "" if the URL carries auth via other
-                        query params like `st`; in that case no header is
-                        emitted and the URL alone is enough).
-    - Normal channel -> base URL with query stripped + normal cookie.
+    - Sports channel -> clean sports URL + extracted __hdnea__/cookie
+    - Normal channel -> __hdnea__ extracted from URL if present,
+                        else base URL + normal cookie
     """
     channel_id = str(channel.get("id") or "")
 
     if channel_id in sports_cookies:
         entry = sports_cookies[channel_id]
-        # Defensive: tolerate the old {id: url} format just in case
         if isinstance(entry, str):
             url, cookie = _extract_cookie_from_url(entry)
             return url, cookie, True
         return entry.get("url", ""), entry.get("cookie", ""), True
 
+    # Normal channel: extract __hdnea__ if the URL carries one
     raw_url = channel.get("url") or ""
+    clean_url, embedded_cookie = _extract_cookie_from_url(raw_url)
+    if embedded_cookie:
+        return clean_url, embedded_cookie, False
     return _clean_base_url(raw_url), normal_cookie, False
 
 
@@ -219,7 +218,6 @@ def create_channel_entry(channel, normal_cookie="", sports_cookies=None):
 
     key_id, key = extract_keys(channel)
 
-    # >>> The fix: get BOTH the URL and the correct cookie for this channel
     final_url, cookie_to_use, _is_sports = resolve_channel(
         channel, normal_cookie, sports_cookies
     )
@@ -249,7 +247,7 @@ def create_channel_entry(channel, normal_cookie="", sports_cookies=None):
             lines.append("#KODIPROP:inputstream.adaptive.license_type=clearkey")
             lines.append(f'#KODIPROP:inputstream.adaptive.license_key={channel["license_url"]}')
 
-    # Cookie — same treatment for sports AND normal channels now
+    # Cookie — same treatment for sports AND normal channels
     if cookie_to_use:
         cookie_json = json.dumps({"cookie": cookie_to_use})
         lines.append(f"#EXTHTTP:{cookie_json}")
@@ -267,7 +265,6 @@ def build_channel_object(channel, normal_cookie="", sports_cookies=None):
 
     key_id, key = extract_keys(channel)
 
-    # >>> The fix: populate JSON "cookie" with whichever cookie applies
     final_url, cookie_to_use, _is_sports = resolve_channel(
         channel, normal_cookie, sports_cookies
     )
