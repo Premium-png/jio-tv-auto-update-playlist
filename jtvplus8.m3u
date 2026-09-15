@@ -3698,8 +3698,8 @@ https://onekey.virey40690.workers.dev/mpd/583
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://onekey.virey40690.workers.dev/key/821
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"st=1789438184~exp=1789441784~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=3d4169df931c05819f8c5283771fce5c5327887bb457e2cc6de933f2cb3c5765","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/index.mpd?__hdnea__=st=1789438184~exp=1789441784~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=3d4169df931c05819f8c5283771fce5c5327887bb457e2cc6de933f2cb3c5765
+#EXTHTTP:{"cookie":"st=1789441693~exp=1789445293~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=14333449df27a708ce21d244f82be36295d7e1aac726eae2ab6807e51f3d933a","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/index.mpd?__hdnea__=st=1789441693~exp=1789445293~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=14333449df27a708ce21d244f82be36295d7e1aac726eae2ab6807e51f3d933a
 
 #EXTINF:-1 tvg-id="871" group-title="JIO ⭕|Infotainment" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Jio_Events.png",Jio Events HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
