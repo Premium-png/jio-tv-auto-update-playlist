@@ -8,11 +8,11 @@ on:
     branches:
       - main
     paths:
-      - 'jtv.py'
+      - 'jtv.py'  # Only trigger on script changes, not playlist updates
 
 concurrency:
   group: update-playlist
-  cancel-in-progress: false
+  cancel-in-progress: false  # Don't cancel running jobs, queue them
 
 jobs:
   update-playlist:
@@ -24,7 +24,6 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          ref: main
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
@@ -37,17 +36,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install requests pytz
-
-      - name: Save old hashes
-        id: before
-        run: |
-          for f in jtv.m3u jtv.json; do
-            if [ -f "$f" ]; then
-              echo "$f=$(sha256sum "$f" | awk '{print $1}')" >> "$GITHUB_OUTPUT"
-            else
-              echo "$f=missing" >> "$GITHUB_OUTPUT"
-            fi
-          done
 
       - name: Run jtv.py
         run: python jtv.py
@@ -62,20 +50,18 @@ jobs:
               echo "ERROR: $FILE not found!"
               exit 1
             fi
+
             LINES=$(wc -l < "$FILE")
             echo "$FILE: $LINES lines"
+
             if [ "$LINES" -lt 10 ]; then
               echo "ERROR: $FILE is too small — likely empty or broken!"
               cat "$FILE"
               exit 1
             fi
           done
-          echo "Verification passed."
 
-      - name: Show changes
-        run: |
-          git status --porcelain
-          git --no-pager diff --stat
+          echo "Verification passed."
 
       - name: Commit and Push Changes
         run: |
@@ -85,27 +71,14 @@ jobs:
           git add -f jtv.m3u jtv.json
 
           if git diff --cached --quiet; then
-            echo "No changes to commit — script produced identical output."
+            echo "No changes to commit — skipping push"
             exit 0
           fi
 
+          # [skip ci] prevents this commit from triggering another workflow run
           git commit -m "Auto-update playlists: $(date -u) [skip ci]"
 
-          # Sync with remote before pushing
-          git fetch origin main
-          git rebase origin/main || { git rebase --abort; git merge origin/main -m "merge"; }
+          # Pull with rebase just before push to avoid conflicts
+          git pull --rebase origin main
 
-          # Push the actual commit; HEAD:main works even if HEAD is detached
-          for i in 1 2 3 4 5; do
-            if git push origin HEAD:main; then
-              echo "Push succeeded."
-              exit 0
-            fi
-            echo "Push failed, retrying ($i)..."
-            git fetch origin main
-            git rebase origin/main || git rebase --abort
-            sleep 5
-          done
-
-          echo "Push failed after retries."
-          exit 1
+          git push origin main
