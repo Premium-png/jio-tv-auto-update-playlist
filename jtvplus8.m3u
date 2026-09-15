@@ -3073,8 +3073,8 @@ https://onekey.virey40690.workers.dev/mpd/144
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://onekey.virey40690.workers.dev/key/167
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"st=1789438615~exp=1789442215~acl=/bpk-tv/ZeeTVHD_BTS/WDVLive/*~hmac=6dff933946ff8e2de8ca23c27c72dbc67c0b7502a7509da8a5a84fe0b118abeb","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeTVHD_BTS/WDVLive/index.mpd?__hdnea__=st=1789438615~exp=1789442215~acl=/bpk-tv/ZeeTVHD_BTS/WDVLive/*~hmac=6dff933946ff8e2de8ca23c27c72dbc67c0b7502a7509da8a5a84fe0b118abeb
+#EXTHTTP:{"cookie":"st=1789442187~exp=1789445787~acl=/bpk-tv/ZeeTVHD_BTS/WDVLive/*~hmac=fe51eea1785b66f6604386339e8555dbd98109c06d5cbe1fb5f9c0680c432c4d","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeTVHD_BTS/WDVLive/index.mpd?__hdnea__=st=1789442187~exp=1789445787~acl=/bpk-tv/ZeeTVHD_BTS/WDVLive/*~hmac=fe51eea1785b66f6604386339e8555dbd98109c06d5cbe1fb5f9c0680c432c4d
 
 #EXTINF:-1 tvg-id="202" group-title="JIO ⭕|Entertainment" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_National.png",DD National
 #KODIPROP:inputstream.adaptive.license_type=clearkey
