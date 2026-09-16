@@ -55,18 +55,6 @@ def fetch_json(url):
     return json.loads(text)
 
 
-def build_url(url, cookie):
-    """Append auth params as query string for Hotstar CDN."""
-    sep = "&" if "?" in url else "?"
-    params = {
-        "cookie": cookie,
-        "referer": REFERER,
-        "origin": ORIGIN,
-        "user-agent": USER_AGENT,
-    }
-    return url + sep + urllib.parse.urlencode(params)
-
-
 def generate_m3u(items, cookie, out_file):
     lines = ["#EXTM3U"]
     written = 0
@@ -103,7 +91,8 @@ def generate_m3u(items, cookie, out_file):
             % (ORIGIN, REFERER, USER_AGENT, cookie)
         )
 
-        lines.append(build_url(url, cookie))
+        # Plain manifest URL (no query params appended)
+        lines.append(url)
         lines.append("")  # blank line between entries
         written += 1
 
