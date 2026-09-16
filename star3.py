@@ -56,17 +56,6 @@ def fetch_json(url):
     return json.loads(http_get(url))
 
 
-def build_url(url, cookie):
-    sep = "&" if "?" in url else "?"
-    params = {
-        "cookie": cookie,
-        "referer": REFERER,
-        "origin": ORIGIN,
-        "user-agent": USER_AGENT,
-    }
-    return url + sep + urllib.parse.urlencode(params)
-
-
 def is_mpd(url):
     """Return True if the URL path ends with .mpd (ignores query string)."""
     try:
@@ -172,7 +161,8 @@ def generate_m3u(items, cookie, out_file):
             % (ORIGIN, REFERER, USER_AGENT, cookie)
         )
 
-        lines.append(build_url(url, cookie))
+        # Plain manifest URL (no query params appended)
+        lines.append(url)
         lines.append("")
         written += 1
 
