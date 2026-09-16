@@ -1,81 +1,132 @@
-import requests
 import json
+import re
+import requests
+from datetime import datetime, timezone, timedelta
 
-JSON_URL = "https://sonujson-v3.pages.dev/Data/sports.json"
-USER_AGENT = "Sayan10"          
-OUTPUT_FILE = "Star.m3u"
+# ---------- configuration ----------
+CHANNELS_URL = "https://sportlink18.pages.dev/jtvp.json"
+COOKIES_URL  = "https://allinonereborn2.online/jtv-fetch/jstarcookie/cookie.json"
+OUTPUT_FILE  = "star.m3u"
 
-def generate_m3u():
+# Only keep channels whose name matches this pattern (case-insensitive)
+NAME_FILTER = re.compile(r"star\s*sports", re.IGNORECASE)
+
+USER_AGENT  = "Virat🐐"
+GROUP_TITLE = "Sports"
+
+IST = timezone(timedelta(hours=5, minutes=30))
+
+
+# ---------- helper functions ----------
+def format_expiry(exp_ts: str) -> str:
+    """Convert a unix timestamp string to 'D/M/YYYY H:MM:SS AM/PM IST'."""
     try:
-        print(f"Fetching data from {JSON_URL} ...")
-        resp = requests.get(JSON_URL)
-        resp.raise_for_status()
-        data = resp.json()
+        dt = datetime.fromtimestamp(int(exp_ts), tz=IST)
+    except (ValueError, OSError, TypeError):
+        return ""
+    hour12 = dt.hour % 12
+    if hour12 == 0:
+        hour12 = 12
+    ampm = "AM" if dt.hour < 12 else "PM"
+    return f"{dt.day}/{dt.month}/{dt.year} {hour12}:{dt.minute:02d}:{dt.second:02d} {ampm} IST"
 
-        if "channels" not in data:
-            print("Error: 'channels' key missing in JSON.")
-            return
 
-        channels = data["channels"]
-        print(f"Found {len(channels)} channels. Building M3U...")
+def get_cookie_expiry(cookie: str) -> str:
+    """Extract exp=<unix_ts> from a __hdnea__ cookie string."""
+    if not cookie:
+        return ""
+    exp_match = re.search(r"exp=(\d+)", cookie)
+    return format_expiry(exp_match.group(1)) if exp_match else ""
 
-        m3u_lines = ["#EXTM3U"]
 
-        for ch in channels:
-            # Extract all needed fields
-            ch_id = ch.get("id", "")
-            name = ch.get("name", "Unknown")
-            stream_url = ch.get("stream_url", "")
-            cookie = ch.get("cookie", "")
-            key_id = ch.get("key_id", "")
-            key = ch.get("key", "")
+def extract_hdnea(final_url: str):
+    """Return the full __hdnea__ query string (including prefix) from a URL."""
+    match = re.search(r"(__hdnea__=[^&]+)", final_url)
+    return match.group(1) if match else None
 
-            # Skip incomplete entries
-            if not all([stream_url, cookie, key_id, key]):
-                print(f"  Skipping '{name}' – missing required data.")
-                continue
 
-            license_key = f"{key_id}:{key}"
+def is_mpd(url: str) -> bool:
+    """True if the URL path ends with .mpd, even if a query/hash is present."""
+    try:
+        from urllib.parse import urlparse
+        return urlparse(url).path.lower().endswith(".mpd")
+    except Exception:
+        return url.lower().split("?")[0].endswith(".mpd")
 
-            # 1. EXTINF line
-            m3u_lines.append(
-                f'#EXTINF:-1 tvg-id="{ch_id}" tvg-name="{name}" tvg-logo="" group-title="Sports",{name}'
+
+# ---------- fetch data ----------
+channels_resp = requests.get(CHANNELS_URL)
+channels_resp.raise_for_status()
+channels = channels_resp.json()
+
+cookies_resp = requests.get(COOKIES_URL)
+cookies_resp.raise_for_status()
+cookie_data = cookies_resp.json()
+
+# Build a lookup: channel_id -> final_url
+failed_map = {
+    str(item["channel_id"]): item["error_details"]["final_url"]
+    for item in cookie_data.get("failed_results", [])
+}
+
+# ---------- build M3U output (Star Sports only) ----------
+lines = ["#EXTM3U", ""]
+written = 0
+
+for ch in channels:
+    name = ch.get("name", "")
+    if not NAME_FILTER.search(name):
+        continue  # skip non–Star Sports channels
+
+    cid = str(ch["id"])
+    final_url = failed_map.get(cid)
+    if not final_url:
+        print(f"Warning: no cookie URL for channel {cid} ({name})")
+        continue
+
+    hdnea_full = extract_hdnea(final_url)
+    if not hdnea_full:
+        print(f"Warning: no __hdnea__ token found for channel {cid}")
+        continue
+
+    stream_url = ch["url"]
+    logo       = ch.get("logo", "")
+    key_id     = ch.get("keyId", "")
+    key        = ch.get("key", "")
+    group      = ch.get("group") or ch.get("category") or GROUP_TITLE
+
+    # ---- EXTINF line ----
+    lines.append(
+        f'#EXTINF:-1 tvg-id="{cid}" tvg-name="{name}" tvg-logo="{logo}" '
+        f'group-title="{group}",{name}'
+    )
+
+    # ---- KODIPROP (adaptive + ClearKey) ----
+    if is_mpd(stream_url):
+        lines.append("#KODIPROP:inputstream=inputstream.adaptive")
+        lines.append("#KODIPROP:inputstream.adaptive.manifest_type=mpd")
+        if key_id and key:
+            lines.append("#KODIPROP:inputstream.adaptive.license_type=clearkey")
+            lines.append(
+                f"#KODIPROP:inputstream.adaptive.license_key={key_id}:{key}"
             )
 
-            # 2. KODIPROP lines (ClearKey)
-            m3u_lines.append("#KODIPROP:inputstream.adaptive.manifest_type=mpd")
-            m3u_lines.append("#KODIPROP:inputstream.adaptive.license_type=clearkey")
-            m3u_lines.append(f"#KODIPROP:inputstream.adaptive.license_key={license_key}")
+    # ---- __hdnea__ cookie sent as HTTP header (JSON form) ----
+    lines.append(
+        '#EXTHTTP:{"cookie": "%s"}' % hdnea_full
+    )
 
-            # 3. VLC User‑Agent option
-            m3u_lines.append(f"#EXTVLCOPT:http-user-agent={USER_AGENT}")
+    # ---- user-agent ----
+    lines.append(f"#EXTVLCOPT:http-user-agent={USER_AGENT}")
 
-            # 4. HTTP headers (cookie, Origin, Referer) as JSON
-            headers = {
-                "cookie": cookie,
-                "Origin": "https://www.jiotv.com/",
-                "Referer": "https://www.jiotv.com/",
-            }
-            headers_json = json.dumps(headers, separators=(',', ':'))
-            m3u_lines.append(f"#EXTHTTP:{headers_json}")
+    # ---- stream URL (plain, no query params appended) ----
+    lines.append(stream_url)
+    lines.append("")  # blank line between entries
 
-            # 5. The stream URL
-            m3u_lines.append(stream_url)
-            m3u_lines.append("")   # blank line between entries
+    written += 1
 
-        # Write the file
-        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-            f.write("\n".join(m3u_lines))
+# ---------- write result ----------
+with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    f.write("\n".join(lines).rstrip() + "\n")
 
-        print(f"\n✅ Playlist saved as: {OUTPUT_FILE}")
-        print(f"   Total channels processed: {len(channels)}")
-
-    except requests.exceptions.RequestException as e:
-        print(f"❌ Network error: {e}")
-    except json.JSONDecodeError as e:
-        print(f"❌ JSON parsing error: {e}")
-    except Exception as e:
-        print(f"❌ Unexpected error: {e}")
-
-if __name__ == "__main__":
-    generate_m3u()
+print(f"✅ Star Sports M3U written to {OUTPUT_FILE} ({written} channels)")
