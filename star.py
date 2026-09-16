@@ -6,7 +6,7 @@ from datetime import datetime, timezone, timedelta
 # ---------- configuration ----------
 CHANNELS_URL = "https://sportlink18.pages.dev/jtvp.json"
 COOKIES_URL  = "https://allinonereborn2.online/jtv-fetch/jstarcookie/cookie.json"
-OUTPUT_FILE  = "star.m3u"
+OUTPUT_FILE  = "Star.m3u"
 
 # Only keep channels whose name matches this pattern (case-insensitive)
 NAME_FILTER = re.compile(r"star\s*sports", re.IGNORECASE)
