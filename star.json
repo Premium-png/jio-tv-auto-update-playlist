@@ -30,16 +30,6 @@
     "logo": "https://img.media.jio.com/tvpimages/98/79/302114_1749665414817_l_medium.jpg"
   },
   {
-    "id": "1114",
-    "name": "Star Sports Select 2",
-    "stream_url": "https://jiotvpllive.cdn.jio.com//bpk-tv/Star_Sports_Select_2_BTS/WDVLive/index.mpd",
-    "cookie": "__hdnea__=st=1789564188~exp=1789585788~acl=/bpk-tv/Star_Sports_Select_2_BTS/WDVLive/*~hmac=0c6612b415169fc3723d74a0e909dbc9e4bf17a7b0c0d40f4930b23cf2f00132",
-    "cookie_expires": "17/9/2026 12:39:48 AM IST",
-    "key_id": "ec7d009d07aa5cbc81a441880530dfa5",
-    "key": "8147983ad7402ebfc222d28b667a196f",
-    "logo": "https://img.media.jio.com/tvpimages/98/48/301989_1749664475828_l_medium.jpg"
-  },
-  {
     "id": "1106",
     "name": "Star Sports 1 HD",
     "stream_url": "https://jiotvpllive.cdn.jio.com//bpk-tv/Star_Sports_HD1_BTS/WDVLive/index.mpd",
