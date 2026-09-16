@@ -1,8 +1,8 @@
 #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
-#===== Fancode | Sportlink (12 channels) =====
+#===== Fancode | Sportlink (11 channels) =====
 # Written and Directed by ✨ D O C T O R - S T R A N G E ✨
 # Join us on Telegram: https://t.me/jitendraunatti_github
-#DATE:- Thursday, 17 September 2026 at 12:35:22 am
+#DATE:- Thursday, 17 September 2026 at 12:56:11 am
 
 #EXTINF:-1 tvg-id="4249246" tvg-name="Desert Vipers Development Vs Sharjah Warriorz Development @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249246_53070_DVD_SWD_FC-Web.png" tvg-language="English" group-title="Fancode | Sportlink",ENG | Desert Vipers Development Vs Sharjah Warriorz Development
 https://dai-fancode.pages.dev/mumbai/4249246_english_hls_b66a6ea12734193_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
@@ -30,9 +30,6 @@ https://dai-fancode.pages.dev/mumbai/4247624_english_hls_536bf453ca95565_1ta-di_
 
 #EXTINF:-1 tvg-id="4247626" tvg-name="Fc Barcelona Vs Racing Club De Santander @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4247626_53004_BAR_RAC_FC-Web.png" tvg-language="English" group-title="Fancode | Sportlink",ENG | Fc Barcelona Vs Racing Club De Santander
 https://dai-fancode.pages.dev/mumbai/4247626_english_hls_c04503391866594_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
-
-#EXTINF:-1 tvg-id="4247618" tvg-name="Atletico De Madrid Vs Ca Osasuna @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4247618_53004_ATM_OSN_FC-Web.png" tvg-language="English" group-title="Fancode | Sportlink",ENG | Atletico De Madrid Vs Ca Osasuna
-https://dai-fancode.pages.dev/mumbai/4247618_english_hls_486b014c9d67102_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
 #EXTINF:-1 tvg-id="4247621" tvg-name="Deportivo De La Coruna Vs Sevilla Fc @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4247621_53004_COR_SEV_FC-Web.png" tvg-language="English" group-title="Fancode | Sportlink",ENG | Deportivo De La Coruna Vs Sevilla Fc
 https://dai-fancode.pages.dev/mumbai/4247621_english_hls_7aa67ac96493004_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
