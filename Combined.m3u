@@ -1,8 +1,8 @@
 #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
-#===== Fancode | Sportlink (9 channels) =====
+#===== Fancode | Sportlink (5 channels) =====
 # Written and Directed by ✨ D O C T O R - S T R A N G E ✨
 # Join us on Telegram: https://t.me/jitendraunatti_github
-#DATE:- Thursday, 17 September 2026 at 7:42:14 pm
+#DATE:- Thursday, 17 September 2026 at 8:42:10 pm
 
 #EXTINF:-1 tvg-id="4248492" tvg-name="India Vs Afghanistan @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/AFG_IND_2026_FC-WEB12.jpg" tvg-language="English" group-title="Fancode | Sportlink",ENG | India Vs Afghanistan
 https://dai-fancode.pages.dev/out/v1/ap-south-1/4248492_english_265127/ad-h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
@@ -10,64 +10,45 @@ https://dai-fancode.pages.dev/out/v1/ap-south-1/4248492_english_265127/ad-h264/i
 #EXTINF:-1 tvg-id="4248492" tvg-name="India Vs Afghanistan @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/AFG_IND_2026_FC-WEB12.jpg" tvg-language="Hindi" group-title="Fancode | Sportlink",HIN | India Vs Afghanistan
 https://dai-fancode.pages.dev/out/v1/ap-south-1/4248492_hindi_109112/ad-h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
-#EXTINF:-1 tvg-id="4249170" tvg-name="Botswana Vs Kenya @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249170_53067_BOT_KEN_FC-Web.png" tvg-language="English" group-title="Fancode | Sportlink",ENG | Botswana Vs Kenya
-https://dai-fancode.pages.dev/mumbai/4249170_english_hls_40bf75f1c690321_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
-
 #EXTINF:-1 tvg-id="4249247" tvg-name="Mi Emirates Development Vs Dubai Capitals Development @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249247_53070_MED_DCD_FC-Web.png" tvg-language="English" group-title="Fancode | Sportlink",ENG | Mi Emirates Development Vs Dubai Capitals Development
 https://dai-fancode.pages.dev/mumbai/4249247_english_hls_d66ce290d799800_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
-
-#EXTINF:-1 tvg-id="4248966" tvg-name="Shanghai Shenhua Vs Tampines Rovers Fc @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248966_53057_SHN_TAM_fc-web_1789025066387.jpg" tvg-language="English" group-title="Fancode | Sportlink",ENG | Shanghai Shenhua Vs Tampines Rovers Fc
-https://dai-fancode.pages.dev/mumbai/4248966_english_hls_3747e019ae97147_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
-
-#EXTINF:-1 tvg-id="4248967" tvg-name="Kitchee Sc Vs Gangwon Fc @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248967_53057_KIT_GW_fc-web_1789025065270.jpg" tvg-language="English" group-title="Fancode | Sportlink",ENG | Kitchee Sc Vs Gangwon Fc
-https://dai-fancode.pages.dev/mumbai/4248967_english_hls_0266bccb8275165_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
-
-#EXTINF:-1 tvg-id="4248968" tvg-name="Phnom Penh Crown Vs Kuching City Fc @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248968_53057_PPC_KFC_fc-web_1789025065266.jpg" tvg-language="English" group-title="Fancode | Sportlink",ENG | Phnom Penh Crown Vs Kuching City Fc
-https://dai-fancode.pages.dev/mumbai/4248968_english_hls_8302d8a0e337876_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
 #EXTINF:-1 tvg-id="4249084" tvg-name="Day 1 @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/La-Sella_Web-match-card.png" tvg-language="English" group-title="Fancode | Sportlink",ENG | Day 1
 https://dai-fancode.pages.dev/mumbai/4249084_english_hls_d938d80d3519070_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
 #===== SonyLIV | Sportlink (1 channels) =====
 #EXTINF:-1 tvg-name="BMW PGA Championship - Day 1 - 17 Sep 2026 [ENG] - DP World Tour @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023421/1788419411300492_DP_World_Tour_BMW_PGA_CHAMPIONSHIP_day1_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", BMW PGA Championship - Day 1 - 17 Sep 2026 [ENG] - DP World Tour
-https://sonydaimenew.akamaized.net/hls/live/2005444/Golf_BMW1709/ENG/std_lrh-800300010.m3u8?hdnea=exp=1789697903~acl=/*~id=27242667461617933902460122834742~hmac=10d9782c5b3c4e8e25e886c9d3d271125e68c6e14e5a6b2c33dde0f3f14b9cb3
+https://sonydaimenew.akamaized.net/hls/live/2005444/Golf_BMW1709/ENG/std_lrh-800300010.m3u8?hdnea=exp=1789702164~acl=/*~id=33898728071959440064843468947003~hmac=de34043da97df2ffd5067cf7df840e0d30770744191c63261a5b5d1c2eecfdd0
 
 #===== Willow | Sportlink (3 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:08:02 PM 17-09-2026
+#LAST_UPDATE:09:32 PM 17-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:2
-#UPCOMING_COUNT:8
+#UPCOMING_COUNT:9
 
 #EXTINF:-1 tvg-id="B0GRQ99T1X" tvg-name="European T20 Premier League 2026 - 30th Match - Rotterdam Dockers vs Dublin Guardians @virat10" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.b22c743b-afa2-46b9-bad1-d3536041946d/2/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="Willow | Sportlink",European T20 Premier League 2026 - 30th Match - Rotterdam Dockers vs Dublin Guardians
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b5c753aa1a570084a6ce60b251d1193d:9c52c44a532dd1480f8f0be10351dbb1
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hxcaiulcs1/out/v1/66224f834bde4f0ea5859a30c09056fe/cenc.mpd
+https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/hxcaiulcs1/out/v1/66224f834bde4f0ea5859a30c09056fe/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0HHQ6L9KX" tvg-name="Afghanistan vs India in India 2026 - 3rd T20I - Afghanistan vs India @virat10" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.aeb47d4a-1dc2-4beb-ae5d-2ce72ee660bd/2/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="Willow | Sportlink",Afghanistan vs India in India 2026 - 3rd T20I - Afghanistan vs India
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8e802e5373c59195ff0a9838814db6f4:d76ecf4be947c06874c1b57427f9e85b
-https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/r5nicrqiyf/out/v1/6659e5152b4e4bb89917f57640f594fb/cenc.mpd
+https://ss-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/r5nicrqiyf/out/v1/6659e5152b4e4bb89917f57640f594fb/cenc.mpd
 
-#===== Prime Video | Sportlink (5 channels) =====
+#===== Prime Video | Sportlink (3 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:08:02 PM 17-09-2026
+#LAST_UPDATE:09:32 PM 17-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:5
+#LIVE_COUNT:3
 #UPCOMING_COUNT:0
-
-#EXTINF:-1 tvg-id="B0HGFHYD5G" tvg-name="Triton ONE Poker Series Jeju II-$150K NLH 10th Anniversary Special @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.801c8c8e-7ee3-401c-8fdc-239c1d50887e/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Triton ONE Poker Series Jeju II-$150K NLH 10th Anniversary Special
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0bd0136d2728be3d6506cfe054a3fd59:27ae4995704be63440c0dcb001b2abbd
-https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/ppzmljumfr/out/v1/25e29b9f67954e16badd296287c53359/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0HGBS1RFB" tvg-name="Green Mountain Championship, Round 1 @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.f5dd653a-4ff0-4c74-9ce8-a7b049b2c666/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Green Mountain Championship, Round 1
 #KODIPROP:inputstream=inputstream.adaptive
@@ -76,41 +57,39 @@ https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/ppzmljumfr/out/v1
 #KODIPROP:inputstream.adaptive.license_key=dfa8e3854cb8ae706b7b28f22b16cbe2:c8dad1be3999d0aee9bf702316a03f6b
 https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/ugvo0vho9p/out/v1/fc7d1d525ec34aa589a2f02f40c92791/cenc.mpd
 
-#EXTINF:-1 tvg-id="B0H2MTMNB9" tvg-name="U23 World Cup: Day 3, Session 5 @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.7e69d1de-013c-411f-a3d8-e24a18866179/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",U23 World Cup: Day 3, Session 5
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b
-https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/3e2jwzlivy/out/v1/8093f930120e4a9ca62422f5b18ded4f/cenc.mpd
-
 #EXTINF:-1 tvg-id="B0HG9XXYHK" tvg-name="Rotterdam Dockers vs. Dublin Guardians @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.d314c7df-ce80-4196-8aff-86193c029df3/1/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Rotterdam Dockers vs. Dublin Guardians
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
-https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd
 
-#===== AXS | Sportlink (4 channels) =====
+#===== AXS | Sportlink (5 channels) =====
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
 #special thanks to: MR. Joy Chowdhury
-#last update time: 8:17:21 PM 17-09-2026
-
-#EXTINF:-1 tvg-name="Day 3 - FIBA 3x3 U23 World Cup @virat10" tvg-id="69946" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Day%203.jpg" group-title="AXS | Sportlink", Day 3 - FIBA 3x3 U23 World Cup
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/274846/720p/chunks.m3u8?is_vip=false&token=1789741042-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-78c6e9a66b36c3c53ff954cb365cce14
-
-#EXTINF:-1 tvg-name="Stage 3 - UCI Pro Series @virat10" tvg-id="65075" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/ES1%2C%20Giro%20d'Abruzzo%2C%20Stage%203.jpg" group-title="AXS | Sportlink", ES1, Giro d'Abruzzo, Stage 3 - UCI Pro Series
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/1410/720p/chunks.m3u8?is_vip=false&token=1789741044-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-33f5b6e4d3076d91751a1b4b560a48a4
+#last update time: 9:32:25 PM 17-09-2026
 
 #EXTINF:-1 tvg-name="Afghanistan vs India - India tour of Afghanistan @virat10" tvg-id="65037" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Afghanistan%20vs%20India.jpg" group-title="AXS | Sportlink", Afghanistan vs India - India tour of Afghanistan
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1789741052-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-e60ccc50530fe8767a7d2a93b5ff5d34
+https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1789745549-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b4f7096e2560082a1e21cffec09eb8cb
+
+#EXTINF:-1 tvg-name="Akron vs Akhmat - Premier League @virat10" tvg-id="62336" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Akron%20vs%20Akhmat.jpg" group-title="AXS | Sportlink", Akron vs Akhmat - Premier League
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8b121293add94b3746a987-fhd/chunks.m3u8?is_vip=false&token=1789745551-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d97b771bc2f283084ac304b3678a9df1
+
+#EXTINF:-1 tvg-name="FC Rostov vs Dynamo - Premier League @virat10" tvg-id="62337" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/FC%20Rostov%20vs%20Dynamo.jpg" group-title="AXS | Sportlink", FC Rostov vs Dynamo - Premier League
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8b121293add94b3746a986-backup/chunks.m3u8?is_vip=false&token=1789745555-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-014373694ea283a791c5488e8f836ebb
+
+#EXTINF:-1 tvg-name="England vs Sri Lanka - 2nd T20I @virat10" tvg-id="65045" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/England%20vs%20Sri%20Lanka.jpg" group-title="AXS | Sportlink", England vs Sri Lanka - 2nd T20I
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1789745557-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f4e8e3db47d65d28d9c572d04e591dda
 
 #===== Jio Hotstar | Sportlink (126 channels) =====
 #EXTINF:-1 tvg-name="Bigboss 24/7 live-HINDI @virat10" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/2305/1788708712305-h.jpg" group-title="Jio Hotstar | Sportlink", Bigboss 24/7 live-HINDI
