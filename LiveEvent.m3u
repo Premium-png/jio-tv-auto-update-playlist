@@ -1,0 +1,126 @@
+#EXTM3U
+#PLAYLIST:Willow Cricket Event Info
+#LAST_UPDATE:05:53 AM 09-17-2026
+#https://whatsapp.com/channel/0029VbC2oQsC6ZvmwpR3v73v
+#Created by - Sayan 10
+#EXTINF:-1 tvg-id="13" tvg-name="EUROPEAN T20 Premier League - TNT SPORTS" tvg-logo="https://iili.io/CbCaLI1.png" group-title="Cricket",EUROPEAN T20 Premier League - TNT SPORTS
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd
+
+#EXTINF:-1 tvg-id="13" tvg-name="EUROPEAN T20 Premier League - TAPMAD" tvg-logo="https://iili.io/CbCaLI1.png" group-title="Cricket",EUROPEAN T20 Premier League - TAPMAD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8
+
+#EXTINF:-1 tvg-id="13" tvg-name="EUROPEAN T20 Premier League - FOX CRICKET" tvg-logo="https://iili.io/CbCaLI1.png" group-title="Cricket",EUROPEAN T20 Premier League - FOX CRICKET
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/nwp/809389.m3u8
+
+#EXTINF:-1 tvg-id="13" tvg-name="EUROPEAN T20 Premier League - WILLOW HD" tvg-logo="https://iili.io/CbCaLI1.png" group-title="Cricket",EUROPEAN T20 Premier League - WILLOW HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://tvsen5.aynascope.net/willowhd/index.m3u8
+
+#EXTINF:-1 tvg-id="14" tvg-name="WWE: SmackDown - SK LIVE" tvg-logo="https://iili.io/qwfZeOQ.png" group-title="Boxing",WWE: SmackDown - SK LIVE
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8
+
+#EXTINF:-1 tvg-id="14" tvg-name="WWE: SmackDown - HD SERVER" tvg-logo="https://iili.io/qwfZeOQ.png" group-title="Boxing",WWE: SmackDown - HD SERVER
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://ubuntu.fromthyheart.site/dailymotion/live/playlist/5.m3u8
+
+#EXTINF:-1 tvg-id="14" tvg-name="WWE: SmackDown - HD SERVER 3" tvg-logo="https://iili.io/qwfZeOQ.png" group-title="Boxing",WWE: SmackDown - HD SERVER 3
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://ubuntu.fromthyheart.site/dailymotion/live/playlist/6.m3u8
+
+#EXTINF:-1 tvg-id="14" tvg-name="WWE: SmackDown - HD SERVER 4" tvg-logo="https://iili.io/qwfZeOQ.png" group-title="Boxing",WWE: SmackDown - HD SERVER 4
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://melancholy.fromthyheart.site/dailymotion/live/playlist/5.m3u8
+
+#EXTINF:-1 tvg-id="16" tvg-name="CPL - SK LIVE" tvg-logo="https://iili.io/CPjn2DX.png" group-title="Cricket",CPL - SK LIVE
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://pub-ca49e522c3c5499996e6b20e5dce3edb.r2.dev/sktech/hls/master.m3u8
+
+#EXTINF:-1 tvg-id="17" tvg-name="Russian Premier League: Orenburg vs FC Krasnodar - SK LIVE" tvg-logo="https://img.sofascore.com/api/v1/team/24118/image" group-title="Football",Russian Premier League: Orenburg vs FC Krasnodar - SK LIVE
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://pub-ca49e522c3c5499996e6b20e5dce3edb.r2.dev/sktech/hls/master.m3u8
+
+#EXTINF:-1 tvg-id="18" tvg-name="MLB: Los Angeles Angels vs Seattle Mariners - SK LIVE" tvg-logo="https://img.sofascore.com/api/v1/team/5929/image" group-title="Baseball",MLB: Los Angeles Angels vs Seattle Mariners - SK LIVE
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-origin=https://streame.center
+https://edgestream3.pro/hls/hefbafbakx28.m3u8
+
+#EXTINF:-1 tvg-id="19" tvg-name="MLB: Texas Rangers vs Boston Red Sox - SK LIVE" tvg-logo="https://img.sofascore.com/api/v1/team/3647/image" group-title="Baseball",MLB: Texas Rangers vs Boston Red Sox - SK LIVE
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-origin=https://streame.center
+https://edgestream7.pro/hls/kjhfzua25.m3u8
+
+#EXTINF:-1 tvg-id="20" tvg-name="MLB: Houston Astros vs Kansas City Royals - SK LIVE" tvg-logo="https://img.sofascore.com/api/v1/team/3655/image" group-title="Baseball",MLB: Houston Astros vs Kansas City Royals - SK LIVE
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-origin=https://streame.center
+https://edgestream4.pro/hls/dzjhkfazbka26.m3u8
+
+#EXTINF:-1 tvg-id="21" tvg-name="MLB: Colorado Rockies vs San Diego Padres - SK LIVE" tvg-logo="https://img.sofascore.com/api/v1/team/3628/image" group-title="Baseball",MLB: Colorado Rockies vs San Diego Padres - SK LIVE
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-origin=https://streame.center
+https://edgestream2.pro/hls/.m3u8
+
+#EXTINF:-1 tvg-id="22" tvg-name="MLB: Arizona Diamondbacks vs Miami Marlins - SK LIVE" tvg-logo="https://img.sofascore.com/api/v1/team/3640/image" group-title="Baseball",MLB: Arizona Diamondbacks vs Miami Marlins - SK LIVE
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTVLCOPT:http-referrer=https://streame.center
+#EXTVLCOPT:http-origin=https://streame.center
+https://edgestream3.pro/hls/hfzljfahzcax29.m3u8
+
+#EXTINF:-1 tvg-id="23" tvg-name="CONMEBOL Libertadores: Corinthians vs Estudiantes de La Plata - beIN SPORTS" tvg-logo="https://img.sofascore.com/api/v1/team/1957/image" group-title="Football",CONMEBOL Libertadores: Corinthians vs Estudiantes de La Plata - beIN SPORTS
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
+
+#EXTINF:-1 tvg-id="24" tvg-name="CONCACAF Central American Cup: Alianza FC vs FC Motagua - CBS SPORTS" tvg-logo="https://img.sofascore.com/api/v1/team/24383/image" group-title="Football",CONCACAF Central American Cup: Alianza FC vs FC Motagua - CBS SPORTS
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-origin=https://amazon.com
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd
+
+#EXTINF:-1 tvg-id="24" tvg-name="CONCACAF Central American Cup: Alianza FC vs FC Motagua - SD SERVER" tvg-logo="https://img.sofascore.com/api/v1/team/24383/image" group-title="Football",CONCACAF Central American Cup: Alianza FC vs FC Motagua - SD SERVER
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+http://193.47.62.52/hls/AYYYAAA.m3u8
+
+#EXTINF:-1 tvg-id="25" tvg-name="CONCACAF Central American Cup: CS Cartaginés vs Deportivo Saprissa - SK LIVE" tvg-logo="https://img.sofascore.com/api/v1/team/7044/image" group-title="Football",CONCACAF Central American Cup: CS Cartaginés vs Deportivo Saprissa - SK LIVE
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://pub-ca49e522c3c5499996e6b20e5dce3edb.r2.dev/sktech/hls/master.m3u8
+
