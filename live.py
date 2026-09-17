@@ -4,14 +4,15 @@ import urllib.request
 import datetime
 
 # Configuration
-JSON_URL = "https://raw.githubusercontent.com/darkbyteprojects/iptv_png/refs/heads/main/provider_4/live_events.json"
+JSON_URL = "https://raw.githubusercontent.com/darkbyteprojects/iptv_png/refs/heads/main/provider_2/live_events.json"
 OUTPUT_FILE = "LiveEvent.m3u"
 
 
 def fetch_json(url):
     """Fetch JSON data from the given URL."""
-    with urllib.request.urlopen(url) as response:
-        return json.loads(response.read().decode())
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req) as response:
+        return json.loads(response.read().decode("utf-8"))
 
 
 def build_m3u_header():
@@ -21,22 +22,28 @@ def build_m3u_header():
 
     header_lines = [
         "#EXTM3U",
-        "#PLAYLIST:Willow Cricket Event Info",
+        "#PLAYLIST:Live Events",
         f"#LAST_UPDATE:{timestamp}",
-        "#https://whatsapp.com/channel/0029VbC2oQsC6ZvmwpR3v73v",
-        "#Created by - Sayan 10"
+        "#Created by - Sayan 10",
     ]
     return "\n".join(header_lines) + "\n"
 
 
 def parse_url_params(raw_url):
-    """Split raw URL into clean stream URL and header/query params."""
+    """
+    Split raw URL into clean stream URL and header/query params.
+    Handles:
+      url|User-Agent=...&Referer=...
+      url?md5=...&expires=...|origin=...
+      url?|user-agent=...
+      url?User-Agent=...&Referer=...
+    """
     if "|" in raw_url:
         stream_url, param_string = raw_url.split("|", 1)
     else:
         stream_url, param_string = raw_url, ""
 
-    # If no pipe, but query string looks like header params, split it
+    # If no pipe, but query string looks like header params, split it.
     if not param_string and "?" in stream_url:
         base, query = stream_url.split("?", 1)
         if re.search(r"(?i)(user-agent|referer|origin)=", query):
@@ -57,12 +64,12 @@ def parse_url_params(raw_url):
 
 
 def get_event_name(item):
-    """Build a readable event name from your JSON schema."""
-    info = item.get("event_info", {})
-    event_name = info.get("event_name") or item.get("title") or "Unknown"
+    """Build a readable event name from Provider 2 schema."""
+    info = item.get("eventInfo", {})
+    event_name = info.get("eventName") or item.get("title") or "Unknown"
 
-    team_a = info.get("team_a")
-    team_b = info.get("team_b")
+    team_a = info.get("teamA")
+    team_b = info.get("teamB")
 
     if team_a and team_b and team_a != team_b:
         return f"{event_name}: {team_a} vs {team_b}"
@@ -71,34 +78,33 @@ def get_event_name(item):
 
 
 def generate_m3u_entry(item, stream):
-    """Generate a single M3U entry from one stream."""
-    info = item.get("event_info", {})
+    """Generate a single M3U entry from one resolved stream."""
+    info = item.get("eventInfo", {})
 
     event_name = get_event_name(item)
-    stream_title = (stream.get("name") or "Unknown").strip()
+    stream_title = (stream.get("title") or "").strip()
     name = f"{event_name} - {stream_title}" if stream_title else event_name
 
-    tvg_id = str(item.get("id", ""))
-    category = (item.get("category") or "Live Events").strip()
+    tvg_id = str(item.get("id", item.get("slug", "")))
+    category = (info.get("eventCat") or item.get("cat") or "Live Events").strip()
 
-    # Logo: team_a_flag first, then image
-    logo = info.get("team_a_flag") or item.get("image") or ""
+    logo = info.get("eventLogo") or item.get("image") or info.get("teamAFlag") or ""
     if logo == "null":
         logo = ""
 
     raw_url = (stream.get("link") or "").strip()
 
-    # Skip streams that need token_api resolution (no direct link)
-    if not raw_url:
+    # Skip invalid / empty links
+    if not raw_url or not raw_url.startswith(("http://", "https://")):
         return None
 
     stream_url, params = parse_url_params(raw_url)
 
-    # DRM info now comes from drm_key / drm_scheme
-    drm_key = (stream.get("drm_key") or "").strip()
-    drm_scheme = (stream.get("drm_scheme") or "").strip().lower()
+    # DRM / stream type
+    api = (stream.get("api") or "").strip()
+    stream_type = str(stream.get("type", "0"))
 
-    is_dash = ".mpd" in stream_url.lower()
+    is_dash = ".mpd" in stream_url.lower() or stream_type == "1"
     is_hls = ".m3u8" in stream_url.lower()
 
     lines = []
@@ -117,8 +123,8 @@ def generate_m3u_entry(item, stream):
         lines.append("#KODIPROP:inputstream=inputstream.adaptive")
         lines.append("#KODIPROP:inputstream.adaptive.manifest_type=mpd")
 
-        if drm_scheme == "clearkey" and ":" in drm_key:
-            key_id, key = drm_key.split(":", 1)
+        if api and ":" in api:
+            key_id, key = api.split(":", 1)
             lines.append("#KODIPROP:inputstream.adaptive.license_type=clearkey")
             lines.append(
                 f"#KODIPROP:inputstream.adaptive.license_key={key_id}:{key}"
@@ -162,7 +168,7 @@ def main():
     entry_count = 0
 
     for item in data:
-        for stream in item.get("streams", []):
+        for stream in item.get("resolved_streams", []):
             entry = generate_m3u_entry(item, stream)
             if entry:
                 m3u_content += entry + "\n\n"
