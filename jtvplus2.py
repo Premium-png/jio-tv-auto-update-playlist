@@ -1,26 +1,30 @@
 #!/usr/bin/env python3
 """
-Fetch JioTV M3U playlist (with OTT Navigator User-Agent) and parse
-cookies from #EXTHTTP and DRM keys from #KODIPROP.
+Fetch JioTV M3U playlist, normalize every entry so that:
+  - the __hdnea__ cookie lives in #EXTHTTP (not in the URL)
+  - a #EXTVLCOPT:http-user-agent=... line is present
+  - DRM keys stay in #KODIPROP
+and write a clean #EXTM3U playlist.
 """
 
 import urllib.request
 import urllib.error
 import json
 import re
-from urllib.parse import urlparse, parse_qs, unquote
+from urllib.parse import urlparse, parse_qs, unquote, urlunparse
 from datetime import datetime, timezone, timedelta
 
-M3U_URL = "https://premiumplugx.top/jiostb/mjelo.php?view=raw"
+M3U_URL  = "https://premiumplugx.top/jiostb/mjelo.php?view=raw"
 OUT_FILE = "jtvplus2.m3u"
-IST = timezone(timedelta(hours=5, minutes=30))
+IST      = timezone(timedelta(hours=5, minutes=30))
+DEFAULT_UA = "OTT Navigator"
 
-def fetch_playlist(url: str, user_agent: str = "OTT Navigator") -> str:
-    """Fetch M3U playlist with a specific User-Agent."""
+
+def fetch_playlist(url: str, user_agent: str = DEFAULT_UA) -> str:
     req = urllib.request.Request(url, headers={"User-Agent": user_agent})
     try:
-        with urllib.request.urlopen(req, timeout=30) as response:
-            return response.read().decode("utf-8")
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            return resp.read().decode("utf-8")
     except urllib.error.HTTPError as e:
         print(f"HTTP Error: {e.code}")
         raise
@@ -28,81 +32,121 @@ def fetch_playlist(url: str, user_agent: str = "OTT Navigator") -> str:
         print(f"Error: {e}")
         raise
 
-def parse_m3u(m3u_text: str) -> dict:
-    """
-    Parse M3U text into a dict keyed by tvg-id:
-    {tvg_id: {"cookie": str, "key_id": str, "key": str, "user_agent": str}}
-    """
-    entries = {}
-    current_id = None
-    current_data = {}
 
-    for line in m3u_text.splitlines():
-        line = line.strip()
+def strip_hdnea_from_url(url: str) -> str:
+    """Drop __hdnea__ from the query string (cookie now lives in #EXTHTTP)."""
+    parsed = urlparse(url)
+    if not parsed.query:
+        return url
+    qs = parse_qs(parsed.query, keep_blank_values=True)
+    qs.pop("__hdnea__", None)
+    new_query = "&".join(f"{k}={v[0]}" for k, v in qs.items())
+    return urlunparse(parsed._replace(query=new_query))
 
-        if line.startswith("#EXTINF:"):
-            if current_id and current_data:
-                entries[current_id] = current_data
-            m = re.search(r'tvg-id="([^"]*)"', line)
-            current_id = m.group(1) if m else None
-            current_data = {"cookie": "", "key_id": "", "key": "", "user_agent": ""}
 
-        elif line.startswith("#EXTHTTP:") and current_id:
-            payload = line[len("#EXTHTTP:"):].strip()
-            try:
-                data = json.loads(payload)
-                cookie = data.get("cookie", "")
-                if cookie:
-                    current_data["cookie"] = cookie
-            except json.JSONDecodeError:
-                pass
+def normalize_m3u(m3u_text: str, default_ua: str = DEFAULT_UA) -> str:
+    lines = m3u_text.splitlines()
+    out = ["#EXTM3U"]
+    i, n = 0, len(lines)
 
-        elif line.startswith("#KODIPROP:") and current_id:
-            if "license_key=" in line:
-                license_part = line.split("license_key=", 1)[1]
-                if ":" in license_part:
-                    kid, key = license_part.split(":", 1)
-                    current_data["key_id"] = kid.strip()
-                    current_data["key"] = key.strip()
+    while i < n:
+        line = lines[i].rstrip()
+        s = line.strip()
 
-        elif line.startswith("#EXTVLCOPT:") and current_id:
-            if "http-user-agent=" in line:
-                ua = line.split("http-user-agent=", 1)[1]
-                current_data["user_agent"] = ua.strip()
+        if not s:
+            i += 1
+            continue
 
-        elif line.startswith("http") and current_id:
-            # Fallback: extract __hdnea__ from URL if not already set via #EXTHTTP
-            if not current_data.get("cookie"):
-                parsed = urlparse(line)
-                qs = parse_qs(parsed.query)
-                if "__hdnea__" in qs:
-                    current_data["cookie"] = unquote(qs["__hdnea__"][0])
+        # Skip any stray existing #EXTM3U (we already emitted one)
+        if s.startswith("#EXTM3U"):
+            i += 1
+            continue
 
-    if current_id and current_data:
-        entries[current_id] = current_data
+        if not s.startswith("#EXTINF:"):
+            out.append(line)
+            i += 1
+            continue
 
-    return entries
+        # ---- New channel block ----
+        extinf = line
+        i += 1
+
+        header_lines = []          # KODIPROP and anything else we don't rewrite
+        cookie = ""
+        ua = ""
+
+        # Collect header lines until the URL
+        while i < n and not lines[i].strip().startswith(("http://", "https://")):
+            l = lines[i].rstrip()
+            t = l.strip()
+            if not t:
+                i += 1
+                continue
+
+            if t.startswith("#EXTHTTP:"):
+                payload = t[len("#EXTHTTP:"):].strip()
+                try:
+                    data = json.loads(payload)
+                    cookie = data.get("cookie", "") or cookie
+                except json.JSONDecodeError:
+                    pass
+                i += 1
+                continue
+
+            if t.startswith("#EXTVLCOPT:") and "http-user-agent=" in t:
+                ua = t.split("http-user-agent=", 1)[1].strip()
+                i += 1
+                continue
+
+            header_lines.append(l)
+            i += 1
+
+        url = lines[i].strip() if i < n else ""
+        if i < n:
+            i += 1
+
+        # Move cookie out of the URL into #EXTHTTP
+        if url:
+            parsed = urlparse(url)
+            qs = parse_qs(parsed.query)
+            if not cookie and "__hdnea__" in qs:
+                cookie = unquote(qs["__hdnea__"][0])
+            url = strip_hdnea_from_url(url)
+
+        # ---- Emit normalized block ----
+        out.append(extinf)
+        out.extend(header_lines)
+
+        if cookie:
+            out.append(f'#EXTHTTP:{{"cookie": "{cookie}"}}')
+        if ua:
+            out.append(f"#EXTVLCOPT:http-user-agent={ua}")
+        elif default_ua:
+            out.append(f"#EXTVLCOPT:http-user-agent={default_ua}")
+
+        if url:
+            out.append(url)
+
+    return "\n".join(out) + "\n"
+
 
 def format_expiry(exp_ts: str) -> str:
-    """Convert a unix timestamp string to 'D/M/YYYY H:MM:SS AM/PM IST'."""
     try:
         dt = datetime.fromtimestamp(int(exp_ts), tz=IST)
     except (ValueError, OSError, TypeError):
         return ""
-    hour12 = dt.hour % 12
-    if hour12 == 0:
-        hour12 = 12
+    hour12 = dt.hour % 12 or 12
     ampm = "AM" if dt.hour < 12 else "PM"
-    return f"{dt.day}/{dt.month}/{dt.year} {hour12}:{dt.minute:02d}:{dt.second:02d} {ampm} IST"
+    return (f"{dt.day}/{dt.month}/{dt.year} "
+            f"{hour12}:{dt.minute:02d}:{dt.second:02d} {ampm} IST")
+
 
 def get_cookie_expiry(cookie: str) -> str:
-    """Extract exp=<unix_ts> from a __hdnea__ cookie and format it in IST."""
     if not cookie:
         return ""
-    exp_match = re.search(r"exp=(\d+)", cookie)
-    if not exp_match:
-        return ""
-    return format_expiry(exp_match.group(1))
+    m = re.search(r"exp=(\d+)", cookie)
+    return format_expiry(m.group(1)) if m else ""
+
 
 # ---------------------------------------------------------------- main
 if __name__ == "__main__":
@@ -110,19 +154,16 @@ if __name__ == "__main__":
     m3u = fetch_playlist(M3U_URL)
     print(f"[+] {len(m3u):,} bytes downloaded")
 
+    print("[*] Normalizing M3U...")
+    normalized = normalize_m3u(m3u, default_ua=DEFAULT_UA)
+
     with open(OUT_FILE, "w", encoding="utf-8") as f:
-        f.write(m3u)
-    print(f"[+] Saved -> {OUT_FILE}")
+        f.write(normalized)
+    print(f"[+] Saved -> {OUT_FILE}  ({normalized.count('#EXTINF:'):,} entries)")
 
-    print("[*] Parsing M3U...")
-    m3u_map = parse_m3u(m3u)
-    print(f"[+] Parsed {len(m3u_map)} channel entries")
-
-    # Example: print first entry
-    for cid, data in list(m3u_map.items())[:1]:
-        print(f"\n[*] Sample entry (tvg-id={cid}):")
-        print(f"    Cookie: {data['cookie'][:80]}...")
-        print(f"    Expiry: {get_cookie_expiry(data['cookie'])}")
-        print(f"    Key ID: {data['key_id']}")
-        print(f"    Key:    {data['key']}")
-        print(f"    UA:     {data['user_agent']}")
+    # Sample preview
+    first = normalized.split("#EXTINF:", 1)
+    if len(first) == 2:
+        sample = ("#EXTINF:" + first[1]).split("http", 1)
+        print("\n[*] First entry preview:")
+        print(sample[0].rstrip())
