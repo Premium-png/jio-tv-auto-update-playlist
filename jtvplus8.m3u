@@ -785,7 +785,7 @@ https://premiumplug.fun/zee/zee5.php/0-9-pictures.m3u8
 # ------------=== ⛨ 𝔼𝕩𝕥𝕣𝕒 | SonyLiv ===---------------
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024055/1789582327474840_AG26_QF_Pakistan_vs_Thailand_landscape_thumb.jpg" group-title="⛨ 𝔼𝕩𝕥𝕣𝕒  | SonyLiv",Pakistan Women vs Thailand Women - QF 2 - 17 Sep 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/criclive1709/ENG/std_lrh-800300010.m3u8?hdnea=exp=1789666432~acl=/*~id=99648811057882548070986261102842~hmac=80a4184f018a4a5eb019d9ed9c4c879c5914510f117dfa807c86c69ca2d62d71
+https://sonydaimenew.akamaized.net/hls/live/2094587/criclive1709/ENG/std_lrh-800300010.m3u8?hdnea=exp=1789667039~acl=/*~id=52708265540914810689116703238173~hmac=ed7edf1d24c86a7ac0b589abda61d2649123ec9f6ab4ec611211d6e9b282670c
 
 # ------------=== ⛨ 𝔼𝕩𝕥𝕣𝕒 | FanCode ===---------------
 
@@ -3084,8 +3084,8 @@ https://onekey.virey40690.workers.dev/mpd/144
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://onekey.virey40690.workers.dev/key/167
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"st=1789620354~exp=1789623954~acl=/bpk-tv/ZeeTVHD_BTS/WDVLive/*~hmac=a93ad59f839e896252e7c5c279c27830396d156a62ab4ed0de803529a07f211c","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeTVHD_BTS/WDVLive/index.mpd?__hdnea__=st=1789620354~exp=1789623954~acl=/bpk-tv/ZeeTVHD_BTS/WDVLive/*~hmac=a93ad59f839e896252e7c5c279c27830396d156a62ab4ed0de803529a07f211c
+#EXTHTTP:{"cookie":"st=1789623900~exp=1789627500~acl=/bpk-tv/ZeeTVHD_BTS/WDVLive/*~hmac=9d6f0ec8242aed9df96be340d78009c285c0ba98fdf3cbc1f236286fe34e9b68","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeTVHD_BTS/WDVLive/index.mpd?__hdnea__=st=1789623900~exp=1789627500~acl=/bpk-tv/ZeeTVHD_BTS/WDVLive/*~hmac=9d6f0ec8242aed9df96be340d78009c285c0ba98fdf3cbc1f236286fe34e9b68
 
 #EXTINF:-1 tvg-id="202" group-title="JIO ⭕|Entertainment" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_National.png",DD National
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -4939,8 +4939,8 @@ https://onekey.virey40690.workers.dev/mpd/1477
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://onekey.virey40690.workers.dev/key/1668
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"st=1789620376~exp=1789623976~acl=/bpk-tv/AndXploreHD_BTS/WDVLive/*~hmac=414b14f1fafdbdcbddb88f2a80b2f0ad43cb17a1dba46905e2eea347ce02e98d","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/AndXploreHD_BTS/WDVLive/index.mpd?__hdnea__=st=1789620376~exp=1789623976~acl=/bpk-tv/AndXploreHD_BTS/WDVLive/*~hmac=414b14f1fafdbdcbddb88f2a80b2f0ad43cb17a1dba46905e2eea347ce02e98d
+#EXTHTTP:{"cookie":"st=1789624097~exp=1789627697~acl=/bpk-tv/AndXploreHD_BTS/WDVLive/*~hmac=2d383fa0a90de06294c5c5fe3aeaa3eb3379264efd0c8422a718910f5d258076","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/AndXploreHD_BTS/WDVLive/index.mpd?__hdnea__=st=1789624097~exp=1789627697~acl=/bpk-tv/AndXploreHD_BTS/WDVLive/*~hmac=2d383fa0a90de06294c5c5fe3aeaa3eb3379264efd0c8422a718910f5d258076
 
 #EXTINF:-1 tvg-id="1691" group-title="JIO ⭕|Movies" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeClassicSD.png",Zee Classic
 #KODIPROP:inputstream.adaptive.license_type=clearkey
