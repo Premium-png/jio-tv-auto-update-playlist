@@ -36,7 +36,7 @@ jobs:
       - name: Download and Update Playlist
         run: |
           echo "⏱️  Current time: $(date +'%Y-%m-%d %H:%M:%S IST')"
-          curl -fsSL -o mixiptv2.m3u "https://premiumplugx.top/Geo/playlist.php"
+          curl -fsSL -o mixiptv2.m3u "https://raw.githubusercontent.com/darkbyteprojects/iptv_png/refs/heads/main/jiotv.m3u"
           echo "✅ Playlist downloaded successfully"
           echo "📝 File size: $(wc -c < mixiptv2.m3u) bytes"
 
