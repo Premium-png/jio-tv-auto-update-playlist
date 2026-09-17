@@ -1,62 +1,178 @@
-name: LIVE Event Playlist
+import json
+import re
+import urllib.request
+import datetime
 
-on:
-  schedule:
-    - cron: '*/10 * * * *'
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - 'live.py'
+# Configuration
+JSON_URL = "https://raw.githubusercontent.com/darkbyteprojects/iptv_png/refs/heads/main/provider_4/live_events.json"
+OUTPUT_FILE = "LiveEvent.m3u"
 
-concurrency:
-  group: update-playlist
-  cancel-in-progress: false
 
-jobs:
-  update-playlist:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
+def fetch_json(url):
+    """Fetch JSON data from the given URL."""
+    with urllib.request.urlopen(url) as response:
+        return json.loads(response.read().decode())
 
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
+def build_m3u_header():
+    """Build the M3U header with credits and last update timestamp."""
+    now = datetime.datetime.now()
+    timestamp = now.strftime("%I:%M %p %m-%d-%Y")
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests pytz
+    header_lines = [
+        "#EXTM3U",
+        "#PLAYLIST:Willow Cricket Event Info",
+        f"#LAST_UPDATE:{timestamp}",
+        "#https://whatsapp.com/channel/0029VbC2oQsC6ZvmwpR3v73v",
+        "#Created by - Sayan 10"
+    ]
+    return "\n".join(header_lines) + "\n"
 
-      - name: Run live.py
-        run: python live.py
 
-      - name: Commit and Push Changes
-        run: |
-          git config --global user.name "sportlive18"
-          git config --global user.email "271363488+sportlive18@users.noreply.github.com"
+def parse_url_params(raw_url):
+    """Split raw URL into clean stream URL and header/query params."""
+    if "|" in raw_url:
+        stream_url, param_string = raw_url.split("|", 1)
+    else:
+        stream_url, param_string = raw_url, ""
 
-          git add LiveEvent.m3u
+    # If no pipe, but query string looks like header params, split it
+    if not param_string and "?" in stream_url:
+        base, query = stream_url.split("?", 1)
+        if re.search(r"(?i)(user-agent|referer|origin)=", query):
+            stream_url = base
+            param_string = query
 
-          if git diff --cached --quiet; then
-            echo "No changes to commit. Skipping push."
-            exit 0
-          fi
+    stream_url = stream_url.rstrip("?&")
 
-          git commit -m "Auto-update playlists: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+    params = {}
+    if param_string:
+        param_string = param_string.lstrip("?")
+        for pair in param_string.split("&"):
+            if "=" in pair:
+                key, value = pair.split("=", 1)
+                params[key.strip()] = value.strip()
 
-          for i in 1 2 3 4 5; do
-            git pull --rebase origin main && git push origin main && echo "Push succeeded." && exit 0
-            echo "Push failed, retrying attempt $i of 5..."
-            sleep $((RANDOM % 10 + 1))
-          done
+    return stream_url, params
 
-          echo "All push attempts failed." && exit 1
+
+def get_event_name(item):
+    """Build a readable event name from your JSON schema."""
+    info = item.get("event_info", {})
+    event_name = info.get("event_name") or item.get("title") or "Unknown"
+
+    team_a = info.get("team_a")
+    team_b = info.get("team_b")
+
+    if team_a and team_b and team_a != team_b:
+        return f"{event_name}: {team_a} vs {team_b}"
+
+    return event_name
+
+
+def generate_m3u_entry(item, stream):
+    """Generate a single M3U entry from one stream."""
+    info = item.get("event_info", {})
+
+    event_name = get_event_name(item)
+    stream_title = (stream.get("name") or "Unknown").strip()
+    name = f"{event_name} - {stream_title}" if stream_title else event_name
+
+    tvg_id = str(item.get("id", ""))
+    category = (item.get("category") or "Live Events").strip()
+
+    # Logo: team_a_flag first, then image
+    logo = info.get("team_a_flag") or item.get("image") or ""
+    if logo == "null":
+        logo = ""
+
+    raw_url = (stream.get("link") or "").strip()
+
+    # Skip streams that need token_api resolution (no direct link)
+    if not raw_url:
+        return None
+
+    stream_url, params = parse_url_params(raw_url)
+
+    # DRM info now comes from drm_key / drm_scheme
+    drm_key = (stream.get("drm_key") or "").strip()
+    drm_scheme = (stream.get("drm_scheme") or "").strip().lower()
+
+    is_dash = ".mpd" in stream_url.lower()
+    is_hls = ".m3u8" in stream_url.lower()
+
+    lines = []
+
+    # EXTINF line
+    extinf = (
+        f'#EXTINF:-1 tvg-id="{tvg_id}" '
+        f'tvg-name="{name}" '
+        f'tvg-logo="{logo}" '
+        f'group-title="{category}",{name}'
+    )
+    lines.append(extinf)
+
+    # DASH / HLS properties
+    if is_dash:
+        lines.append("#KODIPROP:inputstream=inputstream.adaptive")
+        lines.append("#KODIPROP:inputstream.adaptive.manifest_type=mpd")
+
+        if drm_scheme == "clearkey" and ":" in drm_key:
+            key_id, key = drm_key.split(":", 1)
+            lines.append("#KODIPROP:inputstream.adaptive.license_type=clearkey")
+            lines.append(
+                f"#KODIPROP:inputstream.adaptive.license_key={key_id}:{key}"
+            )
+
+    elif is_hls:
+        lines.append("#KODIPROP:inputstream=inputstream.ffmpeg")
+        lines.append("#KODIPROP:inputstream.adaptive.manifest_type=hls")
+
+    # Headers
+    user_agent = (
+        params.get("user-agent")
+        or params.get("User-Agent")
+        or params.get("user_agent")
+    )
+    if user_agent:
+        lines.append(f"#EXTVLCOPT:http-user-agent={user_agent}")
+
+    referer = params.get("Referer") or params.get("referer")
+    if referer:
+        lines.append(f"#EXTVLCOPT:http-referrer={referer}")
+
+    origin = params.get("Origin") or params.get("origin")
+    if origin:
+        lines.append(f"#EXTVLCOPT:http-origin={origin}")
+
+    # Final URL
+    lines.append(stream_url)
+
+    return "\n".join(lines)
+
+
+def main():
+    try:
+        data = fetch_json(JSON_URL)
+    except Exception as e:
+        print(f"Error fetching JSON: {e}")
+        return
+
+    m3u_content = build_m3u_header()
+    entry_count = 0
+
+    for item in data:
+        for stream in item.get("streams", []):
+            entry = generate_m3u_entry(item, stream)
+            if entry:
+                m3u_content += entry + "\n\n"
+                entry_count += 1
+
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        f.write(m3u_content)
+
+    print(f"Successfully generated {OUTPUT_FILE} with {entry_count} entries.")
+
+
+if __name__ == "__main__":
+    main()
