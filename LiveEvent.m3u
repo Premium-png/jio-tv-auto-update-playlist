@@ -1,6 +1,6 @@
 #EXTM3U
 #PLAYLIST:Live Events
-#LAST_UPDATE:04:52 AM 09-18-2026
+#LAST_UPDATE:09:26 AM 09-18-2026
 #Created by - Sayan 10
 #EXTINF:-1 tvg-id="13" tvg-name="EUROPEAN T20 PREMIER LEAGUE - Willow Cricbuzz - AQ" tvg-logo="https://img.cricketworld.com/images/e-167413/etpl-logo-(002).jpg" group-title="Cricket",EUROPEAN T20 PREMIER LEAGUE - Willow Cricbuzz - AQ
 #KODIPROP:inputstream=inputstream.adaptive
@@ -65,46 +65,6 @@ http://193.47.62.52/hls/VAVAVAAAAAAXX.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=https://tapmad.com/
 https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8
-
-#EXTINF:-1 tvg-id="17" tvg-name="Asian Games Women: JPN-W vs IND-W - SonyLiv HIN - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women: JPN-W vs IND-W - SonyLiv HIN - AQ
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
-#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
-#EXTVLCOPT:http-origin=https://www.sonyliv.com
-https://sonymtmnew-akamaized.pages.dev/hls/live/2105079/cricodi1809/HIN/master.m3u8
-
-#EXTINF:-1 tvg-id="17" tvg-name="Asian Games Women: JPN-W vs IND-W - SonyLiv ENG - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women: JPN-W vs IND-W - SonyLiv ENG - AQ
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
-#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
-#EXTVLCOPT:http-origin=https://www.sonyliv.com
-https://sonymtmnew-akamaized.pages.dev/hls/live/2105080/cricodi1809/ENG/master.m3u8
-
-#EXTINF:-1 tvg-id="17" tvg-name="Asian Games Women: JPN-W vs IND-W - SonyLiv TAM - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women: JPN-W vs IND-W - SonyLiv TAM - AQ
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
-#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
-#EXTVLCOPT:http-origin=https://www.sonyliv.com
-https://sonymtmnew-akamaized.pages.dev/hls/live/2094590/cricodi1809/TAM/master.m3u8
-
-#EXTINF:-1 tvg-id="17" tvg-name="Asian Games Women: JPN-W vs IND-W - SonyLiv TEL - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women: JPN-W vs IND-W - SonyLiv TEL - AQ
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
-#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
-#EXTVLCOPT:http-origin=https://www.sonyliv.com
-https://sonymtmnew-akamaized.pages.dev/hls/live/2043696/cricodi1809/TEL/master.m3u8
-
-#EXTINF:-1 tvg-id="17" tvg-name="Asian Games Women: JPN-W vs IND-W - SonyLiv KAN - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women: JPN-W vs IND-W - SonyLiv KAN - AQ
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
-#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
-#EXTVLCOPT:http-origin=https://www.sonyliv.com
-https://sonymtmnew-akamaized.pages.dev/hls/live/2037143/cricodi1809/KAN/master.m3u8
 
 #EXTINF:-1 tvg-id="276" tvg-name="WWE NXT - GHD SPORTS - HD" tvg-logo="https://www.wwe.com/f/styles/wwe_show_logo_sm/public/all/2024/10/NXTonCW--0f06792893241464479338f55596a5bf.png" group-title="WWE",WWE NXT - GHD SPORTS - HD
 #KODIPROP:inputstream=inputstream.ffmpeg
@@ -1229,6 +1189,12 @@ https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://tmaxapp.site/pt658svs/sporttv4.m3u8
+
+#EXTINF:-1 tvg-id="863" tvg-name="Moto - GP - TNT SPORTS HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAYDLoG8PO84Lixg4bDtE2CcMOAgci5Iznuw&s" group-title="Racing",Moto - GP - TNT SPORTS HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.44/hls/ssssAA.m3u8
 
 #EXTINF:-1 tvg-id="865" tvg-name="Women's Super League: Chelsea vs Birmingham - CBS NETWORK HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1044/image/dark" group-title="Football",Women's Super League: Chelsea vs Birmingham - CBS NETWORK HD
 #KODIPROP:inputstream=inputstream.ffmpeg
