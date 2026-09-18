@@ -2,54 +2,56 @@
 #===== Fancode | Sportlink (2 channels) =====
 # Written and Directed by ✨ D O C T O R - S T R A N G E ✨
 # Join us on Telegram: https://t.me/jitendraunatti_github
-#DATE:- Friday, 18 September 2026 at 5:21:14 am
+#DATE:- Friday, 18 September 2026 at 11:35:12 am
 
-#EXTINF:-1 tvg-id="4248316" tvg-name="Guyana Amazon Warriors Vs Antigua & Barbuda Falcons @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248296_53026_GUY_ABF_FC-Web.png" tvg-language="English" group-title="Fancode | Sportlink",ENG | Guyana Amazon Warriors Vs Antigua & Barbuda Falcons
-https://dai-fancode.pages.dev/mumbai/4248316_english_hls_bcc7e60eb7823_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
+#EXTINF:-1 tvg-id="4249274" tvg-name="Western Australia Vs South Australia @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249274_53072_WAU_SAU_FC-Web.jpg" tvg-language="English" group-title="Fancode | Sportlink",ENG | Western Australia Vs South Australia
+https://dai-fancode.pages.dev/mumbai/4249274_english_hls_a40d1446f379824_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
+
+#===== SonyLIV | Sportlink (5 channels) =====
+#EXTINF:-1 tvg-name="India Women vs Japan Women - Quarter-Final - 18 Sep 2026 [ENG] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024066/1789618725032669_Asain_games_26_QF_IND_vs_JPN_live_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", India Women vs Japan Women - Quarter-Final - 18 Sep 2026 [ENG] - 20th Asian Games Aichi-Nagoya 2026
+https://sonydaimenew.akamaized.net/hls/live/2105080/cricodi1809/ENG/std_lrh-800300010.m3u8?hdnea=exp=1789755524~acl=/*~id=29770743989259476939011420103230~hmac=074301e22137bcc8f896540c4b43e9101f379f530685eb2d4b804784109c0b8c
+
+#EXTINF:-1 tvg-name="India Women vs Japan Women - Quarter-Final - 18 Sep 2026 [HIN] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024066/1789618725032669_Asain_games_26_QF_IND_vs_JPN_live_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", India Women vs Japan Women - Quarter-Final - 18 Sep 2026 [HIN] - 20th Asian Games Aichi-Nagoya 2026
+https://sonydaimenew.akamaized.net/hls/live/2105079/cricodi1809/HIN/std_lrh-800300010.m3u8?hdnea=exp=1789755524~acl=/*~id=29770743989259476939011420103230~hmac=074301e22137bcc8f896540c4b43e9101f379f530685eb2d4b804784109c0b8c
+
+#EXTINF:-1 tvg-name="India Women vs Japan Women - Quarter-Final - 18 Sep 2026 [TAM] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024066/1789618725032669_Asain_games_26_QF_IND_vs_JPN_live_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", India Women vs Japan Women - Quarter-Final - 18 Sep 2026 [TAM] - 20th Asian Games Aichi-Nagoya 2026
+https://sonydaimenew.akamaized.net/hls/live/2094590/cricodi1809/TAM/std_lrh-800300010.m3u8?hdnea=exp=1789755524~acl=/*~id=29770743989259476939011420103230~hmac=074301e22137bcc8f896540c4b43e9101f379f530685eb2d4b804784109c0b8c
+
+#EXTINF:-1 tvg-name="India Women vs Japan Women - Quarter-Final - 18 Sep 2026 [TEL] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024066/1789618725032669_Asain_games_26_QF_IND_vs_JPN_live_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", India Women vs Japan Women - Quarter-Final - 18 Sep 2026 [TEL] - 20th Asian Games Aichi-Nagoya 2026
+https://sonydaimenew.akamaized.net/hls/live/2043696/cricodi1809/TEL/std_lrh-800300010.m3u8?hdnea=exp=1789755524~acl=/*~id=29770743989259476939011420103230~hmac=074301e22137bcc8f896540c4b43e9101f379f530685eb2d4b804784109c0b8c
+
+#EXTINF:-1 tvg-name="India Women vs Japan Women - Quarter-Final - 18 Sep 2026 [KAN] - 20th Asian Games Aichi-Nagoya 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024066/1789618725032669_Asain_games_26_QF_IND_vs_JPN_live_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", India Women vs Japan Women - Quarter-Final - 18 Sep 2026 [KAN] - 20th Asian Games Aichi-Nagoya 2026
+https://sonydaimenew.akamaized.net/hls/live/2037143/cricodi1809/KAN/std_lrh-800300010.m3u8?hdnea=exp=1789755524~acl=/*~id=29770743989259476939011420103230~hmac=074301e22137bcc8f896540c4b43e9101f379f530685eb2d4b804784109c0b8c
 
 #===== Willow | Sportlink (2 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:09:02 AM 18-09-2026
+#LAST_UPDATE:12:02 PM 18-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:1
-#UPCOMING_COUNT:5
+#UPCOMING_COUNT:4
 
-#EXTINF:-1 tvg-id="B0HF81VXDB" tvg-name="Womens Asian Games 2026 - 3rd Quarter-Final - Malaysia Women vs Sri Lanka Women @virat10" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.c7731dc3-3271-4d69-8d3a-5838906e08c8/3/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="Willow | Sportlink",Womens Asian Games 2026 - 3rd Quarter-Final - Malaysia Women vs Sri Lanka Women
+#EXTINF:-1 tvg-id="B0HJYQ9F3Q" tvg-name="Women's Asian Games 2026 - 4th Quarter-Final - Japan Women vs India Women @virat10" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.700830c1-247c-4a63-be29-ac93e7769418/4/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="Willow | Sportlink",Women's Asian Games 2026 - 4th Quarter-Final - Japan Women vs India Women
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f943c70883b140132ee3334d094d8ba5:8816ff77c348e508776841677e57b835
-https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/nuld5bymbk/out/v1/67ba037880984fe3911c738cacf06329/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=07dc2346823644f4fc76855ac0b28934:f390daae70c6db7787471e7790ef55e3
+https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/45rdnte6d6/out/v1/78a278d9350e4c57bc64f1142d08db41/cenc.mpd
 
-#===== Prime Video | Sportlink (5 channels) =====
+#===== Prime Video | Sportlink (3 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:09:02 AM 18-09-2026
+#LAST_UPDATE:12:02 PM 18-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:5
+#LIVE_COUNT:2
 #UPCOMING_COUNT:0
 
-#EXTINF:-1 tvg-id="B0HH8WNTD8" tvg-name="High Limit-LIVE: Interstate Batteries High Limit Racing from Lucas Oil Speedway @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.d71d8439-c607-42c3-b011-93c56194353e/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",High Limit-LIVE: Interstate Batteries High Limit Racing from Lucas Oil Speedway
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=e14535ab02e4065cc846047f1feee48d:a51c5c164f9a6b0ae751afeec7f85052
-https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/uenudg4x6g/out/v1/8b25f245771b4e5698d914b941c54982/cenc.mpd
-
-#EXTINF:-1 tvg-id="B0H8XX53BV" tvg-name="Miles Wolff Cup, Game 3: Teams TBA @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.83c5f638-fc89-485f-a853-e4c8f42e99b1/4/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Miles Wolff Cup, Game 3: Teams TBA
+#EXTINF:-1 tvg-id="B0HJ9CHHHD" tvg-name="U23 World Cup: Day 4, Session 2 @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.688a73eb-91c5-40e3-93db-cd9a7be78605/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",U23 World Cup: Day 4, Session 2
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b
-https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd
-
-#EXTINF:-1 tvg-id="B0HG5XWS63" tvg-name="Alajuelense vs. Marathón @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.ad6e6f55-f453-4549-8716-c6b706096eb3/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Alajuelense vs. Marathón
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
-https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd
+https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0HJNN82QG" tvg-name="PPA Tour: Arizona Open-Round of 16 @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.ad09cb56-a430-468e-aabc-dcac792d20c4/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",PPA Tour: Arizona Open-Round of 16
 #KODIPROP:inputstream=inputstream.adaptive
@@ -58,106 +60,91 @@ https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/5qz8wmdome/
 #KODIPROP:inputstream.adaptive.license_key=2be100252a42be3a17d29c93e28eaacc:07c5e72df3602e9652dd06d839776e72
 https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/can8dnk7we/out/v1/d6c56496531749a6989b78ab18c67557/cenc.mpd
 
-#===== AXS | Sportlink (7 channels) =====
+#===== AXS | Sportlink (4 channels) =====
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
 #special thanks to: MR. Joy Chowdhury
-#last update time: 9:17:20 AM 18-09-2026
+#last update time: 12:17:26 PM 18-09-2026
 
-#EXTINF:-1 tvg-name="WTA Guadalajara - WTA Guadalajara @virat10" tvg-id="70056" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/WTA%20Guadalajara.jpg" group-title="AXS | Sportlink", WTA Guadalajara - WTA Guadalajara
+#EXTINF:-1 tvg-name="Wuhan - FIBA 3x3 U23 World Cup @virat10" tvg-id="70929" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Wuhan.jpg" group-title="AXS | Sportlink", Wuhan - FIBA 3x3 U23 World Cup
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1789787841-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-868f861650894bbc80ac4ba469a63fc9
+https://livecdn-tc-iptv.rumsport10.live/live_abr/274843/720p/chunks.m3u8?is_vip=false&token=1789798647-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-432ea10d6aa1fdcd43e4bb33c0948f01
 
-#EXTINF:-1 tvg-name="TBA vs TBA - CPL @virat10" tvg-id="65046" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/TBA%20vs%20TBA.jpg" group-title="AXS | Sportlink", TBA vs TBA - CPL
+#EXTINF:-1 tvg-name="Women's Cricket: India vs. Japan - Women's Asian Games 2026 @virat10" tvg-id="70110" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Women's%20Cricket%20India%20vs.%20Japan.jpg" group-title="AXS | Sportlink", Women's Cricket: India vs. Japan - Women's Asian Games 2026
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1789787843-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-5352ab8f36da0ad737033463bdcfbd8d
+https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1789798649-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-eed9bdf0743da43c28c4c5d3963122c2
 
-#EXTINF:-1 tvg-name="Detroit Lions vs Buffalo Bills - NFL @virat10" tvg-id="65050" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Detroit%20Lions%20vs%20Buffalo%20Bills.jpg" group-title="AXS | Sportlink", Detroit Lions vs Buffalo Bills - NFL
+#EXTINF:-1 tvg-name="Philippines U23 vs Vietnam U23 - Asian Games @virat10" tvg-id="67354" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Philippines%20U23%20vs%20Vietnam%20U23.jpg" group-title="AXS | Sportlink", Philippines U23 vs Vietnam U23 - Asian Games
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/52455/720p/chunks.m3u8?is_vip=false&token=1789787844-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-084bda5d562c7882b89399e2ea8f92cf
-
-#EXTINF:-1 tvg-name="Durango vs Cruz Azul Hidalgo - Liga de Expansión MX @virat10" tvg-id="62935" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Durango%20vs%20Cruz%20Azul%20Hidalgo.jpg" group-title="AXS | Sportlink", Durango vs Cruz Azul Hidalgo - Liga de Expansión MX
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8c637e96e1cc910f3885f6/chunks.m3u8?is_vip=false&token=1789787845-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-6795e4296bf99cdf03a372a46a7a6985
-
-#EXTINF:-1 tvg-name="Phoenix Mercury vs Portland Fire - WNBA @virat10" tvg-id="65049" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Phoenix%20Mercury%20vs%20Portland%20Fire.jpg" group-title="AXS | Sportlink", Phoenix Mercury vs Portland Fire - WNBA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/510825/720p/chunks.m3u8?is_vip=false&token=1789787847-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-67e46a38173e694a21874979378939a0
-
-#EXTINF:-1 tvg-name="CD Olimpia vs Firpo - CONCACAF Central American Cup @virat10" tvg-id="62936" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/CD%20Olimpia%20vs%20Firpo.jpg" group-title="AXS | Sportlink", CD Olimpia vs Firpo - CONCACAF Central American Cup
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9905ea5c0020a997b4adeb/chunks.m3u8?is_vip=false&token=1789787849-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-35ebd53cd9bb17eee06793278a5929a3
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8c637e96e1cc910f3885f9/chunks.m3u8?is_vip=false&token=1789798652-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-6c16b8816c72b73aa02e54bbf675ee6f
 
 #===== Jio Hotstar | Sportlink (126 channels) =====
 #EXTINF:-1 tvg-name="Bigboss 24/7 live-HINDI @virat10" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/2305/1788708712305-h.jpg" group-title="Jio Hotstar | Sportlink", Bigboss 24/7 live-HINDI
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://live09p.hotstar.com/mp2/incagbsgallow-biggboss-hin-2026/93e0d4ee03b34575bbf8f8a55824de63/index_6.m3u8
 
 #EXTINF:-1 tvg-name="Bigboss 24/7 live-BANGLA @virat10" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/2305/1788708712305-h.jpg" group-title="Jio Hotstar | Sportlink", Bigboss 24/7 live-BANGLA
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://live09p.hotstar.com/mp1/incagbsgallow-biggboss-ben-2026/d8b1f4b4b6ad493d845fb9669712ee6e/index_6.m3u8
 
 #EXTINF:-1 tvg-name="Bigboss 24/7 live-KANNADA @virat10" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/2305/1788708712305-h.jpg" group-title="Jio Hotstar | Sportlink", Bigboss 24/7 live-KANNADA
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://live09p.hotstar.com/mp1/incagbsgallow-biggboss-kan-2026/511768cd9dab414aa551e9d15da2202b/index_6.m3u8
 
 #EXTINF:-1 tvg-name="Bigboss 24/7 live-MALAYALAM @virat10" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/2305/1788708712305-h.jpg" group-title="Jio Hotstar | Sportlink", Bigboss 24/7 live-MALAYALAM
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://live09p.hotstar.com/mp2/incagbsgallow-biggboss-mal-2026/28fdd2300bf04a60ac3c3318ff009886/index_6.m3u8
 
 #EXTINF:-1 tvg-name="Bigboss 24/7 live-TELUGU @virat10" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/2305/1788708712305-h.jpg" group-title="Jio Hotstar | Sportlink", Bigboss 24/7 live-TELUGU
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://live09p.hotstar.com/mp2/incagbsgallow-biggboss-tel-2026/f129670ca03b4bb988c841f9bbdce777/index_6.m3u8
 
 #EXTINF:-1 tvg-name="Bigboss 24/7 live-TAMIL @virat10" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/2305/1788708712305-h.jpg" group-title="Jio Hotstar | Sportlink", Bigboss 24/7 live-TAMIL
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://live09p.hotstar.com/mp2/incagbsgallow-biggboss-tam-2026/0e8f0050df134b708ab297477fbf0e86/index_6.m3u8
 
 #EXTINF:-1 tvg-name="TATA IPL LIVE TV @virat10" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/5897/1782285865897-h.jpg" group-title="Jio Hotstar | Sportlink", TATA IPL LIVE TV
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/out/v1/llg-tv-mum/1540072843_hindi_5e0a66fc/gec-india_hls_unencrypted/master-ap-1080-4.m3u8
 
 #EXTINF:-1 tvg-name="Savdhaan India: Crime 24/7 @virat10" tvg-logo="https://img1.hotstarext.com/image/upload/f_auto/sources/r1/cms/prod/3562/1788267743562-h.jpg" group-title="Jio Hotstar | Sportlink", Savdhaan India: Crime 24/7
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/out/v1/llg-tv-mum/1540077800_hindi_7537fdaa/gec-india_hls_unencrypted/master-ap-1080-4.m3u8
 
 #EXTINF:-1 tvg-name="Star Sports Khel Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/270/1782998020270-h.jpg" group-title="Jio Hotstar | Sportlink", Star Sports Khel Digital
@@ -169,8 +156,8 @@ https://livetv.hotstar.com/out/v1/llg-tv-mum/1540077800_hindi_7537fdaa/gec-india
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540073624/4a56d383d1074f3d908a7f9b7a3321f1/index.mpd
 
 #EXTINF:-1 tvg-name="Star Sports 1 Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7482/1782284567482-h.jpg" group-title="Jio Hotstar | Sportlink", Star Sports 1 Digital
@@ -182,8 +169,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540073624/4a56d383d1074f3d908a7f9b7a33
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540068247/9a6e7c30f9194cc1a6a6250cedb115fb/index.mpd
 
 #EXTINF:-1 tvg-name="Star Sports 2 Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7957/1783000567957-h.jpg" group-title="Jio Hotstar | Sportlink", Star Sports 2 Digital
@@ -195,8 +182,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540068247/9a6e7c30f9194cc1a6a6250cedb1
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540068250/1d0752e2f605404886fec4ab49cc3350/index.mpd
 
 #EXTINF:-1 tvg-name="Star Sports 2 Hindi Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6371/1783000736371-h.jpg" group-title="Jio Hotstar | Sportlink", Star Sports 2 Hindi Digital
@@ -208,8 +195,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540068250/1d0752e2f605404886fec4ab49cc
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540068298/9f99e1af0bdc465b8a3015e3a1a689d8/index.mpd
 
 #EXTINF:-1 tvg-name="Star Sports 2 Telugu Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/2716/1783000912716-h.jpg" group-title="Jio Hotstar | Sportlink", Star Sports 2 Telugu Digital
@@ -221,8 +208,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540068298/9f99e1af0bdc465b8a3015e3a1a6
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540068283/9fdb797729344658957bd7382590c557/index.mpd
 
 #EXTINF:-1 tvg-name="Star Sports 1 Hindi Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8867/1782284658867-h.jpg" group-title="Jio Hotstar | Sportlink", Star Sports 1 Hindi Digital
@@ -234,8 +221,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540068283/9fdb797729344658957bd7382590
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540068295/5a4eb3ac6e424eef8a30962d2232f80f/index.mpd
 
 #EXTINF:-1 tvg-name="Star Sports 1 Telugu Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6361/1782284846361-h.jpg" group-title="Jio Hotstar | Sportlink", Star Sports 1 Telugu Digital
@@ -247,8 +234,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540068295/5a4eb3ac6e424eef8a30962d2232
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540068280/e8c0ed405e544793a1f827c477839581/index.mpd
 
 #EXTINF:-1 tvg-name="Star Sports 1 Tamil Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6839/1782284756839-h.jpg" group-title="Jio Hotstar | Sportlink", Star Sports 1 Tamil Digital
@@ -260,8 +247,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540068280/e8c0ed405e544793a1f827c47783
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540068334/3468fd902b12418598cabe63585e7efe/index.mpd
 
 #EXTINF:-1 tvg-name="Star Sports 1 Kannada Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8138/1782284928138-h.jpg" group-title="Jio Hotstar | Sportlink", Star Sports 1 Kannada Digital
@@ -273,8 +260,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540068334/3468fd902b12418598cabe63585e
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540068322/6409ab04235d4a0886656913f360c0a7/index.mpd
 
 #EXTINF:-1 tvg-name="Star Sports 2 Tamil Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6676/1783000836676-h.jpg" group-title="Jio Hotstar | Sportlink", Star Sports 2 Tamil Digital
@@ -286,8 +273,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540068322/6409ab04235d4a0886656913f360
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540068337/9e957d4aa8054fdfa75a02de6c38e8d0/index.mpd
 
 #EXTINF:-1 tvg-name="Star Sports 2 Kannada Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/4797/1783000974797-h.jpg" group-title="Jio Hotstar | Sportlink", Star Sports 2 Kannada Digital
@@ -299,8 +286,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540068337/9e957d4aa8054fdfa75a02de6c38
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540068325/822fe9161d924f25a8f14d9a4e6f1b34/index.mpd
 
 #EXTINF:-1 tvg-name="Star Sports 3 Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/2523/1783001062523-h.jpg" group-title="Jio Hotstar | Sportlink", Star Sports 3 Digital
@@ -312,8 +299,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540068325/822fe9161d924f25a8f14d9a4e6f
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540068301/c776132a964441e1b929b2c0451222af/index.mpd
 
 #EXTINF:-1 tvg-name="Star Sports Select 1 Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/1176/1783001141176-h.jpg" group-title="Jio Hotstar | Sportlink", Star Sports Select 1 Digital
@@ -325,8 +312,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540068301/c776132a964441e1b929b2c04512
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540068723/bf078703201f419b89e87fedda08b8f1/index.mpd
 
 #EXTINF:-1 tvg-name="Star Sports Select 2 Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7266/1783001217266-h.jpg" group-title="Jio Hotstar | Sportlink", Star Sports Select 2 Digital
@@ -338,8 +325,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540068723/bf078703201f419b89e87fedda08
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540068726/07582d46912e46cbb5f802923a0257d1/index.mpd
 
 #EXTINF:-1 tvg-name="Asianet Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7408/1782289617408-h.jpg" group-title="Jio Hotstar | Sportlink", Asianet Digital
@@ -351,8 +338,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540068726/07582d46912e46cbb5f802923a02
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540068259/16bbee01f356442bb4ec4d6b021c20e2/index.mpd
 
 #EXTINF:-1 tvg-name="Star Plus Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/2384/1782291852384-h.jpg" group-title="Jio Hotstar | Sportlink", Star Plus Digital
@@ -364,8 +351,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540068259/16bbee01f356442bb4ec4d6b021c
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540068289/6479fde4af2c441087fba8aa8a6b7b65/index.mpd
 
 #EXTINF:-1 tvg-name="Star Jalsha Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/4452/1782290464452-h.jpg" group-title="Jio Hotstar | Sportlink", Star Jalsha Digital
@@ -377,8 +364,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540068289/6479fde4af2c441087fba8aa8a6b
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540068265/c4602383aada4e3fb92f0f0740187c66/index.mpd
 
 #EXTINF:-1 tvg-name="Star Maa Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/1759/1782290731759-h.jpg" group-title="Jio Hotstar | Sportlink", Star Maa Digital
@@ -390,8 +377,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540068265/c4602383aada4e3fb92f0f074018
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540068277/f9eb70f10233442f82a6e3c4e8b2df70/index.mpd
 
 #EXTINF:-1 tvg-name="Star Pravah Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/5780/1782291675780-h.jpg" group-title="Jio Hotstar | Sportlink", Star Pravah Digital
@@ -403,8 +390,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540068277/f9eb70f10233442f82a6e3c4e8b2
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540068310/f72c707651fa4b55a913511378ee7d09/index.mpd
 
 #EXTINF:-1 tvg-name="Colors Bangla Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8049/1782291598049-h.jpg" group-title="Jio Hotstar | Sportlink", Colors Bangla Digital
@@ -416,8 +403,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540068310/f72c707651fa4b55a913511378ee
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540068268/f1fd9ca8ce4f41ddb1e53cf019864c0f/index.mpd
 
 #EXTINF:-1 tvg-name="Star Vijay Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/698/1782289770698-h.jpg" group-title="Jio Hotstar | Sportlink", Star Vijay Digital
@@ -429,8 +416,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540068268/f1fd9ca8ce4f41ddb1e53cf01986
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540068331/e2defeea709d42799aee76fe0d59bbe8/index.mpd
 
 #EXTINF:-1 tvg-name="Star Suvarna Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6396/1782290646396-h.jpg" group-title="Jio Hotstar | Sportlink", Star Suvarna Digital
@@ -442,8 +429,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540068331/e2defeea709d42799aee76fe0d59
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540068319/ae448c47ad3e4f2c9059f6fcfe4fbdc9/index.mpd
 
 #EXTINF:-1 tvg-name="Colors Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/108/1782291760108-h.jpg" group-title="Jio Hotstar | Sportlink", Colors Digital
@@ -455,8 +442,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540068319/ae448c47ad3e4f2c9059f6fcfe4f
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540068292/51e8ee3bc81a4d4cbd1cfde7f4748fc2/index.mpd
 
 #EXTINF:-1 tvg-name="Colors Kannada Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/3440/1782291243440-h.jpg" group-title="Jio Hotstar | Sportlink", Colors Kannada Digital
@@ -468,8 +455,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540068292/51e8ee3bc81a4d4cbd1cfde7f474
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540068316/2933e227fb43430cad08b7778ec85e41/index.mpd
 
 #EXTINF:-1 tvg-name="Vijay Super Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/1929/1782285031929-h.jpg" group-title="Jio Hotstar | Sportlink", Vijay Super Digital
@@ -481,8 +468,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540068316/2933e227fb43430cad08b7778ec8
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540068340/fcf299d934c2434b812dbf26d16355e8/index.mpd
 
 #EXTINF:-1 tvg-name="Asianet Plus Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/9207/1782286239207-h.jpg" group-title="Jio Hotstar | Sportlink", Asianet Plus Digital
@@ -494,8 +481,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540068340/fcf299d934c2434b812dbf26d163
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540068714/d1405aea010f40739f1521c6c5b48fc0/index.mpd
 
 #EXTINF:-1 tvg-name="Colors Super Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6181/1782290986181-h.jpg" group-title="Jio Hotstar | Sportlink", Colors Super Digital
@@ -507,8 +494,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540068714/d1405aea010f40739f1521c6c5b4
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540068720/b22b29885f2f408eb20ab6e2c04615b0/index.mpd
 
 #EXTINF:-1 tvg-name="Star Utsav Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/9181/1782291429181-h.jpg" group-title="Jio Hotstar | Sportlink", Star Utsav Digital
@@ -520,8 +507,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540068720/b22b29885f2f408eb20ab6e2c046
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540068693/b584e228e7d94a318177b28e7b03d432/index.mpd
 
 #EXTINF:-1 tvg-name="Colors Marathi Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/5106/1782291335106-h.jpg" group-title="Jio Hotstar | Sportlink", Colors Marathi Digital
@@ -533,8 +520,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540068693/b584e228e7d94a318177b28e7b03
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540068768/c31f5cd2f90344c99600a92bac207188/index.mpd
 
 #EXTINF:-1 tvg-name="Colors Rishtey Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/9097/1782290579097-h.jpg" group-title="Jio Hotstar | Sportlink", Colors Rishtey Digital
@@ -546,8 +533,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540068768/c31f5cd2f90344c99600a92bac20
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540068702/807fee4649e74970af364da5030ce386/index.mpd
 
 #EXTINF:-1 tvg-name="Star Bharat Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8704/1782288318704-h.jpg" group-title="Jio Hotstar | Sportlink", Star Bharat Digital
@@ -559,8 +546,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540068702/807fee4649e74970af364da5030c
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540068696/fbf749b57ef444e8b2af5fbed29c350b/index.mpd
 
 #EXTINF:-1 tvg-name="Star Kiran Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7412/1782282697412-h.jpg" group-title="Jio Hotstar | Sportlink", Star Kiran Digital
@@ -572,8 +559,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540068696/fbf749b57ef444e8b2af5fbed29c
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540069651/f206d1cfa6ca42db9ed1b9921b67bbf4/index.mpd
 
 #EXTINF:-1 tvg-name="Asianet Movies Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7227/1782288617227-h.jpg" group-title="Jio Hotstar | Sportlink", Asianet Movies Digital
@@ -585,8 +572,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540069651/f206d1cfa6ca42db9ed1b9921b67
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540068262/e4a83726042d44a4bf478be1a852b2a8/index.mpd
 
 #EXTINF:-1 tvg-name="Colors Bangla Cinema Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/4599/1782289524599-h.jpg" group-title="Jio Hotstar | Sportlink", Colors Bangla Cinema Digital
@@ -598,8 +585,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540068262/e4a83726042d44a4bf478be1a852
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540068271/e4f7e2acf07c457ea414f7c3cfbbf57c/index.mpd
 
 #EXTINF:-1 tvg-name="Jalsha Movies Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/1445/1782291521445-h.jpg" group-title="Jio Hotstar | Sportlink", Jalsha Movies Digital
@@ -611,8 +598,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540068271/e4f7e2acf07c457ea414f7c3cfbb
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540068274/3c19d12531e5431d9bc02d243fcdde3e/index.mpd
 
 #EXTINF:-1 tvg-name="Maa Movies Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/2722/1782288522722-h.jpg" group-title="Jio Hotstar | Sportlink", Maa Movies Digital
@@ -624,8 +611,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540068274/3c19d12531e5431d9bc02d243fcd
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540068286/7f555c63f0854f7b8737681943681333/index.mpd
 
 #EXTINF:-1 tvg-name="Star Gold Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6567/1784547656567-h.jpg" group-title="Jio Hotstar | Sportlink", Star Gold Digital
@@ -637,8 +624,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540068286/7f555c63f0854f7b873768194368
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540068304/18d2dc585a4b4b97a060ee1f8396a47a/index.mpd
 
 #EXTINF:-1 tvg-name="Colors Cineplex Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/3042/1782291173042-h.jpg" group-title="Jio Hotstar | Sportlink", Colors Cineplex Digital
@@ -650,8 +637,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540068304/18d2dc585a4b4b97a060ee1f8396
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540068307/438b1ba9504f4df0b83599a59f6744d6/index.mpd
 
 #EXTINF:-1 tvg-name="Colors Kannada Cinema Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/3489/1782291093489-h.jpg" group-title="Jio Hotstar | Sportlink", Colors Kannada Cinema Digital
@@ -663,8 +650,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540068307/438b1ba9504f4df0b83599a59f67
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540068328/abfd5d76e8844bf9bd7807b3bf21f757/index.mpd
 
 #EXTINF:-1 tvg-name="Nick Plus Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/470/1783938260470-h.jpg" group-title="Jio Hotstar | Sportlink", Nick Plus Digital
@@ -676,8 +663,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540068328/abfd5d76e8844bf9bd7807b3bf21
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540074047/22c4e4fc4e8c4a1897019c4c6ad698c2/index.mpd
 
 #EXTINF:-1 tvg-name="Nick Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6807/1784039246807-h.jpg" group-title="Jio Hotstar | Sportlink", Nick Digital
@@ -689,8 +676,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540074047/22c4e4fc4e8c4a1897019c4c6ad6
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540068253/6e383b1fb53c42d0a49ed6adfaf41082/index.mpd
 
 #EXTINF:-1 tvg-name="Sonic Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6294/1782290926294-h.jpg" group-title="Jio Hotstar | Sportlink", Sonic Digital
@@ -702,8 +689,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540068253/6e383b1fb53c42d0a49ed6adfaf4
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540068791/78782613f6f54c38bf5961e9f066328a/index.mpd
 
 #EXTINF:-1 tvg-name="Disney Channel Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/1540/1785251571540-h.jpg" group-title="Jio Hotstar | Sportlink", Disney Channel Digital
@@ -714,8 +701,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540068791/78782613f6f54c38bf5961e9f066
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540075053/f9f3720bed4e4ce0b644bfeec74f8fee/index.mpd
 
 #EXTINF:-1 tvg-name="Super Hungama Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6961/1785252356961-h" group-title="Jio Hotstar | Sportlink", Super Hungama Digital
@@ -726,8 +713,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540075053/f9f3720bed4e4ce0b644bfeec74f
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540075047/feca5fc6c1234205b01efe48d12d4c7f/index.mpd
 
 #EXTINF:-1 tvg-name="Disney Junior Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/1599/1785251761599-h" group-title="Jio Hotstar | Sportlink", Disney Junior Digital
@@ -738,8 +725,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540075047/feca5fc6c1234205b01efe48d12d
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540075059/9fcb1f02cf7249ef8428b9f3c981e08c/index.mpd
 
 #EXTINF:-1 tvg-name="Disney Channel International Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/328/1785251670328-h" group-title="Jio Hotstar | Sportlink", Disney Channel International Digital
@@ -750,8 +737,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540075059/9fcb1f02cf7249ef8428b9f3c981
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540075056/a8fa5937ab1c4958870402ef81014cbe/index.mpd
 
 #EXTINF:-1 tvg-name="National Geography Digital @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/5075/1785250005075-h" group-title="Jio Hotstar | Sportlink", National Geography Digital
@@ -762,8 +749,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540075056/a8fa5937ab1c4958870402ef8101
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540075050/4249b1f5294741fe9b93bb703122f7b3/index.mpd
 
 #EXTINF:-1 tvg-name="MTV HD DIGITAL @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8633/1786020488633-h" group-title="Jio Hotstar | Sportlink", MTV HD DIGITAL
@@ -774,8 +761,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540075050/4249b1f5294741fe9b93bb703122
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540075041/3a3fc861054b441a9e52e12627c7a2dd/index.mpd
 
 #EXTINF:-1 tvg-name="STAR SPORTS 1 SELECT HD @virat10" tvg-logo="https://img1.hotstarext.com/image/upload/f_auto/sources/r1/cms/prod/7226/597226-h.jpg" group-title="Jio Hotstar | Sportlink", STAR SPORTS 1 SELECT HD
@@ -787,8 +774,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540075041/3a3fc861054b441a9e52e12627c7
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540065791/8bb5cd7a8e274186977473a6771d9352/index.mpd
 
 #EXTINF:-1 tvg-name="STAR SPORTS 2 HD @virat10" tvg-logo="https://i.ibb.co/x8739M8d/SS2HD.jpg" group-title="Jio Hotstar | Sportlink", STAR SPORTS 2 HD
@@ -800,8 +787,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540065791/8bb5cd7a8e274186977473a6771d
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540065785/a00717b1324f45eb814eec9e48a12db8/index.mpd
 
 #EXTINF:-1 tvg-name="STAR SPORTS 1 HD @virat10" tvg-logo="https://i.ibb.co/pmVQWFZ/SS1HD.jpg" group-title="Jio Hotstar | Sportlink", STAR SPORTS 1 HD
@@ -813,8 +800,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540065785/a00717b1324f45eb814eec9e48a1
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540065782/fce958099ca84fc3b980e651a4a668a8/index.mpd
 
 #EXTINF:-1 tvg-name="STAR SPORTS 2 SELECT HD @virat10" tvg-logo="https://img1.hotstarext.com/image/upload/f_auto/sources/r1/cms/prod/7227/597227-h.jpg" group-title="Jio Hotstar | Sportlink", STAR SPORTS 2 SELECT HD
@@ -826,8 +813,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540065782/fce958099ca84fc3b980e651a4a6
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540065794/e2408fbafb9d4a5ab23775b69e5737d7/index.mpd
 
 #EXTINF:-1 tvg-name="STAR SPORTS 1 Hindi HD @virat10" tvg-logo="https://img.media.jio.com/tvpimages/5/6/301982_1749665314605_l_medium.jpg" group-title="Jio Hotstar | Sportlink", STAR SPORTS 1 Hindi HD
@@ -839,8 +826,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540065794/e2408fbafb9d4a5ab23775b69e57
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540065788/fa6a4f0005ef4f90ab24484d165b0aaf/index.mpd
 
 #EXTINF:-1 tvg-name="Star Suvarna @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7429/567429-h" group-title="Jio Hotstar | Sportlink", Star Suvarna
@@ -852,8 +839,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540065788/fa6a4f0005ef4f90ab24484d165b
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540057075/57ae0b6fa2b64281984574d406f9a696/index.mpd
 
 #EXTINF:-1 tvg-name="Star Pravah @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5868/595868-h" group-title="Jio Hotstar | Sportlink", Star Pravah
@@ -865,8 +852,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540057075/57ae0b6fa2b64281984574d406f9
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540057063/03a27d0f3ce347f0a3b4af1f6e62d4cc/index.mpd
 
 #EXTINF:-1 tvg-name="Asianet Plus @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7424/567424-h" group-title="Jio Hotstar | Sportlink", Asianet Plus
@@ -878,8 +865,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540057063/03a27d0f3ce347f0a3b4af1f6e62
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540057042/65edc0359d4b49f7a42d06d4dfe8457b/index.mpd
 
 #EXTINF:-1 tvg-name="Star Jalsha @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7419/567419-h" group-title="Jio Hotstar | Sportlink", Star Jalsha
@@ -891,8 +878,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540057042/65edc0359d4b49f7a42d06d4dfe8
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540057072/61b6b96b069d42f9821b6ed85b51388e/index.mpd
 
 #EXTINF:-1 tvg-name="Star Maa Movies @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7421/567421-h" group-title="Jio Hotstar | Sportlink", Star Maa Movies
@@ -904,8 +891,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540057072/61b6b96b069d42f9821b6ed85b51
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540057036/9b002b1b2a3748b7a80a8512aef0bb8d/index.mpd
 
 #EXTINF:-1 tvg-name="Asianet @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7420/567420-h" group-title="Jio Hotstar | Sportlink", Asianet
@@ -917,8 +904,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540057036/9b002b1b2a3748b7a80a8512aef0
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540057084/6569043a1d874fb49fc2cf2f273fe097/index.mpd
 
 #EXTINF:-1 tvg-name="StarPlus @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7415/567415-h" group-title="Jio Hotstar | Sportlink", StarPlus
@@ -930,8 +917,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540057084/6569043a1d874fb49fc2cf2f273f
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540057045/a73567ab8abd4680bc8206dd0c625cb0/index.mpd
 
 #EXTINF:-1 tvg-name="Star Vijay @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7409/567409-h" group-title="Jio Hotstar | Sportlink", Star Vijay
@@ -943,8 +930,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540057045/a73567ab8abd4680bc8206dd0c62
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540057060/15ef978ea9f449a2a8c97f7c05e618c5/index.mpd
 
 #EXTINF:-1 tvg-name="Star Utsav @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7407/567407-h" group-title="Jio Hotstar | Sportlink", Star Utsav
@@ -956,8 +943,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540057060/15ef978ea9f449a2a8c97f7c05e6
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540057078/6a9d9dbd5cd84dd3ba89856288c589b3/index.mpd
 
 #EXTINF:-1 tvg-name="Star Maa @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7418/567418-h" group-title="Jio Hotstar | Sportlink", Star Maa
@@ -969,8 +956,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540057078/6a9d9dbd5cd84dd3ba89856288c5
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540057087/136d113eec07474e8836d7dc3dd0533b/index.mpd
 
 #EXTINF:-1 tvg-name="Star Bharat @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7406/567406-h" group-title="Jio Hotstar | Sportlink", Star Bharat
@@ -982,8 +969,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540057087/136d113eec07474e8836d7dc3dd0
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540057051/aa1fac3acfc244b4bbed73575a4a42da/index.mpd
 
 #EXTINF:-1 tvg-name="Star Gold @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7403/567403-h" group-title="Jio Hotstar | Sportlink", Star Gold
@@ -995,8 +982,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540057051/aa1fac3acfc244b4bbed73575a4a
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540057030/0bbcb34798fd454a81c3502fb652911e/index.mpd
 
 #EXTINF:-1 tvg-name="Jalsha Movies @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7404/567404-h" group-title="Jio Hotstar | Sportlink", Jalsha Movies
@@ -1008,8 +995,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540057030/0bbcb34798fd454a81c3502fb652
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540057027/39127b380adb405e8de434e10e20c3a6/index.mpd
 
 #EXTINF:-1 tvg-name="Asianet Movies @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7400/567400-h" group-title="Jio Hotstar | Sportlink", Asianet Movies
@@ -1021,8 +1008,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540057027/39127b380adb405e8de434e10e20
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540057039/96454b89b9cd49df822108b6975a1a60/index.mpd
 
 #EXTINF:-1 tvg-name="Maa Gold @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7408/567408-h" group-title="Jio Hotstar | Sportlink", Maa Gold
@@ -1034,8 +1021,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540057039/96454b89b9cd49df822108b6975a
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp1/gec-india-1540057033/9680ef02a23e4d05a7d6afab10805ec4/index.mpd
 
 #EXTINF:-1 tvg-name="Star Suvarna Plus @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7399/567399-h" group-title="Jio Hotstar | Sportlink", Star Suvarna Plus
@@ -1047,8 +1034,8 @@ https://livetv.hotstar.com/mp1/gec-india-1540057033/9680ef02a23e4d05a7d6afab1080
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://livetv.hotstar.com/mp2/gec-india-1540057081/5c13f17d142c4963a1c7bd54fcd421d5/index.mpd
 
 #EXTINF:-1 tvg-name="ESPN 1 AFRICA LIVE @virat10" tvg-logo="https://cdn.sanity.io/images/1pn9obcz/production/467001ec48f124382a8e5662dddb0a7b07e72913-1920x1080.jpg" group-title="Jio Hotstar | Sportlink", ESPN 1 AFRICA LIVE
@@ -1060,8 +1047,8 @@ https://livetv.hotstar.com/mp2/gec-india-1540057081/5c13f17d142c4963a1c7bd54fcd4
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://live09p.hotstar.com/mp2/hsiallow-espn-za-1540053640/00a77f6ba11c4e5d99acd0de761c4497/index.mpd
 
 #EXTINF:-1 tvg-name="EPL MPD TEST @virat10" tvg-logo="https://thumbs.dreamstime.com/b/no-signal-wallpaper-vibrant-error-message-retro-tv-screen-featuring-colorful-test-pattern-retro-tv-screen-illustration-404198661.jpg" group-title="Jio Hotstar | Sportlink", EPL MPD TEST
@@ -1073,384 +1060,384 @@ https://live09p.hotstar.com/mp2/hsiallow-espn-za-1540053640/00a77f6ba11c4e5d99ac
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://live09p.hotstar.com/mp1/inallow-epl-2026-27-1540076792/26c8d4c077db48fc9561b5b4640cc0be/index.mpd
 
 #EXTINF:-1 tvg-name="STAR SPORTS 2 Hindi HD @virat10" tvg-logo="https://i.ibb.co/YBMBDWtd/SS2HD-HINDI.jpg" group-title="Jio Hotstar | Sportlink", STAR SPORTS 2 Hindi HD
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/082c75fa2fec61647e9192140d488d30/JioHotstar/082c75fa2fec61647e9192140d488d30.m3u8
 
 #EXTINF:-1 tvg-name="STAR SPORTS 2 Tamil @virat10" tvg-logo="https://i.ibb.co/cXNb5Y9t/SS2-TAMIL.jpg" group-title="Jio Hotstar | Sportlink", STAR SPORTS 2 Tamil
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/ee610073191492bdc18f85cafadf2751/JioHotstar/ee610073191492bdc18f85cafadf2751.m3u8
 
 #EXTINF:-1 tvg-name="STAR SPORTS 2 Telugu @virat10" tvg-logo="https://i.ibb.co/bM7qT3NC/SS2-TELUGU.jpg" group-title="Jio Hotstar | Sportlink", STAR SPORTS 2 Telugu
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/b4c84678b55d580d7a9037d265be102f/JioHotstar/b4c84678b55d580d7a9037d265be102f.m3u8
 
 #EXTINF:-1 tvg-name="STAR SPORTS 2 Hindi @virat10" tvg-logo="https://i.ibb.co/B5Mnd89k/SS2-HINDI.jpg" group-title="Jio Hotstar | Sportlink", STAR SPORTS 2 Hindi
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/3e2fc1dd48093e6be356a1120c941e84/JioHotstar/3e2fc1dd48093e6be356a1120c941e84.m3u8
 
 #EXTINF:-1 tvg-name="Colors Tamil HD @virat10" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/ct-1644165913136.jpg" group-title="Jio Hotstar | Sportlink", Colors Tamil HD
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_ColorsTamilHD/JioHotstar/JS_ColorsTamilHD.m3u8
 
 #EXTINF:-1 tvg-name="Colors HD @virat10" tvg-logo="https://v3img.voot.com/resizeMedium,w_1090,h_613/v3Storage/assets/colors-hindi--16x9-1714557869344.jpg" group-title="Jio Hotstar | Sportlink", Colors HD
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_ColorsHD/JioHotstar/JS_ColorsHD.m3u8
 
 #EXTINF:-1 tvg-name="Colors Super @virat10" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-super-live-channels-16x9-4-1642744939924.jpg" group-title="Jio Hotstar | Sportlink", Colors Super
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_ColorsSuperKannada/JioHotstar/JS_ColorsSuperKannada.m3u8
 
 #EXTINF:-1 tvg-name="Colors Rishtey @virat10" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/collors-rishtey-live-channels-16x9-3-1642676080416-1674198105431-1697532377978.jpg" group-title="Jio Hotstar | Sportlink", Colors Rishtey
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_ColorsRishtey/JioHotstar/JS_ColorsRishtey.m3u8
 
 #EXTINF:-1 tvg-name="Colors Gujarati @virat10" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-gujarati-16x9-1713269620328.jpg" group-title="Jio Hotstar | Sportlink", Colors Gujarati
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_ColorsGujarati/JioHotstar/JS_ColorsGujarati.m3u8
 
 #EXTINF:-1 tvg-name="Colors Kannada HD @virat10" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-kannada-16x9-1677754085834.jpg" group-title="Jio Hotstar | Sportlink", Colors Kannada HD
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_ColorsKannadaHD/JioHotstar/JS_ColorsKannadaHD.m3u8
 
 #EXTINF:-1 tvg-name="Colors Infinity HD @virat10" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-infinity-live-channels-16x9-1642496946057.jpg" group-title="Jio Hotstar | Sportlink", Colors Infinity HD
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_ColorsInfinityHD/JioHotstar/JS_ColorsInfinityHD.m3u8
 
 #EXTINF:-1 tvg-name="Colors Bangla HD @virat10" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-bangla-new-16x9-4-1649659533344.jpg" group-title="Jio Hotstar | Sportlink", Colors Bangla HD
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_ColorsBanglaHD/JioHotstar/JS_ColorsBanglaHD.m3u8
 
 #EXTINF:-1 tvg-name="Colors Marathi HD @virat10" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-marathi-live-channels-16x9-4-6-apr-1649257093359.jpg" group-title="Jio Hotstar | Sportlink", Colors Marathi HD
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_ColorsMarathiHD/JioHotstar/JS_ColorsMarathiHD.m3u8
 
 #EXTINF:-1 tvg-name="Colors Cineplex Superhits @virat10" tvg-logo="https://v3img.voot.com/resizeMedium,w_960,h_540/v3Storage/assets/colors-cineplex-superhit%2016x9-1648793655358.jpg" group-title="Jio Hotstar | Sportlink", Colors Cineplex Superhits
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_ColorsCineplexSuperhit/JioHotstar/JS_ColorsCineplexSuperhit.m3u8
 
 #EXTINF:-1 tvg-name="Colors Cineplex Bollywood @virat10" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/cineplex-1713963820848.jpeg" group-title="Jio Hotstar | Sportlink", Colors Cineplex Bollywood
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_ColorsCineplexBollywood/JioHotstar/JS_ColorsCineplexBollywood.m3u8
 
 #EXTINF:-1 tvg-name="Colors Cineplex HD @virat10" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/Live-Tv-Channels-colors-cineplex-1607514413063.jpg" group-title="Jio Hotstar | Sportlink", Colors Cineplex HD
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_ColorsCineplexHD/JioHotstar/JS_ColorsCineplexHD.m3u8
 
 #EXTINF:-1 tvg-name="Colors Kannada Cinema @virat10" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-kannada-cinema-16x9-1713963481807.jpg" group-title="Jio Hotstar | Sportlink", Colors Kannada Cinema
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_ColorsKannadaCinema/JioHotstar/JS_ColorsKannadaCinema.m3u8
 
 #EXTINF:-1 tvg-name="Nick @virat10" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets//16x9-1719554242246.jpg" group-title="Jio Hotstar | Sportlink", Nick
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_NickSD/JioHotstar/JS_NickSD.m3u8
 
 #EXTINF:-1 tvg-name="Nick Jr @virat10" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/nick-jr-16x9-2-1626708077243.jpg" group-title="Jio Hotstar | Sportlink", Nick Jr
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_NickJr/JioHotstar/JS_NickJr.m3u8
 
 #EXTINF:-1 tvg-name="Sonic @virat10" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/sonic-16x9-2-1626707025539.jpg" group-title="Jio Hotstar | Sportlink", Sonic
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_SonicNick/JioHotstar/JS_SonicNick.m3u8
 
 #EXTINF:-1 tvg-name="Nick HD+ @virat10" tvg-logo="https://v3img.voot.com/resizeMedium,w_1090,h_613/v3Storage/assets/nick-hd-plus-live-channels-16x9-4-1642585145139.jpg" group-title="Jio Hotstar | Sportlink", Nick HD+
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_NickHD/JioHotstar/JS_NickHD.m3u8
 
 #EXTINF:-1 tvg-name="MTV HD @virat10" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/mtv-16x9-1714316345624.jpg" group-title="Jio Hotstar | Sportlink", MTV HD
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_MTVHD/JioHotstar/JS_MTVHD.m3u8
 
 #EXTINF:-1 tvg-name="CNBC Awaaz @virat10" tvg-logo="https://v3img.voot.com/resizeMedium,w_1090,h_613/v3Storage/assets/cnbc-awaaz-16x9-1702387934761.jpg" group-title="Jio Hotstar | Sportlink", CNBC Awaaz
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_CNBCAwaaz/JioHotstar/JS_CNBCAwaaz.m3u8
 
 #EXTINF:-1 tvg-name="News18 Kannada @virat10" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_Kannada_News.png" group-title="Jio Hotstar | Sportlink", News18 Kannada
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_News18Kannada/JioHotstar/JS_News18Kannada.m3u8
 
 #EXTINF:-1 tvg-name="CNN News18 @virat10" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/CNN_NEWS_18.png" group-title="Jio Hotstar | Sportlink", CNN News18
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_CNNNews18/JioHotstar/JS_CNNNews18.m3u8
 
 #EXTINF:-1 tvg-name="CNBC TV18 @virat10" tvg-logo="https://v3img.voot.com/resizeMedium,w_1090,h_613/v3Storage/assets/cnbc18-shereen-bhan-16x9-2-1693479472079.jpg" group-title="Jio Hotstar | Sportlink", CNBC TV18
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_CNBCTV18/JioHotstar/JS_CNBCTV18.m3u8
 
 #EXTINF:-1 tvg-name="News18 India @virat10" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/IBN_7.png" group-title="Jio Hotstar | Sportlink", News18 India
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_News18India/JioHotstar/JS_News18India.m3u8
 
 #EXTINF:-1 tvg-name="News18 Punjab Haryana @virat10" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_Haryana_and_HP_News.png" group-title="Jio Hotstar | Sportlink", News18 Punjab Haryana
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_News18PunjabHaryana/JioHotstar/JS_News18PunjabHaryana.m3u8
 
 #EXTINF:-1 tvg-name="News18 Lokmat @virat10" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/IBN_Lokmat.png" group-title="Jio Hotstar | Sportlink", News18 Lokmat
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_News18Lokmat/JioHotstar/JS_News18Lokmat.m3u8
 
 #EXTINF:-1 tvg-name="News18 Tamilnadu @virat10" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/News_18_Tamilnadu.png" group-title="Jio Hotstar | Sportlink", News18 Tamilnadu
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_News18Tamilnadu/JioHotstar/JS_News18Tamilnadu.m3u8
 
 #EXTINF:-1 tvg-name="CNBC Bazaar @virat10" tvg-logo="https://v3img.voot.com/resizeMedium,w_1090,h_613/v3Storage/assets/whatsapp16x9-1693491956187.jpg" group-title="Jio Hotstar | Sportlink", CNBC Bazaar
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_CNBCBazaar/JioHotstar/JS_CNBCBazaar.m3u8
 
 #EXTINF:-1 tvg-name="News18 Bangla @virat10" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_Bangla_News.png" group-title="Jio Hotstar | Sportlink", News18 Bangla
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_News18Bangla/JioHotstar/JS_News18Bangla.m3u8
 
 #EXTINF:-1 tvg-name="News18 Bihar Jharkhand @virat10" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_BIHAR.png" group-title="Jio Hotstar | Sportlink", News18 Bihar Jharkhand
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_News18BiharJharkhand/JioHotstar/JS_News18BiharJharkhand.m3u8
 
 #EXTINF:-1 tvg-name="News18 Gujarati @virat10" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_News_Gujarati.png" group-title="Jio Hotstar | Sportlink", News18 Gujarati
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_News18Gujarati/JioHotstar/JS_News18Gujarati.m3u8
 
 #EXTINF:-1 tvg-name="News18 Odia @virat10" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_News_Oriya.png" group-title="Jio Hotstar | Sportlink", News18 Odia
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_News18Odia/JioHotstar/JS_News18Odia.m3u8
 
 #EXTINF:-1 tvg-name="News18 Assam North East @virat10" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/News_18_Assam.png" group-title="Jio Hotstar | Sportlink", News18 Assam North East
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_News18AssamNorthEast/JioHotstar/JS_News18AssamNorthEast.m3u8
 
 #EXTINF:-1 tvg-name="News18 JKLH @virat10" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_Urdu.png" group-title="Jio Hotstar | Sportlink", News18 JKLH
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_News18JKLH/JioHotstar/JS_News18JKLH.m3u8
 
 #EXTINF:-1 tvg-name="News18 Rajasthan @virat10" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_RAJASTHAN.png" group-title="Jio Hotstar | Sportlink", News18 Rajasthan
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_News18Rajasthan/JioHotstar/JS_News18Rajasthan.m3u8
 
 #EXTINF:-1 tvg-name="News18 MP Chhattisgarh @virat10" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_MP.png" group-title="Jio Hotstar | Sportlink", News18 MP Chhattisgarh
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_News18MPChhattisgarh/JioHotstar/JS_News18MPChhattisgarh.m3u8
 
 #EXTINF:-1 tvg-name="News18 Kerala @virat10" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/News_18_Kerala.png" group-title="Jio Hotstar | Sportlink", News18 Kerala
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_News18Kerala/JioHotstar/JS_News18Kerala.m3u8
 
 #EXTINF:-1 tvg-name="News18 UP Uttarakhand @virat10" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_UP.png" group-title="Jio Hotstar | Sportlink", News18 UP Uttarakhand
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/JS_News18UPUttarakhand/JioHotstar/JS_News18UPUttarakhand.m3u8
 
 #EXTINF:-1 tvg-name="CTV IDC (HINDI) @virat10" tvg-logo="https://thumbs.dreamstime.com/b/no-signal-wallpaper-vibrant-error-message-retro-tv-screen-featuring-colorful-test-pattern-retro-tv-screen-illustration-404198661.jpg" group-title="Jio Hotstar | Sportlink", CTV IDC (HINDI)
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/f92cca8adaae6170c67bb51949afbb24_CTV/Fallback/index.m3u8
 
 #EXTINF:-1 tvg-name="CTV IDC (ENGLISH) @virat10" tvg-logo="https://thumbs.dreamstime.com/b/no-signal-wallpaper-vibrant-error-message-retro-tv-screen-featuring-colorful-test-pattern-retro-tv-screen-illustration-404198661.jpg" group-title="Jio Hotstar | Sportlink", CTV IDC (ENGLISH)
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/05a9b1b618f242b3da9d968215432a72_CTV/Fallback/index.m3u8
 
 #EXTINF:-1 tvg-name="CTV IDC (TAMIL) @virat10" tvg-logo="https://thumbs.dreamstime.com/b/no-signal-wallpaper-vibrant-error-message-retro-tv-screen-featuring-colorful-test-pattern-retro-tv-screen-illustration-404198661.jpg" group-title="Jio Hotstar | Sportlink", CTV IDC (TAMIL)
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/6c4aa2857af9dbaf5e7356737ebf4bb5_CTV/Fallback/index.m3u8
 
 #EXTINF:-1 tvg-name="CTV IDC (TELUGU) @virat10" tvg-logo="https://thumbs.dreamstime.com/b/no-signal-wallpaper-vibrant-error-message-retro-tv-screen-featuring-colorful-test-pattern-retro-tv-screen-illustration-404198661.jpg" group-title="Jio Hotstar | Sportlink", CTV IDC (TELUGU)
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/fbab6dccfbe54c4fb38ec3ff6291fdb3_CTV/Fallback/index.m3u8
 
 #EXTINF:-1 tvg-name="CTV IDC (KANNADA) @virat10" tvg-logo="https://thumbs.dreamstime.com/b/no-signal-wallpaper-vibrant-error-message-retro-tv-screen-featuring-colorful-test-pattern-retro-tv-screen-illustration-404198661.jpg" group-title="Jio Hotstar | Sportlink", CTV IDC (KANNADA)
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/305f6c39f663997943fadd41d113ac21_CTV/Fallback/index.m3u8
 
 #EXTINF:-1 tvg-name="LIVE EVENTS IPL (CTV) @virat10" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8763/1739203338763-a.jpg" group-title="Jio Hotstar | Sportlink", LIVE EVENTS IPL (CTV)
 #EXTVLCOPT:http-user-agent=Virat Kohli
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-cookie=hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789721001~acl=%2f*~id=4768655e88069e34e6bd87bc2248d1a8~data=hdntl~hmac=402b4de2bed5beb1b947f2f49aca96a124b70361d815f380a699a0a0dc8069ce"}
+#EXTVLCOPT:http-cookie=hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1789793027~acl=%2f*~id=138336710c7a44570e5e311aa10cad5d~data=hdntl~hmac=9f4ad820b76d2e626dd978f7fc811c468f421eb2745f3c7e9b6a92bb99f0b84f"}
 https://jcevents.hotstar.com/bpk-tv/e03bbf7688f4b14faa3782e78851c3d9_CTV/Fallback/index2.m3u8
 
 #===== Bengali | Sportlink (32 channels) =====
@@ -4907,7 +4894,7 @@ https://livestream9.sunnxt.com/b0aacde03b744564870634ecb10e8a31/SunMarathiB_IN_i
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=45fc661aa1af51c98950c43329391d18:c2677c874886e78d24b3fb656c5734e0
-#EXTHTTP:{"cookie": "__hdnea__=st=1789698593~exp=1789702193~acl=/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/*~hmac=e7ed93cb9a639c4054938e7965a51a597917cfdb92a74ee87ede18a1b293f8ba"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1789702100~exp=1789705700~acl=/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/*~hmac=a75c67a251ca94f8706870f5d897530ac2cedfc3a5c53671662f5dc42c0339c6"}
 #EXTVLCOPT:http-user-agent=Virat🐐
 https://jiotvpllive.cdn.jio.com/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/index.mpd
 
@@ -9709,7 +9696,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/SonyPIX_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f45e69507f0f5aa1a6e82374efb0af25:f84348219837769feb5a26a7b1cd31dc
-#EXTHTTP:{"cookie": "__hdnea__=st=1789698590~exp=1789702190~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=57a6ef70e46a3dcb1204d2b64ac44d37877395def40913c32072ee1d671a7265"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1789702097~exp=1789705697~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=81414b43f3fe9782fbf9c725ac7b8524c0d8e1c792e0a3681b77cf044894596b"}
 #EXTVLCOPT:http-user-agent=Virat🐐
 https://jiotvpllive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/index.mpd
 
@@ -11687,7 +11674,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/ZeeCinemaHD_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=a23b609b33e254a48e4fc6fa7af0fd8d:4064c52328bfe9e6008776b48a431e4b
-#EXTHTTP:{"cookie": "__hdnea__=st=1789698579~exp=1789702179~acl=/bpk-tv/ZeeTVHD_BTS/WDVLive/*~hmac=a6ac55a9455247baf4042c1c28f82757e0bd3b8fb38d6bee7a3f90f796c59225"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1789702094~exp=1789705694~acl=/bpk-tv/ZeeTVHD_BTS/WDVLive/*~hmac=4e98916a37a36386f91573ceb29179320e62dd87ef29894f8ca96e6705e76399"}
 #EXTVLCOPT:http-user-agent=Virat🐐
 https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeTVHD_BTS/WDVLive/index.mpd
 
