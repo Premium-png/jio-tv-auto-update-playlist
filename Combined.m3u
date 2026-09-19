@@ -2,7 +2,7 @@
 #===== Fancode | Sportlink (5 channels) =====
 # Written and Directed by ✨ D O C T O R - S T R A N G E ✨
 # Join us on Telegram: https://t.me/jitendraunatti_github
-#DATE:- Saturday, 19 September 2026 at 9:49:19 pm
+#DATE:- Saturday, 19 September 2026 at 10:07:15 pm
 
 #EXTINF:-1 tvg-id="4249249" tvg-name="Sharjah Warriorz Development Vs Gulf Giants Development @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249249_53070_SWD_GGD_FC-Web.png" tvg-language="English" group-title="Fancode | Sportlink",ENG | Sharjah Warriorz Development Vs Gulf Giants Development
 https://dai-fancode.pages.dev/mumbai/4249249_english_hls_e407085d6171465_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
@@ -16,16 +16,9 @@ https://dai-fancode.pages.dev/mumbai/4248480_english_hls_de00a7636732398_1ta-di_
 #EXTINF:-1 tvg-id="4247635" tvg-name="Athletic Club Vs Deportivo Alaves @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4247635_53004_ATH_ALA_FC-Web.png" tvg-language="English" group-title="Fancode | Sportlink",ENG | Athletic Club Vs Deportivo Alaves
 https://dai-fancode.pages.dev/mumbai/4247635_english_hls_06f5e71cdc73181_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
-#===== SonyLIV | Sportlink (2 channels) =====
-#EXTINF:-1 tvg-name="3rd T20I - 19 Sep 2026 [ENG] - Sri Lanka Tour of England 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024092/1789657985040480_ENGvsSL26_3t20i_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", 3rd T20I - 19 Sep 2026 [ENG] - Sri Lanka Tour of England 2026
-https://sonydaimenew.akamaized.net/hls/live/2120304/criclive1909/ENG/std_lrh-800300010.m3u8?hdnea=exp=1789877280~acl=/*~id=79540095475486672145502793645775~hmac=4a66a6adda35fd84fee08e4af5429426257745e40b22c18db8ee5a761d31e6e4
-
-#EXTINF:-1 tvg-name="BMW PGA Championship - Day 3 - 19 Sep 2026 [ENG] - DP World Tour @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023421/1788419428341492_DP_World_Tour_BMW_PGA_CHAMPIONSHIP_day3_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", BMW PGA Championship - Day 3 - 19 Sep 2026 [ENG] - DP World Tour
-https://sonydaimenew.akamaized.net/hls/live/2120306/Golf_BMW1909/ENG/std_lrh-800300010.m3u8?hdnea=exp=1789877280~acl=/*~id=79540095475486672145502793645775~hmac=4a66a6adda35fd84fee08e4af5429426257745e40b22c18db8ee5a761d31e6e4
-
 #===== Willow | Sportlink (3 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:10:02 PM 19-09-2026
+#LAST_UPDATE:10:32 PM 19-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:2
@@ -36,21 +29,21 @@ https://sonydaimenew.akamaized.net/hls/live/2120306/Golf_BMW1909/ENG/std_lrh-800
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b2cb97ecd09667ea72635203ce449e0e:481ede365c7c5f1076616490355173d1
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bujlegrj2g/out/v1/6d76f89fb5984174a6837e59d6aee8ba/cenc.mpd
+https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/bujlegrj2g/out/v1/6d76f89fb5984174a6837e59d6aee8ba/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0HK18NQRX" tvg-name="Sri Lanka tour of England 2026 - 3rd T20I - England vs Sri Lanka @virat10" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.0f553e32-5160-4bbb-a2bc-80d97cf445e7/3/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="Willow | Sportlink",Sri Lanka tour of England 2026 - 3rd T20I - England vs Sri Lanka
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e91b0ecde03ad0d00251784f516ff4f6:33790c0313d3853c4e1a941170827549
-https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/acwviu4yoa/out/v1/e2a305a5f12840cdbd24c1f8046fe1be/cenc.mpd
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/acwviu4yoa/out/v1/e2a305a5f12840cdbd24c1f8046fe1be/cenc.mpd
 
-#===== Prime Video | Sportlink (11 channels) =====
+#===== Prime Video | Sportlink (10 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:10:02 PM 19-09-2026
+#LAST_UPDATE:10:32 PM 19-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:11
+#LIVE_COUNT:10
 #UPCOMING_COUNT:0
 
 #EXTINF:-1 tvg-id="B0HJLFKK5Q" tvg-name="PBA Bowling @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.cf17f54f-bf3c-43a0-94eb-56b160a9c6b7/1/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",PBA Bowling
@@ -60,26 +53,26 @@ https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/acwviu4yoa
 #KODIPROP:inputstream.adaptive.license_key=08c7d255bdb53b54f38735c2529492f9:7eafb46d7206f2cb19ef0751e3466a5a
 https://live-emt-pv-ta.amazon.fastly-edge.com/$T$2D3RhEOhAQWhBFgkOWE2NWFkMDQtYzk4NS00OTZhLWE4NzQtYTkwMzY2M2FiNzFlWJCnAWpwcmltZXZpZGVvBBpqwk5gBhpqrofgA2ZmYXN0bHkCeClzc2lkOjAwYThiNWQ4LWFmMTYtNGZhNy05NjRhLWEwMjkwMmM2ZmJkORkBOKEFoQJ4My84dTdqd3p5NWVrL291dC92MS82OTIzNWVmNjQ4NmI0OGUwYmJlZWEwMmIyMGZhYWMzZRkBPIFiVVNYIJ3ptyQem9lI9Mh9q3tzgNoeqNAt3cPi3X7MwW73p-zf/PDX/f1d5711e7938446f8ba77aa4cace74fe/v1/dash/159325541587/imdb_ottera_amzn1_dv_live_csid_610ccc26-479b-4d79-8c18-5ac0e6ceff38_us-west-2_pdx_dash_h264_none_stereo/startover/clients/dash/manipulated-manifest-pdx-prod/enc/8u7jwzy5ek/out/v1/69235ef6486b48e0bbeea02b20faac3e/ee890bd4-4ea5-4708-889c-9d4aa4741892-cenc.mpd?aws.sessionId=4870b4d2-c489-43cb-87f5-9fbae7823700
 
+#EXTINF:-1 tvg-id="B0HHTJK4N8" tvg-name="Villanova vs. Long Island Sharks @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.f371550b-a88e-445c-92e2-206a251caaae/5/BOXART-16X9/en-US/1920x1080._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMpng_.png" group-title="Prime Video | Sportlink",Villanova vs. Long Island Sharks
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6670dbc6eb97a1c7fc6395d952fb00b7:72a3574c534811db5a4804695a184221
+https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/nl9acyq8n3/out/v1/5dc4b6dd4c094ccb8c3c92e03e87cda7/cenc.mpd
+
 #EXTINF:-1 tvg-id="B0HC7R3H1D" tvg-name="Live Prelims-Brown vs. Hedges @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.ade7d205-9c19-49bf-b899-e4a90977e539/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Live Prelims-Brown vs. Hedges
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=99f2d8b38451875101393cfda6cc5e77:3d32bdfa5fe52cf74567eb20716b5a65
-https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/qkvxe8ubng/out/v1/dcedefedc735415a9f9d36d3d3016629/cenc.mpd
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qkvxe8ubng/out/v1/dcedefedc735415a9f9d36d3d3016629/cenc.mpd
 
-#EXTINF:-1 tvg-id="B0HFHJZTYX" tvg-name="Predator Pro Billiard Series: Vietnam @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.97c308f7-4df4-4358-b7b8-5f8edb70f55c/12/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Predator Pro Billiard Series: Vietnam
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=18ebe4e0e59f5ff07ed9879c4c0e0008:e172cb6887761bf883aa925e173e7b67
-https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd
-
-#EXTINF:-1 tvg-id="B0HK61VSYC" tvg-name="Birmingham City vs. Middlesbrough @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.491f7cbc-43bc-4abe-93ea-5e0c76659704/4/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg" group-title="Prime Video | Sportlink",Birmingham City vs. Middlesbrough
+#EXTINF:-1 tvg-id="B0HG1VH3D7" tvg-name="Arsenal vs. Manchester United @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.27719528-4d7b-45de-a0a9-8b5d0085c22b/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Arsenal vs. Manchester United
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
-https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0HHKW73P2" tvg-name="Green Mountain Championship, Round 3 @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.53634b9a-0c37-43b3-9fa4-4a6276029652/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Green Mountain Championship, Round 3
 #KODIPROP:inputstream=inputstream.adaptive
@@ -88,157 +81,190 @@ https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/5qz8wmdom
 #KODIPROP:inputstream.adaptive.license_key=dfa8e3854cb8ae706b7b28f22b16cbe2:c8dad1be3999d0aee9bf702316a03f6b
 https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/xuduw3ueoe/out/v1/1f4214b57faf489fa608906bec814ec3/cenc.mpd
 
-#EXTINF:-1 tvg-id="B0HHTJK4N8" tvg-name="Villanova vs. Long Island Sharks @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.f371550b-a88e-445c-92e2-206a251caaae/5/BOXART-16X9/en-US/1920x1080._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMpng_.png" group-title="Prime Video | Sportlink",Villanova vs. Long Island Sharks
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=6670dbc6eb97a1c7fc6395d952fb00b7:72a3574c534811db5a4804695a184221
-https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/nl9acyq8n3/out/v1/5dc4b6dd4c094ccb8c3c92e03e87cda7/cenc.mpd
-
 #EXTINF:-1 tvg-id="B0HF49T24K" tvg-name="PPA Tour Arizona Open: Quarterfinals @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.77dbe9ca-c15b-462e-92af-c1b5a02b3d19/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",PPA Tour Arizona Open: Quarterfinals
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=2be100252a42be3a17d29c93e28eaacc:07c5e72df3602e9652dd06d839776e72
-https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/bg4402bdnz/out/v1/466e19ef15204befaa3ee4eda7d6cd24/cenc.mpd
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/bg4402bdnz/out/v1/466e19ef15204befaa3ee4eda7d6cd24/cenc.mpd
 
-#EXTINF:-1 tvg-id="B0HHTSDHGB" tvg-name="Qualifier: Amsterdam Flames vs. Belfast Wolves @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.add37cf9-a69b-4ed2-be33-45d5ae35faea/4/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Qualifier: Amsterdam Flames vs. Belfast Wolves
+#EXTINF:-1 tvg-id="B0HK61VSYC" tvg-name="Birmingham City vs. Middlesbrough @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.491f7cbc-43bc-4abe-93ea-5e0c76659704/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg" group-title="Prime Video | Sportlink",Birmingham City vs. Middlesbrough
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
-https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0HHSG2LC2" tvg-name="Tennis Today Live-Davis Cup Qualifiers 2nd Round CAN vs. FRA Rubbers 3, 4 & 5, ESP vs. CHI Rubbers 1 & 2; Sao Paulo-WTA Semifinals @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.7b15968d-6354-4634-9839-a0f4a6add113/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Tennis Today Live-Davis Cup Qualifiers 2nd Round CAN vs. FRA Rubbers 3, 4 & 5, ESP vs. CHI Rubbers 1 & 2; Sao Paulo-WTA Semifinals
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a
-https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd
+https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd
 
-#EXTINF:-1 tvg-id="B0HC8JHFBL" tvg-name="Davis Cup Qualifiers 2nd Round GBR v. ECU Rubbers 1 & 2 @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.2b6e5651-6f0b-4fcd-bccd-e6c9d5f4e6a5/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Davis Cup Qualifiers 2nd Round GBR v. ECU Rubbers 1 & 2
+#EXTINF:-1 tvg-id="B0HHTSDHGB" tvg-name="Qualifier: Amsterdam Flames vs. Belfast Wolves @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.add37cf9-a69b-4ed2-be33-45d5ae35faea/4/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Qualifier: Amsterdam Flames vs. Belfast Wolves
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a
-https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/k653vm77p0/out/v1/313a4febbed346d298f7c1c281a00f6d/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd
 
-#===== AXS | Sportlink (23 channels) =====
+#===== AXS | Sportlink (31 channels) =====
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
 #special thanks to: MR. Joy Chowdhury
-#last update time: 10:17:27 PM 19-09-2026
+#last update time: 10:32:25 PM 19-09-2026
 
 #EXTINF:-1 tvg-name="Paris FC vs Strasbourg - Ligue 1 [Server 1] @virat10" tvg-id="45266" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Paris%20FC%20vs%20Strasbourg.jpg" group-title="AXS | Sportlink", Paris FC vs Strasbourg - Ligue 1 [Server 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8db522fd629e492f4abca5-hd/chunks.m3u8?is_vip=false&token=1789921047-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-5cc3274bd0889ae1e57cd88510d7dace
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8db522fd629e492f4abca5-hd/chunks.m3u8?is_vip=false&token=1789921946-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2d19e8d8f4ccc2ef93664df3b66eb509
 
 #EXTINF:-1 tvg-name="Paris FC vs Strasbourg - Ligue 1 [Server 2] @virat10" tvg-id="45266" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Paris%20FC%20vs%20Strasbourg.jpg" group-title="AXS | Sportlink", Paris FC vs Strasbourg - Ligue 1 [Server 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8db522fd629e492f4abca5/chunks.m3u8?is_vip=false&token=1789921049-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7ec7daa36bba4fc906f2472ee39c4a5b
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8db522fd629e492f4abca5/chunks.m3u8?is_vip=false&token=1789921948-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-cf2b062bf83b8da18eb2ccea99d05f3e
 
 #EXTINF:-1 tvg-name="AS Roma vs Inter - Serie A [Server 1] @virat10" tvg-id="44157" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/AS%20Roma%20vs%20Inter.jpg" group-title="AXS | Sportlink", AS Roma vs Inter - Serie A [Server 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f0698daf8f9c59c061c1b-hd/chunks.m3u8?is_vip=false&token=1789921050-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b58d5d5267ef10d71ce91cd7a11a3897
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f0698daf8f9c59c061c1b-hd/chunks.m3u8?is_vip=false&token=1789921949-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-73bcb7bee5a99890df4a221fe7c7bb81
 
 #EXTINF:-1 tvg-name="AS Roma vs Inter - Serie A [Server 2] @virat10" tvg-id="44157" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/AS%20Roma%20vs%20Inter.jpg" group-title="AXS | Sportlink", AS Roma vs Inter - Serie A [Server 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/533376/720p/chunks.m3u8?is_vip=false&token=1789921051-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f1308be628a1dbbf2725f6535810ec4b
+https://livecdn-tc-iptv.rumsport10.live/live_abr/533376/720p/chunks.m3u8?is_vip=false&token=1789921949-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-4ea9c23793042cdbf539e1eed74ca885
 
-#EXTINF:-1 tvg-name="VfB Stuttgart vs Borussia Dortmund - Bundesliga @virat10" tvg-id="44951" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/VfB%20Stuttgart%20vs%20Borussia%20Dortmund.jpg" group-title="AXS | Sportlink", VfB Stuttgart vs Borussia Dortmund - Bundesliga
+#EXTINF:-1 tvg-name="AS Roma vs Inter - Serie A [Server 3] @virat10" tvg-id="44157" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/AS%20Roma%20vs%20Inter.jpg" group-title="AXS | Sportlink", AS Roma vs Inter - Serie A [Server 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f06987cb66c539aa09aef-hd/chunks.m3u8?is_vip=false&token=1789921055-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0c5adf5895ec0430ba2645dc40cd2a0b
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f0698daf8f9c59c061c1b/chunks.m3u8?is_vip=false&token=1789921951-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d81b287d76c0cf6bdc4560da913a9a18
 
-#EXTINF:-1 tvg-name="Celta Vigo vs Racing Santander - La Liga @virat10" tvg-id="43777" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Celta%20Vigo%20vs%20Racing%20Santander.jpg" group-title="AXS | Sportlink", Celta Vigo vs Racing Santander - La Liga
+#EXTINF:-1 tvg-name="VfB Stuttgart vs Borussia Dortmund - Bundesliga [Server 1] @virat10" tvg-id="44951" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/VfB%20Stuttgart%20vs%20Borussia%20Dortmund.jpg" group-title="AXS | Sportlink", VfB Stuttgart vs Borussia Dortmund - Bundesliga [Server 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f06987cb66c539aa09b3b-hd/chunks.m3u8?is_vip=false&token=1789921058-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-82f9466f02a95dd97c188e05e15bd4a0
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f06987cb66c539aa09aef-hd/chunks.m3u8?is_vip=false&token=1789921953-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2387796441b2f0124eb0c638d6458f39
 
-#EXTINF:-1 tvg-name="Nottingham Forest vs Coventry - Premier League @virat10" tvg-id="43321" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Nottingham%20Forest%20vs%20Coventry.jpg" group-title="AXS | Sportlink", Nottingham Forest vs Coventry - Premier League
+#EXTINF:-1 tvg-name="VfB Stuttgart vs Borussia Dortmund - Bundesliga [Server 2] @virat10" tvg-id="44951" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/VfB%20Stuttgart%20vs%20Borussia%20Dortmund.jpg" group-title="AXS | Sportlink", VfB Stuttgart vs Borussia Dortmund - Bundesliga [Server 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f06987cb66c539aa09aee-hd/chunks.m3u8?is_vip=false&token=1789921062-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-70838e53d3769e6d6195a5a1108fb5e8
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f06987cb66c539aa09aef/chunks.m3u8?is_vip=false&token=1789921953-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-959a3f8bc1c29a749c54f3799412c297
+
+#EXTINF:-1 tvg-name="Celta Vigo vs Racing Santander - La Liga [Server 1] @virat10" tvg-id="43777" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Celta%20Vigo%20vs%20Racing%20Santander.jpg" group-title="AXS | Sportlink", Celta Vigo vs Racing Santander - La Liga [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f06987cb66c539aa09b3b-hd/chunks.m3u8?is_vip=false&token=1789921955-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1054ba04b96332b2366f442b9584a43a
+
+#EXTINF:-1 tvg-name="Celta Vigo vs Racing Santander - La Liga [Server 2] @virat10" tvg-id="43777" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Celta%20Vigo%20vs%20Racing%20Santander.jpg" group-title="AXS | Sportlink", Celta Vigo vs Racing Santander - La Liga [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f06987cb66c539aa09b3b-fancode/chunks.m3u8?is_vip=false&token=1789921956-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2af83f3dd5fff352a6790a888fd23815
+
+#EXTINF:-1 tvg-name="Celta Vigo vs Racing Santander - La Liga [Server 3] @virat10" tvg-id="43777" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Celta%20Vigo%20vs%20Racing%20Santander.jpg" group-title="AXS | Sportlink", Celta Vigo vs Racing Santander - La Liga [Server 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f06987cb66c539aa09b3b/chunks.m3u8?is_vip=false&token=1789921957-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-07c8e411ad33cd4af8a7eead19374aa5
+
+#EXTINF:-1 tvg-name="Nottingham Forest vs Coventry - Premier League [Server 1] @virat10" tvg-id="43321" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Nottingham%20Forest%20vs%20Coventry.jpg" group-title="AXS | Sportlink", Nottingham Forest vs Coventry - Premier League [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f06987cb66c539aa09aee-hd/chunks.m3u8?is_vip=false&token=1789921959-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-672bf9b643a2d80e256211433f4144a9
+
+#EXTINF:-1 tvg-name="Nottingham Forest vs Coventry - Premier League [Server 2] @virat10" tvg-id="43321" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Nottingham%20Forest%20vs%20Coventry.jpg" group-title="AXS | Sportlink", Nottingham Forest vs Coventry - Premier League [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f06987cb66c539aa09aee-fhd/chunks.m3u8?is_vip=false&token=1789921960-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-3730ba4ff2d3e762156329af62c8b35a
+
+#EXTINF:-1 tvg-name="Nottingham Forest vs Coventry - Premier League [Server 3] @virat10" tvg-id="43321" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Nottingham%20Forest%20vs%20Coventry.jpg" group-title="AXS | Sportlink", Nottingham Forest vs Coventry - Premier League [Server 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f06987cb66c539aa09aee/chunks.m3u8?is_vip=false&token=1789921960-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-4b2e37dcf5e024124b783d838a6c8ada
 
 #EXTINF:-1 tvg-name="England vs Sri Lanka - Sri Lanka tour of England @virat10" tvg-id="65090" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/England%20vs%20Sri%20Lanka.jpg" group-title="AXS | Sportlink", England vs Sri Lanka - Sri Lanka tour of England
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1789921065-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d4831946751cb1ac3e6364339ed2de92
-
-#EXTINF:-1 tvg-name="GIL Vicente vs Maritimo - Primeira Liga @virat10" tvg-id="63874" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/GIL%20Vicente%20vs%20Maritimo.jpg" group-title="AXS | Sportlink", GIL Vicente vs Maritimo - Primeira Liga
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f0698daf8f9c59c061d88/chunks.m3u8?is_vip=false&token=1789921069-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c5723c0ffe032e2f7d7f5804ea3bb233
-
-#EXTINF:-1 tvg-name="Austria Lustenau vs SCR Altach - Bundesliga @virat10" tvg-id="63891" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Austria%20Lustenau%20vs%20SCR%20Altach.jpg" group-title="AXS | Sportlink", Austria Lustenau vs SCR Altach - Bundesliga
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8db522fd629e492f4abcb1/chunks.m3u8?is_vip=false&token=1789921076-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-02dfc1c17ee7165f91ca3b50549d3121
+https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1789921962-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-100ae9044f5bc31317621f14d7671943
 
 #EXTINF:-1 tvg-name="NK Varazdin vs NK Osijek - HNL @virat10" tvg-id="63884" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/NK%20Varazdin%20vs%20NK%20Osijek.jpg" group-title="AXS | Sportlink", NK Varazdin vs NK Osijek - HNL
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8db522fd629e492f4abcd8/chunks.m3u8?is_vip=false&token=1789921077-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ab5dea6005c30a08e0b5884aa028b62d
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8db522fd629e492f4abcd8/chunks.m3u8?is_vip=false&token=1789921963-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-150210b152ccd137b67216578860a529
+
+#EXTINF:-1 tvg-name="Austria Lustenau vs SCR Altach - Bundesliga @virat10" tvg-id="63891" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Austria%20Lustenau%20vs%20SCR%20Altach.jpg" group-title="AXS | Sportlink", Austria Lustenau vs SCR Altach - Bundesliga
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8db522fd629e492f4abcb1/chunks.m3u8?is_vip=false&token=1789921965-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c6ab422079da93477954dc753f8e7d1e
 
 #EXTINF:-1 tvg-name="JS Saoura vs Olympique Akbou - Ligue 1 @virat10" tvg-id="63904" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/JS%20Saoura%20vs%20Olympique%20Akbou.jpg" group-title="AXS | Sportlink", JS Saoura vs Olympique Akbou - Ligue 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a847abbe9d80a100ce54471/chunks.m3u8?is_vip=false&token=1789921079-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-6a521aff94e65f9168d9cc6d4cf1f8d6
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a847abbe9d80a100ce54471/chunks.m3u8?is_vip=false&token=1789921966-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b93adbba90d359856381705797d385c6
 
 #EXTINF:-1 tvg-name="France vs Australia - WXV @virat10" tvg-id="65122" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/France%20vs%20Australia.jpg" group-title="AXS | Sportlink", France vs Australia - WXV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/143076/720p/chunks.m3u8?is_vip=false&token=1789921085-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7a8a0770a8d62c7ccef52c9e0ff9724e
-
-#EXTINF:-1 tvg-name="Lens W vs Toulouse W - Feminine Division 1 @virat10" tvg-id="63920" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Lens%20W%20vs%20Toulouse%20W.jpg" group-title="AXS | Sportlink", Lens W vs Toulouse W - Feminine Division 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6aa33db493add94b371c227a/chunks.m3u8?is_vip=false&token=1789919324-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-887ea79bf1d5154df648ac8a09f6df1c
-
-#EXTINF:-1 tvg-name="Oliveirense vs Penafiel - Taça de Portugal @virat10" tvg-id="64870" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Oliveirense%20vs%20Penafiel.jpg" group-title="AXS | Sportlink", Oliveirense vs Penafiel - Taça de Portugal
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6aa5c478d83fdbd7c3122b06/chunks.m3u8?is_vip=false&token=1789919323-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-12f003978648e1ac443b3b4a5d8f1452
+https://livecdn-tc-iptv.rumsport10.live/live_abr/143076/720p/chunks.m3u8?is_vip=false&token=1789921971-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c1ac7890a2ae230cece3168f46002102
 
 #EXTINF:-1 tvg-name="Scotland vs New Zealand - WXV @virat10" tvg-id="65123" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Scotland%20vs%20New%20Zealand.jpg" group-title="AXS | Sportlink", Scotland vs New Zealand - WXV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/143071/720p/chunks.m3u8?is_vip=false&token=1789921090-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b1a45d89e3178d333e068c29356b9303
+https://livecdn-tc-iptv.rumsport10.live/live_abr/143071/720p/chunks.m3u8?is_vip=false&token=1789921972-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-3c0fb918f275bc8914565c776eaa05e7
 
 #EXTINF:-1 tvg-name="Arsenal W vs Manchester United W - FA WSL [Server 1] @virat10" tvg-id="63926" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Arsenal%20W%20vs%20Manchester%20United%20W.jpg" group-title="AXS | Sportlink", Arsenal W vs Manchester United W - FA WSL [Server 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f06987cb66c539aa09af0-fancode/chunks.m3u8?is_vip=false&token=1789921100-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-cbc6dab814928a14cfeb5a0c815bc60b
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f06987cb66c539aa09af0-fancode/chunks.m3u8?is_vip=false&token=1789921976-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-714f06de15d6724f6f39dc99a24a794b
 
 #EXTINF:-1 tvg-name="Arsenal W vs Manchester United W - FA WSL [Server 2] @virat10" tvg-id="63926" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Arsenal%20W%20vs%20Manchester%20United%20W.jpg" group-title="AXS | Sportlink", Arsenal W vs Manchester United W - FA WSL [Server 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f06987cb66c539aa09af0/chunks.m3u8?is_vip=false&token=1789921100-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-9af32323d9de1c66d8f3e02627b93ea6
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f06987cb66c539aa09af0/chunks.m3u8?is_vip=false&token=1789921977-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-6dbfcb3ad28bbf1031d11f7afccf05ba
 
-#EXTINF:-1 tvg-name="Eldense vs Eibar - Segunda División [Server 1] @virat10" tvg-id="63925" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Eldense%20vs%20Eibar.jpg" group-title="AXS | Sportlink", Eldense vs Eibar - Segunda División [Server 1]
+#EXTINF:-1 tvg-name="Eldense vs Eibar - Segunda División @virat10" tvg-id="63925" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Eldense%20vs%20Eibar.jpg" group-title="AXS | Sportlink", Eldense vs Eibar - Segunda División
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f0698daf8f9c59c061d7e-fhd/chunks.m3u8?is_vip=false&token=1789921101-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d6a37d443e4c7d223a8ee5c5fe76d887
-
-#EXTINF:-1 tvg-name="Eldense vs Eibar - Segunda División [Server 2] @virat10" tvg-id="63925" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Eldense%20vs%20Eibar.jpg" group-title="AXS | Sportlink", Eldense vs Eibar - Segunda División [Server 2]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f0698daf8f9c59c061d7e/chunks.m3u8?is_vip=false&token=1789921102-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1a15ece154441c728f19d13d5d710404
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f0698daf8f9c59c061d7e-fhd/chunks.m3u8?is_vip=false&token=1789921978-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-6abd01e49a66a21427fa01351f3e3a5d
 
 #EXTINF:-1 tvg-name="Castellón vs Tenerife - Segunda División [Server 1] @virat10" tvg-id="63924" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Castell%C3%B3n%20vs%20Tenerife.jpg" group-title="AXS | Sportlink", Castellón vs Tenerife - Segunda División [Server 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f0698daf8f9c59c061d80-fhd/chunks.m3u8?is_vip=false&token=1789921103-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-77ca73f1d5c04423cb2242677774a5a8
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f0698daf8f9c59c061d80-fhd/chunks.m3u8?is_vip=false&token=1789921980-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-328719a464f0d9ae9e0d6a9e957bfdec
 
 #EXTINF:-1 tvg-name="Castellón vs Tenerife - Segunda División [Server 2] @virat10" tvg-id="63924" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Castell%C3%B3n%20vs%20Tenerife.jpg" group-title="AXS | Sportlink", Castellón vs Tenerife - Segunda División [Server 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f0698daf8f9c59c061d80/chunks.m3u8?is_vip=false&token=1789921103-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2f5a99cfb22c70e7e0e29d009c565390
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f0698daf8f9c59c061d80/chunks.m3u8?is_vip=false&token=1789921981-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b9369b560c44fd97cef5f054b94807b8
+
+#EXTINF:-1 tvg-name="Kilmarnock vs Heart Of Midlothian - Premiership [Server 1] @virat10" tvg-id="63928" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Kilmarnock%20vs%20Heart%20Of%20Midlothian.jpg" group-title="AXS | Sportlink", Kilmarnock vs Heart Of Midlothian - Premiership [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8db522e4f896100fb580a3-fhd/chunks.m3u8?is_vip=false&token=1789921989-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2f2a7f632c86c3d8cec412077321ea69
+
+#EXTINF:-1 tvg-name="Kilmarnock vs Heart Of Midlothian - Premiership [Server 2] @virat10" tvg-id="63928" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Kilmarnock%20vs%20Heart%20Of%20Midlothian.jpg" group-title="AXS | Sportlink", Kilmarnock vs Heart Of Midlothian - Premiership [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8db522e4f896100fb580a3/chunks.m3u8?is_vip=false&token=1789921989-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-371999914534e3e9671dc5f7e9c6dad3
+
+#EXTINF:-1 tvg-name="Phoenix Mercury vs Dallas Wings - WNBA @virat10" tvg-id="65140" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Phoenix%20Mercury%20vs%20Dallas%20Wings.jpg" group-title="AXS | Sportlink", Phoenix Mercury vs Dallas Wings - WNBA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/274860/720p/chunks.m3u8?is_vip=false&token=1789922010-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-00b24bb86201b2ea36dace84a0465d97
+
+#EXTINF:-1 tvg-name="Biltmore Championship | Day 3 - PGA Tour @virat10" tvg-id="65163" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Biltmore%20Championship%20%20Day%203.jpg" group-title="AXS | Sportlink", Biltmore Championship | Day 3 - PGA Tour
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/287/720p/chunks.m3u8?is_vip=false&token=1789922009-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-9c09d7a3d4cd4b3fba43083d6c94823d
+
+#EXTINF:-1 tvg-name="Cross-country Short Track: Soldier Hollow - UCI Mountain Bike World Series @virat10" tvg-id="65164" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Cross-country%20Short%20Track%20Soldier%20Hollow.jpg" group-title="AXS | Sportlink", Cross-country Short Track: Soldier Hollow - UCI Mountain Bike World Series
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/1409/720p/chunks.m3u8?is_vip=false&token=1789922012-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-9661a53a10c249fa22985891f135b7db
+
+#EXTINF:-1 tvg-name="Day 3 - Evening Session - World Series of Darts Finals @virat10" tvg-id="66643" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Day%203%20-%20Evening%20Session.jpg" group-title="AXS | Sportlink", Day 3 - Evening Session - World Series of Darts Finals
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/114414/720p/chunks.m3u8?is_vip=false&token=1789922012-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-e275eeb73dbc35fca3e788df24e86fea
 
 #===== Jio Hotstar | Sportlink (126 channels) =====
 #EXTINF:-1 tvg-name="Bigboss 24/7 live-HINDI @virat10" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/2305/1788708712305-h.jpg" group-title="Jio Hotstar | Sportlink", Bigboss 24/7 live-HINDI
