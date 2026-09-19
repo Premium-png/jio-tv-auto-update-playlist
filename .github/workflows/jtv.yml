@@ -52,9 +52,14 @@ jobs:
         run: |
           python jtvplus3.py
 
+      - name: Debug Output Files
+        run: |
+          echo "Checking for output files..."
+          ls -la jtv2.json jtvplus3.m3u || echo "One or more files missing!"
+
       - name: Commit and Push Changes
         run: |
-          git add jtv2.json jtvplus3.m3u
+          git add -f jtv2.json jtvplus3.m3u
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
