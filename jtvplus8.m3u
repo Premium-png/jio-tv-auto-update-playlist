@@ -1607,8 +1607,8 @@ https://onekey.virey40690.workers.dev/mpd/143
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://onekey.virey40690.workers.dev/key/146
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"st=1789796546~exp=1789800146~acl=/bpk-tv/History_HD_BTS/WDVLive/*~hmac=f1716f18344f30235a2bb78869488338f1f4b8fb990ef2534c79acfaf805873e","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/History_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1789796546~exp=1789800146~acl=/bpk-tv/History_HD_BTS/WDVLive/*~hmac=f1716f18344f30235a2bb78869488338f1f4b8fb990ef2534c79acfaf805873e
+#EXTHTTP:{"cookie":"st=1789800187~exp=1789803787~acl=/bpk-tv/History_HD_BTS/WDVLive/*~hmac=bd2be24df2a9a1620cc9aea379f7f5dd412c530a851c7f24ac3c257b84676f0f","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/History_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1789800187~exp=1789803787~acl=/bpk-tv/History_HD_BTS/WDVLive/*~hmac=bd2be24df2a9a1620cc9aea379f7f5dd412c530a851c7f24ac3c257b84676f0f
 
 #EXTINF:-1 tvg-id="151" group-title="JIO ⭕|English" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Movies_Now_HD.png",Movies Now HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1621,8 +1621,8 @@ https://onekey.virey40690.workers.dev/mpd/151
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://onekey.virey40690.workers.dev/key/164
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"st=1789796546~exp=1789800146~acl=/bpk-tv/Travel_XP_HD_BTS/WDVLive/*~hmac=26ee56a8de9bc4c253e7da07774e7112a8f6e3e7becf473a71076240351afdc2","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Travel_XP_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1789796546~exp=1789800146~acl=/bpk-tv/Travel_XP_HD_BTS/WDVLive/*~hmac=26ee56a8de9bc4c253e7da07774e7112a8f6e3e7becf473a71076240351afdc2
+#EXTHTTP:{"cookie":"st=1789800190~exp=1789803790~acl=/bpk-tv/Travel_XP_HD_BTS/WDVLive/*~hmac=acde064227a8e520be14ee8fcc3b3a73a2e817beddf03de9b006f0cf3ebb542c","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Travel_XP_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1789800190~exp=1789803790~acl=/bpk-tv/Travel_XP_HD_BTS/WDVLive/*~hmac=acde064227a8e520be14ee8fcc3b3a73a2e817beddf03de9b006f0cf3ebb542c
 
 #EXTINF:-1 tvg-id="193" group-title="JIO ⭕|English" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/CNN.png",CNN
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -3707,8 +3707,8 @@ https://onekey.virey40690.workers.dev/mpd/583
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://onekey.virey40690.workers.dev/key/821
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"st=1789796634~exp=1789800234~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=680034c5caabe07a135577a99dee063e7bcad0bd9bcad7814688312fdedf63b9","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/index.mpd?__hdnea__=st=1789796634~exp=1789800234~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=680034c5caabe07a135577a99dee063e7bcad0bd9bcad7814688312fdedf63b9
+#EXTHTTP:{"cookie":"st=1789800146~exp=1789803746~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=b9f5d81c7ec645280aa837225d929790d90140e3724fa432db1383824a331b9d","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/index.mpd?__hdnea__=st=1789800146~exp=1789803746~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=b9f5d81c7ec645280aa837225d929790d90140e3724fa432db1383824a331b9d
 
 #EXTINF:-1 tvg-id="871" group-title="JIO ⭕|Infotainment" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Jio_Events.png",Jio Events HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
