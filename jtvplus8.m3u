@@ -4985,8 +4985,8 @@ https://onekey.virey40690.workers.dev/mpd/3060
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://onekey.virey40690.workers.dev/key/3096
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"st=1789833505~exp=1789837105~acl=/bpk-tv/Star_Gold_2_HD_BTS/WDVLive/*~hmac=bcd2360595ddf87301ac96e1e0e302695cb30b4ae777f4bb15649253525283dd","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_2_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1789833505~exp=1789837105~acl=/bpk-tv/Star_Gold_2_HD_BTS/WDVLive/*~hmac=bcd2360595ddf87301ac96e1e0e302695cb30b4ae777f4bb15649253525283dd
+#EXTHTTP:{"cookie":"st=1789837097~exp=1789840697~acl=/bpk-tv/Star_Gold_2_HD_BTS/WDVLive/*~hmac=7c95f59619068bbc833f8b1561aa8dccfc9b39c6596e5e93b70a8ef57041599e","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_2_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1789837097~exp=1789840697~acl=/bpk-tv/Star_Gold_2_HD_BTS/WDVLive/*~hmac=7c95f59619068bbc833f8b1561aa8dccfc9b39c6596e5e93b70a8ef57041599e
 
 #EXTINF:-1 tvg-id="3097" group-title="JIO ⭕|Movies" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Gold_Romance.png",Star Gold Romance
 #KODIPROP:inputstream.adaptive.license_type=clearkey
