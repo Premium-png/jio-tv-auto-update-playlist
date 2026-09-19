@@ -1,6 +1,6 @@
 #EXTM3U
 #PLAYLIST:Live Events
-#LAST_UPDATE:08:56 AM 09-19-2026
+#LAST_UPDATE:12:59 PM 09-19-2026
 #Created by - Sayan 10
 #EXTINF:-1 tvg-id="13" tvg-name="EUROPEAN T20 PREMIER LEAGUE - Willow Cricbuzz - AQ" tvg-logo="https://img.cricketworld.com/images/e-167413/etpl-logo-(002).jpg" group-title="Cricket",EUROPEAN T20 PREMIER LEAGUE - Willow Cricbuzz - AQ
 #KODIPROP:inputstream=inputstream.adaptive
@@ -65,43 +65,6 @@ http://193.47.62.52/hls/VAVAVAAAAAAXX.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=https://tapmad.com/
 https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8
-
-#EXTINF:-1 tvg-id="20" tvg-name="Twenty20 International Women: ZIM-W vs SA-W - FANCODE - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11222/image/dark" group-title="Cricket",Twenty20 International Women: ZIM-W vs SA-W - FANCODE - AQ
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
-#EXTVLCOPT:http-origin=https://amazon.com
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd
-
-#EXTINF:-1 tvg-id="20" tvg-name="Twenty20 International Women: ZIM-W vs SA-W - FANCODE - SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11222/image/dark" group-title="Cricket",Twenty20 International Women: ZIM-W vs SA-W - FANCODE - SD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=709c812e1b4174002605df1d17d34a4c:0bbee6c9c20a0f065bf8369d54cbf83e
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/qddnwqthpp/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd
-
-#EXTINF:-1 tvg-id="20" tvg-name="Twenty20 International Women: ZIM-W vs SA-W - TNT SPORTS - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11222/image/dark" group-title="Cricket",Twenty20 International Women: ZIM-W vs SA-W - TNT SPORTS - HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tmaxapp.site/8wirwjs76erftg/tntsports1.m3u8
-
-#EXTINF:-1 tvg-id="20" tvg-name="Twenty20 International Women: ZIM-W vs SA-W - TapMad Asia - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11222/image/dark" group-title="Cricket",Twenty20 International Women: ZIM-W vs SA-W - TapMad Asia - AQ
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=https://tapmad.com
-https://saseries.akamaized.net/hls/live/2110097/UFC-20-3827e1/master.m3u8
-
-#EXTINF:-1 tvg-id="20" tvg-name="Twenty20 International Women: ZIM-W vs SA-W - FanCode - AQ (IND-IP)" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11222/image/dark" group-title="Cricket",Twenty20 International Women: ZIM-W vs SA-W - FanCode - AQ (IND-IP)
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://in-mc-pdlive.fancode.com/mumbai/143607_english_hls_4aaf721a353393_1ta-di_h264/index.m3u8
-
-#EXTINF:-1 tvg-id="20" tvg-name="Twenty20 International Women: ZIM-W vs SA-W - FanCode - AQ (BD-IP)" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11222/image/dark" group-title="Cricket",Twenty20 International Women: ZIM-W vs SA-W - FanCode - AQ (BD-IP)
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://bd-mc-pdlive.fancode.com/mumbai/143607_english_hls_4aaf721a353393_1ta-di_h264/index.m3u8
 
 #EXTINF:-1 tvg-id="276" tvg-name="WWE NXT - GHD SPORTS - HD" tvg-logo="https://www.wwe.com/f/styles/wwe_show_logo_sm/public/all/2024/10/NXTonCW--0f06792893241464479338f55596a5bf.png" group-title="WWE",WWE NXT - GHD SPORTS - HD
 #KODIPROP:inputstream=inputstream.ffmpeg
@@ -220,10 +183,43 @@ https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd
 
-#EXTINF:-1 tvg-id="747" tvg-name="Premier League: Tottenham vs Aston Villa - USA NETWROK HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/17/image/dark" group-title="Football",Premier League: Tottenham vs Aston Villa - USA NETWROK HD
+#EXTINF:-1 tvg-id="747" tvg-name="Premier League: Tottenham vs Aston Villa - FUBO SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/17/image/dark" group-title="Football",Premier League: Tottenham vs Aston Villa - FUBO SPORTS FHD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c387c5521edf61057dbdda6bcfa7b6d0:24738f6cc7f70b5c7bf94b2667ba35fc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/u3yyxpyqxr/out/v1/63f0844e26d046ab88a2b07df145e87c/cenc.mpd
+
+#EXTINF:-1 tvg-id="747" tvg-name="Premier League: Tottenham vs Aston Villa - Astro Premier HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/17/image/dark" group-title="Football",Premier League: Tottenham vs Aston Villa - Astro Premier HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tmaxapp.site/8wirwjs76erftg/usanetwodfgsdfsark.m3u8
+https://live.dyrur1.com/live/72221290_ca5125e09925c0e73facac4dac89ad31_720p.m3u8?auth_key=1789831984-0-0-c1002c72ed1e32c1ef03aebcd5ac0df4
+
+#EXTINF:-1 tvg-id="747" tvg-name="Premier League: Tottenham vs Aston Villa - HUB PREMIER HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/17/image/dark" group-title="Football",Premier League: Tottenham vs Aston Villa - HUB PREMIER HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/1-6a8db522e4f896100fb57fff-fhd/720p/chunks.m3u8?is_vip=false&token=1789904843-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2f403cec3118797ff434762509acd63f
+
+#EXTINF:-1 tvg-id="747" tvg-name="Premier League: Tottenham vs Aston Villa - TNT SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/17/image/dark" group-title="Football",Premier League: Tottenham vs Aston Villa - TNT SPORTS HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8db522e4f896100fb57fff-hd/chunks.m3u8?is_vip=false&token=1789903949-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d8c00c0d25065b2b523adea54d31797d
+
+#EXTINF:-1 tvg-id="747" tvg-name="Premier League: Tottenham vs Aston Villa - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/17/image/dark" group-title="Football",Premier League: Tottenham vs Aston Villa - GHD SPORTS HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.50/hls/aqaqaq.m3u8
+
+#EXTINF:-1 tvg-id="747" tvg-name="Premier League: Tottenham vs Aston Villa - GHD SPORTS SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/17/image/dark" group-title="Football",Premier League: Tottenham vs Aston Villa - GHD SPORTS SD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://www.rtmpcdn.com/live/a3ba03a3-7a85-426e-825c-ec65ca4efebb.m3u8
 
 #EXTINF:-1 tvg-id="748" tvg-name="Premier League: Brighton vs Arsenal - USA SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/17/image/dark" group-title="Football",Premier League: Brighton vs Arsenal - USA SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
@@ -331,13 +327,12 @@ http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/9334/index.m3u8
 #EXTVLCOPT:http-origin=https://amazon.com
 https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd
 
-#EXTINF:-1 tvg-id="756" tvg-name="LaLiga: Osasuna vs Rayo Vallecano - D SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="Football",LaLiga: Osasuna vs Rayo Vallecano - D SPORTS FHD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd
+#EXTINF:-1 tvg-id="756" tvg-name="LaLiga: Osasuna vs Rayo Vallecano - FAST SERVER HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="Football",LaLiga: Osasuna vs Rayo Vallecano - FAST SERVER HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f06987cb66c539aa09b37-hd/chunks.m3u8?is_vip=false&token=1789905748-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-107865e7184466b5d0de9bd81da65b4d
 
 #EXTINF:-1 tvg-id="756" tvg-name="LaLiga: Osasuna vs Rayo Vallecano - ESPN ARG FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="Football",LaLiga: Osasuna vs Rayo Vallecano - ESPN ARG FHD
 #KODIPROP:inputstream=inputstream.adaptive
@@ -353,6 +348,26 @@ https://vcdn.mn10.entel.bo/Content/DASH/Live/Channel(62567d5c-295c-4ffd-ac7e-c97
 #KODIPROP:inputstream.adaptive.license_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd
+
+#EXTINF:-1 tvg-id="756" tvg-name="LaLiga: Osasuna vs Rayo Vallecano - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="Football",LaLiga: Osasuna vs Rayo Vallecano - GHD SPORTS HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.44/hls/eeeeffff.m3u8
+
+#EXTINF:-1 tvg-id="756" tvg-name="LaLiga: Osasuna vs Rayo Vallecano - FANCODE - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="Football",LaLiga: Osasuna vs Rayo Vallecano - FANCODE - HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8f06987cb66c539aa09b37-fancode/chunks.m3u8?is_vip=false&token=1789905749-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2e90a387fcf4feb9431b27f38df04bb0
+
+#EXTINF:-1 tvg-id="756" tvg-name="LaLiga: Osasuna vs Rayo Vallecano - Premier Sports HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="Football",LaLiga: Osasuna vs Rayo Vallecano - Premier Sports HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/497341/720p/chunks.m3u8?is_vip=false&token=1789905751-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-bc5b7536cf4934d3684583b156176709
 
 #EXTINF:-1 tvg-id="757" tvg-name="LaLiga: Athletic Club vs AlavÃ©s - LALIGA TV HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="Football",LaLiga: Athletic Club vs AlavÃ©s - LALIGA TV HD
 #KODIPROP:inputstream=inputstream.ffmpeg
@@ -448,88 +463,31 @@ https://sonymtmnew-akamaized.pages.dev/hls/live/2043696/cricodi1109/TEL/master.m
 #EXTVLCOPT:http-origin=https://www.sonyliv.com
 https://sonymtmnew-akamaized.pages.dev/hls/live/2105080/cricodi1109/KAN/master.m3u8
 
-#EXTINF:-1 tvg-id="761" tvg-name="T20 Africa Continental Cup, FINAL: UGA vs KEN - WILLOW CRICKET AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/24343/image/dark" group-title="Cricket",T20 Africa Continental Cup, FINAL: UGA vs KEN - WILLOW CRICKET AQ
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ecfd503a2e10cdfc5cc824087a70824e:f33f6735b179d13d712de1c1ad2db810
-https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/qhj7fyqqpl/out/v1/bca61413994542088261e44b1bf1c5de/cenc.mpd
-
-#EXTINF:-1 tvg-id="765" tvg-name="Bundesliga: M'gladbach vs Mainz 05 - BeIN SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/35/image/dark" group-title="Football",Bundesliga: M'gladbach vs Mainz 05 - BeIN SPORTS FHD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=335dad778109954503dcbb21dc92015f:24bfd75d436cbf73168a2a2dccd40281
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
-#EXTVLCOPT:http-origin=https://amazon.com
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd
-
-#EXTINF:-1 tvg-id="765" tvg-name="Bundesliga: M'gladbach vs Mainz 05 - USA SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/35/image/dark" group-title="Football",Bundesliga: M'gladbach vs Mainz 05 - USA SPORTS HD
+#EXTINF:-1 tvg-id="761" tvg-name="T20 Africa Continental Cup, FINAL: UGA vs KEN - FANCODE IN" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/24343/image/dark" group-title="Cricket",T20 Africa Continental Cup, FINAL: UGA vs KEN - FANCODE IN
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com/
-https://cdn10.zohanayaan.com:1686/hls/do10.m3u8?md5=jrQQ0d36xGePriIDQleL0g&expires=1789318877
+#EXTVLCOPT:http-user-agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1
+#EXTVLCOPT:http-referrer=https://fancode.com/
+https://dai-fancode.pages.dev/mumbai/4249173_english_hls_7428890b2635008_1ta-di_h264/index.m3u8
 
-#EXTINF:-1 tvg-id="765" tvg-name="Bundesliga: M'gladbach vs Mainz 05 - DAZN SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/35/image/dark" group-title="Football",Bundesliga: M'gladbach vs Mainz 05 - DAZN SPORTS HD
+#EXTINF:-1 tvg-id="761" tvg-name="T20 Africa Continental Cup, FINAL: UGA vs KEN - FANCODE IN" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/24343/image/dark" group-title="Cricket",T20 Africa Continental Cup, FINAL: UGA vs KEN - FANCODE IN
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com/
-https://cdn8.zohanayaan.com:1686/hls/do18.m3u8?md5=4vTEz0-qCzyEA9gXRcYisw&expires=1789318880
-
-#EXTINF:-1 tvg-id="765" tvg-name="Bundesliga: M'gladbach vs Mainz 05 - BeIN SPORTS SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/35/image/dark" group-title="Football",Bundesliga: M'gladbach vs Mainz 05 - BeIN SPORTS SD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://www.rtmpcdn.com/live/ef8474b4-75e5-494d-bf16-6cf838c06c2c.m3u8
-
-#EXTINF:-1 tvg-id="765" tvg-name="Bundesliga: M'gladbach vs Mainz 05 - DAZN SPORTS SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/35/image/dark" group-title="Football",Bundesliga: M'gladbach vs Mainz 05 - DAZN SPORTS SD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tmaxapp.site/8wirwjs76erftg/dazn2de.m3u8
+#EXTVLCOPT:http-user-agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1
+#EXTVLCOPT:http-referrer=https://fancode.com/
+https://dai-fancode.pages.dev/mumbai/4249173_english_hls_7428890b2635008_1ta-di_h264/index.m3u8
 
 #EXTINF:-1 tvg-id="765" tvg-name="Bundesliga: M'gladbach vs Mainz 05 - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/35/image/dark" group-title="Football",Bundesliga: M'gladbach vs Mainz 05 - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.41/hls/l111AAAA.m3u8
-
-#EXTINF:-1 tvg-id="765" tvg-name="Bundesliga: M'gladbach vs Mainz 05 - USA SPORTS SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/35/image/dark" group-title="Football",Bundesliga: M'gladbach vs Mainz 05 - USA SPORTS SD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://streame.center
-#EXTVLCOPT:http-origin=https://streame.center
-https://edgestream2.pro/hls/ueyeztrazb4.m3u8
-
-#EXTINF:-1 tvg-id="766" tvg-name="Bundesliga: Frankfurt vs Freiburg - Sky Sport Bundesliga" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/35/image/dark" group-title="Football",Bundesliga: Frankfurt vs Freiburg - Sky Sport Bundesliga
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tmaxapp.site/ligue6sc6/skybundesliga3.m3u8
-
-#EXTINF:-1 tvg-id="766" tvg-name="Bundesliga: Frankfurt vs Freiburg - SKY SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/35/image/dark" group-title="Football",Bundesliga: Frankfurt vs Freiburg - SKY SPORTS HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com/
-https://cdn10.zohanayaan.com:1686/hls/do15.m3u8?md5=34u9OtdoDD8eZ-aJ6n_znQ&expires=1789225225
-
-#EXTINF:-1 tvg-id="766" tvg-name="Bundesliga: Frankfurt vs Freiburg - SKY SPORTS SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/35/image/dark" group-title="Football",Bundesliga: Frankfurt vs Freiburg - SKY SPORTS SD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://futbol-x.xyz
-#EXTVLCOPT:http-origin=https://futbol-x.xyz
-https://sweden.futtv.nx.kg/frank/index.m3u8
+http://193.47.62.44/hls/JYYY.m3u8
 
 #EXTINF:-1 tvg-id="766" tvg-name="Bundesliga: Frankfurt vs Freiburg - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/35/image/dark" group-title="Football",Bundesliga: Frankfurt vs Freiburg - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.41/hls/HTTTDQQQQ.m3u8
+http://193.47.62.44/hls/JYYYA.m3u8
 
 #EXTINF:-1 tvg-id="768" tvg-name="LaLiga: Celta vs Racing Club - Premier Sports FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="Football",LaLiga: Celta vs Racing Club - Premier Sports FHD
 #KODIPROP:inputstream=inputstream.adaptive
@@ -558,11 +516,24 @@ https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1
 #EXTVLCOPT:http-origin=https://amazon.com
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
 
+#EXTINF:-1 tvg-id="770" tvg-name="Serie A: Bologna vs Torino - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="Football",Serie A: Bologna vs Torino - GHD SPORTS HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.44/hls/DYYYAA.m3u8
+
+#EXTINF:-1 tvg-id="770" tvg-name="Serie A: Bologna vs Torino - ESPN SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="Football",Serie A: Bologna vs Torino - ESPN SPORTS HD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=cb004fb100bd92f23793562891e3236b:b3e4e74ae2080b137e68bbd0ef8a7e05
+https://vcdn.mn10.entel.bo/Content/DASH/Live/Channel(8757cb0a-3584-40cd-901e-8937c7deba83)/master.mpd
+
 #EXTINF:-1 tvg-id="771" tvg-name="Serie A: Udinese vs Cagliari - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="Football",Serie A: Udinese vs Cagliari - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.41/hls/FPPPAA.m3u8
+http://193.47.62.44/hls/DYYYAAA.m3u8
 
 #EXTINF:-1 tvg-id="772" tvg-name="Serie A: Roma vs Inter - BeIN SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="Football",Serie A: Roma vs Inter - BeIN SPORTS FHD
 #KODIPROP:inputstream=inputstream.adaptive
@@ -756,21 +727,17 @@ https://ABGPU4GAAAAAAAAME77EHQQ2GEEW7.ta.bia-cf.live.pv-cdn.net/bom-nitro/live/c
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.44/hls/ssssAA.m3u8
 
-#EXTINF:-1 tvg-id="865" tvg-name="Women's Super League: Chelsea vs Birmingham - CBS NETWORK HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1044/image/dark" group-title="Football",Women's Super League: Chelsea vs Birmingham - CBS NETWORK HD
+#EXTINF:-1 tvg-id="865" tvg-name="Women's Super League: Chelsea vs Birmingham - SKY SPORTS EPL" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1044/image/dark" group-title="Football",Women's Super League: Chelsea vs Birmingham - SKY SPORTS EPL
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tmaxapp.site/8wirwjs76erftg/cbsnet.m3u8
-
-#EXTINF:-1 tvg-id="865" tvg-name="Women's Super League: Chelsea vs Birmingham - SKY SPORTS NZ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1044/image/dark" group-title="Football",Women's Super League: Chelsea vs Birmingham - SKY SPORTS NZ
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tmaxapp.site/8wirwjs76erftg/skysport5nz8cas5df.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0
+https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=Dxx13S3dlOjavbRFqRtQ6g&e=2075285630&scheme=
 
 #EXTINF:-1 tvg-id="865" tvg-name="Women's Super League: Chelsea vs Birmingham - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1044/image/dark" group-title="Football",Women's Super League: Chelsea vs Birmingham - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.44/hls/DUUUA.m3u8
+http://193.47.62.41/hls/grrraaaaaqqqqq.m3u8
 
 #EXTINF:-1 tvg-id="866" tvg-name="Women's Super League: Arsenal vs Man Utd - SKY SPORTS NZ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1044/image/dark" group-title="Football",Women's Super League: Arsenal vs Man Utd - SKY SPORTS NZ
 #KODIPROP:inputstream=inputstream.ffmpeg
@@ -855,38 +822,52 @@ https://live.uu6611.com/live/hd-en-1-4550875.m3u8?txSecret=2bf8461cab4fe402c7ff5
 #KODIPROP:inputstream.adaptive.license_key=54a2c11085c315ed6ff85c340a86095d:5f0d10cf4a5c7e22e286b7e8cb4e79f4
 https://vcdn.mn10.entel.bo/Content/DASH/Live/Channel(9500bf02-0001-4199-a150-58dc5d692cca)/master.mpd
 
+#EXTINF:-1 tvg-id="1006" tvg-name="Championship: Millwall vs West Ham - BeIN SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="Football",Championship: Millwall vs West Ham - BeIN SPORTS FHD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
+
+#EXTINF:-1 tvg-id="1006" tvg-name="Championship: Millwall vs West Ham - CBS SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="Football",Championship: Millwall vs West Ham - CBS SPORTS FHD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-origin=https://amazon.com
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd
+
+#EXTINF:-1 tvg-id="1006" tvg-name="Championship: Millwall vs West Ham - FANCODE AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="Football",Championship: Millwall vs West Ham - FANCODE AQ
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca
+https://ABGPU4GAAAAAAAAME77EHQQ2GEEW7.ta.bia-cf.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd
+
+#EXTINF:-1 tvg-id="1006" tvg-name="Championship: Millwall vs West Ham - SKY SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="Football",Championship: Millwall vs West Ham - SKY SPORTS HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8db522e4f896100fb5809d-hd/chunks.m3u8?is_vip=false&token=1789903088-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-e0e61f0722e3e0028f749d21aed879b6
+
 #EXTINF:-1 tvg-id="1006" tvg-name="Championship: Millwall vs West Ham - GHD SPORTS - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="Football",Championship: Millwall vs West Ham - GHD SPORTS - HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.59/hls/f444A.m3u8
+http://193.47.62.41/hls/grrraaaaaqqq.m3u8
 
-#EXTINF:-1 tvg-id="1023" tvg-name="Bundesliga: HSV vs KÃ¶ln - Sky Sport Bundesliga" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/35/image/dark" group-title="Football",Bundesliga: HSV vs KÃ¶ln - Sky Sport Bundesliga
+#EXTINF:-1 tvg-id="1006" tvg-name="Championship: Millwall vs West Ham - GHD SPORTS SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="Football",Championship: Millwall vs West Ham - GHD SPORTS SD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tmaxapp.site/ligue6sc6/skybundesliga5.m3u8
-
-#EXTINF:-1 tvg-id="1023" tvg-name="Bundesliga: HSV vs KÃ¶ln - SKY SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/35/image/dark" group-title="Football",Bundesliga: HSV vs KÃ¶ln - SKY SPORTS HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com/
-https://cdn2.zohanayaan.com:1686/hls/do13.m3u8?md5=3coeVeim_EH3KcQok3Gt6g&expires=1789225221
-
-#EXTINF:-1 tvg-id="1023" tvg-name="Bundesliga: HSV vs KÃ¶ln - FAST SERVER HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/35/image/dark" group-title="Football",Bundesliga: HSV vs KÃ¶ln - FAST SERVER HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://futbol-x.xyz
-#EXTVLCOPT:http-origin=https://futbol-x.xyz
-https://sweden.futtv.nx.kg/frei/index.m3u8
+https://www.rtmpcdn.com/live/ed9539fc-6dee-47c5-96b7-0b9c13af75d1.m3u8
 
 #EXTINF:-1 tvg-id="1023" tvg-name="Bundesliga: HSV vs KÃ¶ln - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/35/image/dark" group-title="Football",Bundesliga: HSV vs KÃ¶ln - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.41/hls/HTTTDQQ.m3u8
+http://193.47.62.44/hls/JYYYAA.m3u8
 
 #EXTINF:-1 tvg-id="1024" tvg-name="Bundesliga: Bremen vs Augsburg - Sky Sport Bundesliga" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/35/image/dark" group-title="Football",Bundesliga: Bremen vs Augsburg - Sky Sport Bundesliga
 #KODIPROP:inputstream=inputstream.ffmpeg
@@ -927,7 +908,7 @@ https://sweden.futtv.nx.kg/stutt/index.m3u8
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.41/hls/HTTTDQQQ.m3u8
+http://193.47.62.44/hls/JYYYAAA.m3u8
 
 #EXTINF:-1 tvg-id="1025" tvg-name="Bundesliga: Stuttgart vs Dortmund - SPORT TV BR FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/35/image/dark" group-title="Football",Bundesliga: Stuttgart vs Dortmund - SPORT TV BR FHD
 #KODIPROP:inputstream=inputstream.adaptive
@@ -977,16 +958,23 @@ https://cdn7.zohanayaan.com:1686/hls/do11.m3u8?md5=91VPbay9Ye3Y6CvEMKOdXw&expire
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://tmaxapp.site/ligue6sc6/skybundesliga1.m3u8
 
-#EXTINF:-1 tvg-id="1026" tvg-name="Championship: Stoke vs Sheffield Utd - CBS NETWORK HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="Football",Championship: Stoke vs Sheffield Utd - CBS NETWORK HD
+#EXTINF:-1 tvg-id="1026" tvg-name="Championship: Stoke vs Sheffield Utd - SKY SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="Football",Championship: Stoke vs Sheffield Utd - SKY SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tmaxapp.site/8wirwjs76erftg/cbsnet.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8db522e4f896100fb58099-hd/chunks.m3u8?is_vip=false&token=1789903099-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-6e1cf04b061d13c4ab31c446a8936ed6
+
+#EXTINF:-1 tvg-id="1026" tvg-name="Championship: Stoke vs Sheffield Utd - GHD SPORTS SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="Football",Championship: Stoke vs Sheffield Utd - GHD SPORTS SD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://www.rtmpcdn.com/live/7437927c-18ba-4dea-a869-5edbf5310299.m3u8
 
 #EXTINF:-1 tvg-id="1026" tvg-name="Championship: Stoke vs Sheffield Utd - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="Football",Championship: Stoke vs Sheffield Utd - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.41/hls/ZOOOQQQQQ.m3u8
+http://193.47.62.41/hls/grrraaaaaqqqq.m3u8
 
 #EXTINF:-1 tvg-id="1029" tvg-name="Championship: Birmingham vs Middlesbrough - BeIN 2 SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="Football",Championship: Birmingham vs Middlesbrough - BeIN 2 SPORTS FHD
 #KODIPROP:inputstream=inputstream.adaptive
@@ -1035,4 +1023,10 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=https://gooz.aapmains.net
 https://chatgpt.hereisman.net/playlist/55636/load-playlist?&.m3u8
+
+#EXTINF:-1 tvg-id="1064" tvg-name="Liga F Moeve: FC Badalona vs R. Sociedad" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: FC Badalona vs R. Sociedad
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.44/hls/MMMM.m3u8
 
