@@ -2208,8 +2208,8 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/index.mpd?__h
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://onekey.virey40690.workers.dev/key/1335
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"st=1789833206~exp=1789836806~acl=/bpk-tv/National_Geographic_HD_BTS/WDVLive/*~hmac=e791275d31d01188b68a7492b5c0b938f314d777abbecfddaedd50d76029c2ee","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/National_Geographic_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1789833206~exp=1789836806~acl=/bpk-tv/National_Geographic_HD_BTS/WDVLive/*~hmac=e791275d31d01188b68a7492b5c0b938f314d777abbecfddaedd50d76029c2ee
+#EXTHTTP:{"cookie":"st=1789836799~exp=1789840399~acl=/bpk-tv/National_Geographic_HD_BTS/WDVLive/*~hmac=ab0dd23ac235fab0429b381607684616f12c64e7aec1a4cdfd379c108bfc23fe","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/National_Geographic_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1789836799~exp=1789840399~acl=/bpk-tv/National_Geographic_HD_BTS/WDVLive/*~hmac=ab0dd23ac235fab0429b381607684616f12c64e7aec1a4cdfd379c108bfc23fe
 
 #EXTINF:-1 tvg-id="1338" group-title="JIO ⭕|English" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/RT_TV.png",RT India
 #KODIPROP:inputstream.adaptive.license_type=clearkey
