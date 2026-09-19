@@ -9,7 +9,7 @@ https://dai-fancode.pages.dev/mumbai/4249276_english_hls_378ac145ab6124_1ta-di_h
 
 #===== Willow | Sportlink (1 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:10:32 AM 19-09-2026
+#LAST_UPDATE:12:02 PM 19-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:0
@@ -17,32 +17,18 @@ https://dai-fancode.pages.dev/mumbai/4249276_english_hls_378ac145ab6124_1ta-di_h
 
 #===== Prime Video | Sportlink (5 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:10:32 AM 19-09-2026
+#LAST_UPDATE:12:02 PM 19-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:6
+#LIVE_COUNT:4
 #UPCOMING_COUNT:0
-
-#EXTINF:-1 tvg-id="B0HJ5P8T7P" tvg-name="Fire vs. Valkyries @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.517bd362-9040-4fcb-95f4-118146aea006/1/BOXART-16X9/en-US/1920x1080._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMpng_.png" group-title="Prime Video | Sportlink",Fire vs. Valkyries
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=96b08d24b0fa4b65fee721844ee216e0:f22e996f6bd18b571e3f9d25167a0526
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/evewsh19eb/out/v1/5ff67c8e84a148ac8407bbf1269b2049/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0HFHJZTYX" tvg-name="Predator Pro Billiard Series: Vietnam @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.97c308f7-4df4-4358-b7b8-5f8edb70f55c/12/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Predator Pro Billiard Series: Vietnam
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=18ebe4e0e59f5ff07ed9879c4c0e0008:e172cb6887761bf883aa925e173e7b67
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd
-
-#EXTINF:-1 tvg-id="B0HJ9YCL2W" tvg-name="Bay of Plenty v Hawke's Bay @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.ca3f6377-0d3e-42e0-bdf8-d6a21d955464/1/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Bay of Plenty v Hawke's Bay
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=63a084a354d126bcd099c9eabf0cbb93:bd2b00bce574c33af46d0538937b3ac3
-https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/z1mmauev4g/out/v1/40b826b7f7d449559a5e4e3c2ac3fca2/cenc.mpd
+https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0HF49T24K" tvg-name="PPA Tour Arizona Open: Quarterfinals @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.77dbe9ca-c15b-462e-92af-c1b5a02b3d19/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",PPA Tour Arizona Open: Quarterfinals
 #KODIPROP:inputstream=inputstream.adaptive
@@ -51,42 +37,41 @@ https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/z1mmauev4
 #KODIPROP:inputstream.adaptive.license_key=2be100252a42be3a17d29c93e28eaacc:07c5e72df3602e9652dd06d839776e72
 https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/bg4402bdnz/out/v1/466e19ef15204befaa3ee4eda7d6cd24/cenc.mpd
 
-#===== AXS | Sportlink (7 channels) =====
+#EXTINF:-1 tvg-id="B0HJD5DRK4" tvg-name="U23 World Cup, Quarterfinals @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.6fda25d6-893b-414c-a005-3b6c78536b49/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",U23 World Cup, Quarterfinals
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/3e2jwzlivy/out/v1/8093f930120e4a9ca62422f5b18ded4f/cenc.mpd
+
+#EXTINF:-1 tvg-id="B0HJTRTYWZ" tvg-name="Orix Buffaloes vs. Hokkaido Nippon-Ham Fighters @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.15baabc5-131f-4954-8a4c-7193b1fad4be/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Orix Buffaloes vs. Hokkaido Nippon-Ham Fighters
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6670dbc6eb97a1c7fc6395d952fb00b7:72a3574c534811db5a4804695a184221
+https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/nl9acyq8n3/out/v1/5dc4b6dd4c094ccb8c3c92e03e87cda7/cenc.mpd
+
+#===== AXS | Sportlink (4 channels) =====
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
 #special thanks to: MR. Joy Chowdhury
-#last update time: 10:47:22 AM 19-09-2026
-
-#EXTINF:-1 tvg-name="FC Juarez vs Tigres UANL - Liga MX [Server 1] @virat10" tvg-id="63642" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/FC%20Juarez%20vs%20Tigres%20UANL.jpg" group-title="AXS | Sportlink", FC Juarez vs Tigres UANL - Liga MX [Server 1]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8db522fd629e492f4abb66-hd/chunks.m3u8?is_vip=false&token=1789879643-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0c5c2ede2c71a646d28a30d6a83d770e
-
-#EXTINF:-1 tvg-name="FC Juarez vs Tigres UANL - Liga MX [Server 2] @virat10" tvg-id="63642" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/FC%20Juarez%20vs%20Tigres%20UANL.jpg" group-title="AXS | Sportlink", FC Juarez vs Tigres UANL - Liga MX [Server 2]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8db522fd629e492f4abb66/chunks.m3u8?is_vip=false&token=1789879644-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d99843c69f47e6287ef90044f81e8a62
-
-#EXTINF:-1 tvg-name="CA La Paz vs Correcaminos Uat - Liga de Expansión MX @virat10" tvg-id="63643" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/CA%20La%20Paz%20vs%20Correcaminos%20Uat.jpg" group-title="AXS | Sportlink", CA La Paz vs Correcaminos Uat - Liga de Expansión MX
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8db522fd629e492f4abb67/chunks.m3u8?is_vip=false&token=1789879647-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-64ffe7cc00b4958b784cdcc0d6c9928e
-
-#EXTINF:-1 tvg-name="Monterrey W vs Necaxa W - Liga MX Femenil @virat10" tvg-id="63644" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Monterrey%20W%20vs%20Necaxa%20W.jpg" group-title="AXS | Sportlink", Monterrey W vs Necaxa W - Liga MX Femenil
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8db522fd629e492f4abb68/chunks.m3u8?is_vip=false&token=1789879648-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ac0aa59e52e4d7fcf31817fdc4817832
+#last update time: 12:02:29 PM 19-09-2026
 
 #EXTINF:-1 tvg-name="Wellington vs Northland - FPC @virat10" tvg-id="71751" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Wellington%20vs%20Northland.jpg" group-title="AXS | Sportlink", Wellington vs Northland - FPC
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/143070/720p/chunks.m3u8?is_vip=false&token=1789879650-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-507627e8434000d0bc1f11644b10e384
+https://livecdn-tc-iptv.rumsport10.live/live_abr/143070/720p/chunks.m3u8?is_vip=false&token=1789884150-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-232a1a0fc1d8f2c231e287d1c6bae1e6
 
 #EXTINF:-1 tvg-name="Waikato vs Manawatū - NPC @virat10" tvg-id="65117" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Waikato%20vs%20Manawat%C5%AB.jpg" group-title="AXS | Sportlink", Waikato vs Manawatū - NPC
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/143071/720p/chunks.m3u8?is_vip=false&token=1789879654-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1bee6518fa0b9384bfadda6a562dd77e
+https://livecdn-tc-iptv.rumsport10.live/live_abr/143072/720p/chunks.m3u8?is_vip=false&token=1789884154-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-316156cbeda8e669bc038ceb9fcd7bc3
+
+#EXTINF:-1 tvg-name="Oakleigh Cannons vs Avondale - Victoria NPL @virat10" tvg-id="67357" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Oakleigh%20Cannons%20vs%20Avondale.jpg" group-title="AXS | Sportlink", Oakleigh Cannons vs Avondale - Victoria NPL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6aa6f9ed8b0323bfec98f7cc/chunks.m3u8?is_vip=false&token=1789884155-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-4a6647111f30d3f45da27148880af792
 
 #===== Jio Hotstar | Sportlink (126 channels) =====
 #EXTINF:-1 tvg-name="Bigboss 24/7 live-HINDI @virat10" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/2305/1788708712305-h.jpg" group-title="Jio Hotstar | Sportlink", Bigboss 24/7 live-HINDI
