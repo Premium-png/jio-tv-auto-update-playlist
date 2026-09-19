@@ -2,7 +2,7 @@ name: Update JTV PLUS 3 Playlist
 
 on:
   schedule:
-    - cron: '0 */1 * * *'
+    - cron: '*/30 * * * *'
   workflow_dispatch:
   push:
     branches:
@@ -54,18 +54,16 @@ jobs:
 
       - name: Commit and Push Changes
         run: |
-          git add jtvplus3.m3u
-          
+          git add jtv2.json jtvplus3.m3u
+
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
-          
+
           git commit -m "Auto-update playlist ($(date -u '+%Y-%m-%d %H:%M UTC'))"
-          
-          # Fetch latest changes again and rebase
+
           git fetch origin main
           git rebase origin/main
-          
-          # Push the changes
+
           git push origin main
