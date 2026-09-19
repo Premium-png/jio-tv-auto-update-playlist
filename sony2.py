@@ -8,13 +8,10 @@ CHANNELS_URL = "https://sportlink-jtv.pages.dev/Sony.json"
 COOKIES_URL  = "https://allinonereborn2.online/jstrweb2/cookies.json"
 OUTPUT_FILE  = "sony.json"
 
-# Only keep channels whose name matches this pattern (case-insensitive)
-NAME_FILTER = re.compile(r"star\s*sports", re.IGNORECASE)
-
 IST = timezone(timedelta(hours=5, minutes=30))
 
 
-# ---------- your helper functions ----------
+# ---------- helper functions ----------
 def format_expiry(exp_ts: str) -> str:
     """Convert a unix timestamp string to 'D/M/YYYY H:MM:SS AM/PM IST'."""
     try:
@@ -57,14 +54,11 @@ failed_map = {
     for item in cookie_data.get("failed_results", [])
 }
 
-# ---------- build combined output (Star Sports only) ----------
+# ---------- build combined output (all channels) ----------
 combined = []
 
 for ch in channels:
     name = ch.get("name", "")
-    if not NAME_FILTER.search(name):
-        continue  # skip non–Star Sports channels
-
     cid = str(ch["id"])
     final_url = failed_map.get(cid)
     if not final_url:
@@ -91,4 +85,4 @@ for ch in channels:
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
     json.dump(combined, f, indent=2, ensure_ascii=False)
 
-print(f"✅ Star Sports JSON written to {OUTPUT_FILE} ({len(combined)} channels)")
+print(f"✅ JSON written to {OUTPUT_FILE} ({len(combined)} channels)")
