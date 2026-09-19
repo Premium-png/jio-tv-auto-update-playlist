@@ -1,9 +1,9 @@
-name: Update Sony json
+name: Update Sony update json
 
 on:
   schedule:
     - cron: '*/30 * * * *'
-  workflow_dispatch:            # Allows manual triggering
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -23,32 +23,53 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "sportlive18"
+          git config --global user.email "271363488+sportlive18@users.noreply.github.com"
+
+      - name: Fetch and Reset to Remote
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests pytz
-          # Or if you have requirements.txt:
-          # pip install -r requirements.txt
 
       - name: Run sony2.py
         run: python sony2.py
 
+      - name: Debug Output File
+        run: |
+          echo "Checking for output file..."
+          ls -la sony.json || echo "sony.json is missing!"
+
       - name: Commit and Push Changes
         run: |
-          git config --global user.name "sportlive18"
-          git config --global user.email "271363488+sportlive18@users.noreply.github.com"
+          git add -f sony.json
 
-          git add sony.json
-          git commit -m "Auto-update playlists: $(date -u)" || echo "No changes to commit"
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Auto-update sony.json ($(date -u '+%Y-%m-%d %H:%M UTC'))"
 
           for i in 1 2 3 4 5; do
-            git pull --rebase origin main && git push origin main && break
+            git fetch origin main
+            git rebase origin/main
+            git push origin main && break
             echo "Push failed, retrying ($i)..."
             sleep $((RANDOM % 10 + 1))
           done
