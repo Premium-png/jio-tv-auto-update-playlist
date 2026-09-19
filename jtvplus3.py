@@ -1,349 +1,423 @@
 import os
-import sys
+import re
 import json
 import base64
+import time
+import sys
 import requests
-from typing import Any, Dict, Optional, Tuple
-from datetime import datetime
-from urllib.parse import urlparse, urlunparse
+from typing import Dict, Any, Tuple
+from datetime import datetime, timedelta
+from urllib.parse import urlparse, urlunparse, parse_qs, urlencode
 
-CHANNELS_URL = "https://sportlink-jtv.pages.dev/jio.json"
+CHANNELS_URL = "https://sportlink10-ajp.pages.dev/jtv.json"
 COOKIE_URL = "https://allinonereborn2.online/jstrweb2/cookies.json"
 SPORTS_COOKIE_URL = "https://allinonereborn2.online/jtv-fetch/jstarcookie/cookie.json"
 
-UPLOAD_TO_GITHUB = True
-USER_AGENT = "Virat Kohli 🐐"
+M3U_FILE = "jtvplus3.m3u"
+JSON_FILE = "jtv2.json"
 
-TIMEOUT = 30
-GITHUB_FILE_PATH = "jtvplus3.m3u"
-
-# ---------------------------------------------------------------------------
-# HTTP session (with retries + timeouts)
-# ---------------------------------------------------------------------------
-_session = requests.Session()
-_session.headers.update({"Cache-Control": "no-cache", "Pragma": "no-cache"})
-
-try:
-    from requests.adapters import HTTPAdapter
-    from urllib3.util.retry import Retry
-
-    _retry = Retry(
-        total=3,
-        backoff_factor=0.5,
-        status_forcelist=(429, 500, 502, 503, 504),
-        allowed_methods=frozenset(["GET", "PUT"]),
-    )
-    _adapter = HTTPAdapter(max_retries=_retry)
-    _session.mount("https://", _adapter)
-    _session.mount("http://", _adapter)
-except Exception:  # pragma: no cover - urllib3 always ships with requests
-    pass
+USER_AGENT = "Sayan10"
+MAX_RETRIES = 4
+RETRY_DELAY = 5
 
 
-# ---------------------------------------------------------------------------
-# Helpers
-# ---------------------------------------------------------------------------
-def to_base64(text: str) -> str:
-    return base64.b64encode(text.encode("utf-8")).decode("ascii")
-
-
+# ---------------- RETRY FETCHER ----------------
 def get_json(url: str) -> Any:
-    sep = "&" if "?" in url else "?"
-    fresh_url = f"{url}{sep}t={int(datetime.now().timestamp() * 1000)}"
-    resp = _session.get(fresh_url, timeout=TIMEOUT)
-    resp.raise_for_status()
-    return resp.json()
+    last_error = None
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            fresh_url = f"{url}{'&' if '?' in url else '?'}t={int(time.time() * 1000)}"
+            resp = requests.get(
+                fresh_url,
+                headers={"Cache-Control": "no-cache", "Pragma": "no-cache", "User-Agent": "Mozilla/5.0"},
+                timeout=20,
+            )
+            resp.raise_for_status()
+            data = resp.json()
+            if data is None or data == [] or data == {}:
+                raise Exception("Empty response")
+            print(f"[OK] Fetched {url} (attempt {attempt})")
+            return data
+        except Exception as e:
+            last_error = e
+            print(f"[WARN] Attempt {attempt}/{MAX_RETRIES} failed for {url}: {e}", file=sys.stderr)
+            if attempt < MAX_RETRIES:
+                time.sleep(RETRY_DELAY * attempt)
+
+    raise Exception(f"Failed to fetch {url} after {MAX_RETRIES} attempts: {last_error}")
 
 
-def split_url_query(url: str) -> Tuple[str, Optional[str]]:
-    """Return (base_url, query_string). query_string is None if absent."""
-    parsed = urlparse(url)
-    base = urlunparse((parsed.scheme, parsed.netloc, parsed.path, parsed.params, "", ""))
-    return base, (parsed.query or None)
-
-
-def _clean_cookie(cookie: str) -> str:
-    """Strip leading '?'/'&' so we never build URLs like '...?&cookie=...'."""
-    cookie = (cookie or "").strip()
-    while cookie.startswith(("?", "&")):
-        cookie = cookie[1:]
-    return cookie
-
-
-def _extract_cookie(data: Any) -> str:
-    """Cookies endpoint can return a string, a dict, or a list of dicts."""
-    if isinstance(data, str):
-        return _clean_cookie(data)
-
-    if isinstance(data, dict):
-        for key in ("cookie", "cookies", "value"):
-            value = data.get(key)
-            if isinstance(value, str) and value.strip():
-                return _clean_cookie(value)
+# ---------------- NORMAL COOKIE ----------------
+def get_normal_cookie() -> str:
+    try:
+        data = get_json(COOKIE_URL)
+    except Exception as e:
+        print(f"[WARN] Cookie fetch failed: {e}")
         return ""
 
+    if isinstance(data, str):
+        return data
     if isinstance(data, list):
         for item in data:
-            if isinstance(item, dict):
-                value = item.get("cookie")
-                if isinstance(value, str) and value.strip():
-                    return _clean_cookie(value)
-            elif isinstance(item, str) and item.strip():
-                return _clean_cookie(item)
-
+            if isinstance(item, dict) and item.get("cookie"):
+                return item["cookie"]
+        return ""
+    if isinstance(data, dict):
+        return data.get("cookie") or ""
     return ""
 
 
-def _as_channel_list(data: Any) -> list:
-    """The channels endpoint may return a bare list or a wrapped object."""
-    if isinstance(data, list):
-        return data
-    if isinstance(data, dict):
-        for key in ("channels", "data", "items", "results"):
-            value = data.get(key)
-            if isinstance(value, list):
-                return value
-    return []
+# ---------------- COOKIE EXTRACTION ----------------
+def _extract_cookie_from_url(url: str) -> Tuple[str, str]:
+    """
+    Extract embedded token/cookie params from a JioTV URL.
+
+    JioTV sports URLs embed the Akamai token as a query param:
+        https://.../WDVLive/index.mpd?__hdnea__=st=...~exp=...~hmac=...
+
+    This token must be sent as an HTTP cookie header, NOT left in the URL
+    query string, because many DASH/M3U players ignore query-string tokens.
+
+    Also handles generic params: __cookie__, cookie, cookies.
+
+    Returns (clean_url, cookie_string) where cookie_string includes the
+    param name, e.g. "__hdnea__=st=...". If no cookie param exists,
+    returns (url, "") with the URL untouched.
+    """
+    if not url:
+        return url, ""
+
+    parsed = urlparse(url)
+    if not parsed.query:
+        return url, ""
+
+    params = parse_qs(parsed.query, keep_blank_values=True)
+    cookie_val = ""
+
+    # Priority: __hdnea__ (Akamai) first, then generic cookie params
+    for key in ("__hdnea__", "__cookie__", "cookie", "cookies"):
+        if key in params:
+            raw = params.pop(key)[0]
+            cookie_val = f"{key}={raw}"
+            break
+
+    if not cookie_val:
+        return url, ""
+
+    new_query = urlencode(params, doseq=True)
+    clean_url = urlunparse((
+        parsed.scheme, parsed.netloc, parsed.path,
+        parsed.params, new_query, parsed.fragment,
+    ))
+    return clean_url, cookie_val
 
 
-# ---------------------------------------------------------------------------
-# Data sources
-# ---------------------------------------------------------------------------
-def get_normal_cookie() -> str:
+# ---------------- COOKIE EXPIRY ----------------
+def get_cookie_expiry(cookie: str) -> str:
+    """
+    Parse `exp=<unix_ts>` from an __hdnea__ cookie and return it as
+    a human-readable IST string, e.g. "20/9/2026 12:45:42 AM IST".
+    Returns "" if no exp is present.
+    """
+    if not cookie:
+        return ""
+    m = re.search(r"exp=(\d+)", cookie)
+    if not m:
+        return ""
     try:
-        return _extract_cookie(get_json(COOKIE_URL))
-    except Exception as exc:
-        print(f"⚠️  Could not load normal cookie: {exc}")
+        exp = int(m.group(1))
+        # UTC -> IST (UTC+05:30)
+        dt = datetime.utcfromtimestamp(exp) + timedelta(hours=5, minutes=30)
+        hour12 = dt.hour % 12 or 12
+        ampm = "AM" if dt.hour < 12 else "PM"
+        return (
+            f"{dt.day}/{dt.month}/{dt.year} "
+            f"{hour12}:{dt.minute:02d}:{dt.second:02d} {ampm} IST"
+        )
+    except Exception:
         return ""
 
 
+# ---------------- SPORTS DATA ----------------
 def get_sports_data() -> Dict[str, Any]:
+    """
+    Returns:
+        {
+            "sportsIds": {channel_id, ...},
+            "sportsCookies": {
+                channel_id: {"url": clean_url, "cookie": cookie_string}
+            }
+        }
+    """
+    empty = {"sportsIds": set(), "sportsCookies": {}}
+
     try:
         data = get_json(SPORTS_COOKIE_URL)
-    except Exception as exc:
-        print(f"⚠️  Could not load sports cookies: {exc}")
-        return {"sportsIds": set(), "sportsCookies": {}}
+    except Exception as e:
+        print(f"[WARN] Sports fetch failed: {e}")
+        return empty
 
-    if isinstance(data, list):
-        results = data
-    elif isinstance(data, dict):
-        results = list(data.get("successful_results") or []) + list(data.get("failed_results") or [])
-    else:
-        results = []
-
-    sports_cookies: Dict[str, str] = {}
+    sports_cookies: Dict[str, Dict[str, str]] = {}
+    results = (data.get("successful_results") or []) + (data.get("failed_results") or [])
 
     for item in results:
         if not isinstance(item, dict):
             continue
-
         channel_id = item.get("channel_id")
-        if channel_id in (None, ""):
+        if not channel_id:
             continue
-
-        error_details = item.get("error_details")
-        if not isinstance(error_details, dict):
-            error_details = {}
-
-        final_url = item.get("final_url") or error_details.get("final_url", "")
+        final_url = (
+            item.get("final_url")
+            or (item.get("error_details") or {}).get("final_url")
+            or ""
+        )
         if not final_url:
             continue
 
-        sports_cookies[str(channel_id)] = str(final_url).replace("/output/", "/WDVLive/")
+        final_url = re.sub(r"/output/", "/WDVLive/", final_url, count=1, flags=re.I)
+        clean_url, embedded_cookie = _extract_cookie_from_url(final_url)
 
-    return {"sportsIds": set(sports_cookies), "sportsCookies": sports_cookies}
+        sports_cookies[str(channel_id)] = {
+            "url": clean_url,
+            "cookie": embedded_cookie,
+        }
+
+    print(f"[INFO] Sports URLs loaded: {len(sports_cookies)}")
+    return {"sportsIds": set(sports_cookies.keys()), "sportsCookies": sports_cookies}
 
 
-# ---------------------------------------------------------------------------
-# Playlist generation
-# ---------------------------------------------------------------------------
-def create_channel_entry(
-    channel: Dict[str, Any],
-    normal_cookie: str = "",
-    sports_cookies: Optional[Dict[str, str]] = None,
-) -> str:
-    if not isinstance(channel, dict):
-        return ""
+# ---------------- HELPERS ----------------
+def extract_keys(channel):
+    key_id = channel.get("keyId") or ""
+    key = channel.get("key") or ""
+    if not key_id and isinstance(channel.get("clearkey"), dict) and channel.get("clearkey"):
+        try:
+            key_id, key = next(iter(channel["clearkey"].items()))
+        except StopIteration:
+            pass
+    return key_id, key
 
-    sports_cookies = sports_cookies or {}
 
-    name = channel.get("name", "") or ""
-    logo = channel.get("logo", "") or ""
-    group = channel.get("group") or channel.get("category") or "Other"
-    url = channel.get("url", "") or ""
-    channel_id = str(channel.get("id", "") or "")
+def _clean_base_url(raw_url: str) -> str:
+    """Strip the query string from a base channel URL."""
+    parsed = urlparse(raw_url)
+    return urlunparse((parsed.scheme, parsed.netloc, parsed.path, parsed.params, "", ""))
 
-    if not url:
-        return ""
 
-    lines = [
+def resolve_channel(channel, normal_cookie, sports_cookies):
+    """
+    Single source of truth for URL + cookie resolution.
+
+    Returns (final_url, cookie_value, is_sports).
+
+    - Sports channel -> clean sports URL + extracted __hdnea__/cookie
+    - Normal channel -> __hdnea__ extracted from URL if present,
+                        else base URL + normal cookie
+    """
+    channel_id = str(channel.get("id") or "")
+
+    if channel_id in sports_cookies:
+        entry = sports_cookies[channel_id]
+        if isinstance(entry, str):
+            url, cookie = _extract_cookie_from_url(entry)
+            return url, cookie, True
+        return entry.get("url", ""), entry.get("cookie", ""), True
+
+    # Normal channel: extract __hdnea__ if the URL carries one
+    raw_url = channel.get("url") or ""
+    clean_url, embedded_cookie = _extract_cookie_from_url(raw_url)
+    if embedded_cookie:
+        return clean_url, embedded_cookie, False
+    return _clean_base_url(raw_url), normal_cookie, False
+
+
+# ---------------- M3U ENTRY ----------------
+def create_channel_entry(channel, normal_cookie="", sports_cookies=None):
+    if sports_cookies is None:
+        sports_cookies = {}
+
+    channel_id = str(channel.get("id") or "")
+    name       = channel.get("name") or ""
+    logo       = channel.get("logo") or ""
+    group      = channel.get("group") or channel.get("category") or "Other"
+    raw_url    = channel.get("url") or ""
+
+    key_id, key = extract_keys(channel)
+
+    final_url, cookie_to_use, _is_sports = resolve_channel(
+        channel, normal_cookie, sports_cookies
+    )
+
+    lines = []
+
+    # EXTINF
+    lines.append(
         f'#EXTINF:-1 tvg-id="{channel_id}" tvg-name="{name}" '
         f'tvg-logo="{logo}" group-title="{group}",{name}'
-    ]
+    )
 
-    # ---- DASH / MPD handling -------------------------------------------
-    is_mpd = channel.get("type") == "dash" or ".mpd" in url.lower()
+    # DASH / MPD
+    is_mpd = (
+        channel.get("type") == "dash"
+        or bool(re.search(r"\.mpd(?:\?|$)", final_url, re.I))
+        or bool(re.search(r"\.mpd(?:\?|$)", raw_url, re.I))
+    )
 
     if is_mpd:
         lines.append("#KODIPROP:inputstream=inputstream.adaptive")
         lines.append("#KODIPROP:inputstream.adaptive.manifest_type=mpd")
-
-        license_key = None
-
-        if channel.get("keyId") and channel.get("key"):
-            license_key = f"{channel['keyId']}:{channel['key']}"
-        else:
-            clearkey = channel.get("clearkey")
-            if isinstance(clearkey, dict) and clearkey:
-                key_id, key = next(iter(clearkey.items()))
-                license_key = f"{key_id}:{key}"
-            elif channel.get("license_url"):
-                license_key = channel["license_url"]
-
-        if license_key:
+        if key_id and key:
             lines.append("#KODIPROP:inputstream.adaptive.license_type=clearkey")
-            lines.append(f"#KODIPROP:inputstream.adaptive.license_key={license_key}")
+            lines.append(f"#KODIPROP:inputstream.adaptive.license_key={key_id}:{key}")
+        elif channel.get("license_url"):
+            lines.append("#KODIPROP:inputstream.adaptive.license_type=clearkey")
+            lines.append(f'#KODIPROP:inputstream.adaptive.license_key={channel["license_url"]}')
 
-    # ---- Build the final URL -------------------------------------------
-    sports_url = sports_cookies.get(channel_id)
-
-    if sports_url:
-        final_url_with_query = sports_url
-    elif normal_cookie:
-        sep = "&" if "?" in url else "?"
-        final_url_with_query = f"{url}{sep}{normal_cookie}"
-    else:
-        final_url_with_query = url
-
-    base_url, cookie_query = split_url_query(final_url_with_query)
-
-    # Cookie moves into the #EXTHTTP header, so the stream URL stays clean.
-    if cookie_query:
-        lines.append("#EXTHTTP:" + json.dumps({"cookie": cookie_query}))
+    # Cookie — same treatment for sports AND normal channels
+    if cookie_to_use:
+        cookie_json = json.dumps({"cookie": cookie_to_use})
+        lines.append(f"#EXTHTTP:{cookie_json}")
 
     lines.append(f"#EXTVLCOPT:http-user-agent={USER_AGENT}")
-    lines.append(base_url)
+    lines.append(final_url)
 
     return "\n".join(lines)
 
 
-def generate_m3u() -> str:
-    channels = _as_channel_list(get_json(CHANNELS_URL))
-    normal_cookie = get_normal_cookie()
-    sports_data = get_sports_data()
+# ---------------- JSON ENTRY ----------------
+def build_channel_object(channel, normal_cookie="", sports_cookies=None):
+    if sports_cookies is None:
+        sports_cookies = {}
 
-    print(f"Channels loaded: {len(channels)}")
-    print(f"Sports-specific URLs loaded: {len(sports_data['sportsIds'])}")
+    key_id, key = extract_keys(channel)
 
-    entries = []
-    for ch in channels:
-        entry = create_channel_entry(ch, normal_cookie, sports_data["sportsCookies"])
-        if entry:
-            entries.append(entry)
+    final_url, cookie_to_use, _is_sports = resolve_channel(
+        channel, normal_cookie, sports_cookies
+    )
 
-    print(f"Channels generated: {len(entries)}")
-    return "#EXTM3U\n\n" + "\n\n".join(entries) + "\n"
+    return {
+        "id":             str(channel.get("id") or ""),
+        "name":           channel.get("name") or "",
+        "stream_url":     final_url,
+        "cookie":         cookie_to_use,
+        "cookie_expires": get_cookie_expiry(cookie_to_use),
+        "key_id":         key_id,
+        "key":            key,
+        "logo":           channel.get("logo") or "",
+    }
 
 
-# ---------------------------------------------------------------------------
-# GitHub upload
-# ---------------------------------------------------------------------------
-def upload_to_github(content: str) -> bool:
-    if not UPLOAD_TO_GITHUB:
-        print("⚠️  Upload disabled by UPLOAD_TO_GITHUB flag. Skipping.")
-        return False
+# ---------------- VALIDATE ----------------
+def validate(channels, m3u_entries, json_entries):
+    errors = []
+    if not channels:
+        errors.append("Channels list is empty")
+    if not m3u_entries:
+        errors.append("M3U output is empty")
+    if not json_entries:
+        errors.append("JSON output is empty")
+    if len(m3u_entries) != len(json_entries):
+        errors.append(f"Count mismatch: {len(m3u_entries)} M3U vs {len(json_entries)} JSON")
+    if len(m3u_entries) < len(channels) * 0.8:
+        errors.append(f"Too many channels dropped: expected ~{len(channels)}, got {len(m3u_entries)}")
 
-    repo_owner = os.environ.get("GITHUB_OWNER")
-    repo_name = os.environ.get("GITHUB_REPO")
-    token = os.environ.get("GITHUB_TOKEN")
+    if errors:
+        for e in errors:
+            print(f"[ERROR] {e}", file=sys.stderr)
+        sys.exit(1)
+
+    print(f"[OK] Validation passed: {len(m3u_entries)} channels")
+
+
+# ---------------- GITHUB UPLOAD ----------------
+def to_base64(text: str) -> str:
+    return base64.b64encode(text.encode("utf-8")).decode("ascii")
+
+
+def upload_to_github(filename: str, content: str):
+    repo_owner = os.environ.get("GITHUB_OWNER") or os.environ.get("GITHUB_REPOSITORY", "").split("/")[0]
+    repo_name  = os.environ.get("GITHUB_REPO")  or os.environ.get("GITHUB_REPOSITORY", "").split("/")[-1]
+    token      = os.environ.get("GITHUB_TOKEN")
 
     if not all([repo_owner, repo_name, token]):
-        print("⚠️  GitHub credentials missing. Skipping upload.")
-        return False
+        print(f"[WARN] GitHub credentials missing — skipping upload for {filename}")
+        return
 
-    api_url = (
-        f"https://api.github.com/repos/{repo_owner}/{repo_name}"
-        f"/contents/{GITHUB_FILE_PATH}"
-    )
+    api_url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/contents/{filename}"
     headers = {
         "Authorization": f"Bearer {token}",
         "User-Agent": "Python-Script",
         "Accept": "application/vnd.github.v3+json",
     }
 
-    # Fetch existing file (to get its sha / compare content)
+    existing = requests.get(api_url, headers=headers)
     sha = None
-    existing_content = ""
-    try:
-        existing_resp = _session.get(api_url, headers=headers, timeout=TIMEOUT)
-    except Exception as exc:
-        print(f"❌ GitHub lookup failed: {exc}")
-        return False
-
-    if existing_resp.status_code == 200:
-        existing_json = existing_resp.json()
-        sha = existing_json.get("sha")
-        if existing_json.get("content"):
-            try:
-                existing_content = base64.b64decode(existing_json["content"]).decode("utf-8")
-            except Exception:
-                existing_content = ""
-    elif existing_resp.status_code not in (404,):
-        print(f"❌ GitHub lookup failed: {existing_resp.status_code} - {existing_resp.text}")
-        return False
-
-    def normalize(s: str) -> str:
-        return s.strip().replace("\r", "")
-
-    if sha and normalize(existing_content) == normalize(content):
-        print("No changes detected. Skipping commit.")
-        return True
+    if existing.status_code == 200:
+        sha = existing.json().get("sha")
+        existing_content = base64.b64decode(existing.json().get("content", "")).decode("utf-8")
+        if existing_content.strip().replace("\r", "") == content.strip().replace("\r", ""):
+            print(f"[INFO] No changes in {filename} — skipping commit")
+            return
 
     payload = {
-        "message": f"Auto update playlist {datetime.now().isoformat(timespec='seconds')}",
+        "message": f"Auto-update {filename}: {datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')}",
         "content": to_base64(content),
     }
-    # Only send "sha" when updating an existing file — GitHub rejects a null sha.
     if sha:
         payload["sha"] = sha
 
-    try:
-        put_resp = _session.put(api_url, headers=headers, json=payload, timeout=TIMEOUT)
-    except Exception as exc:
-        print(f"❌ GitHub upload failed: {exc}")
-        return False
-
-    if not put_resp.ok:
-        print(f"❌ GitHub upload failed: {put_resp.status_code} - {put_resp.text}")
-        return False
-
-    print(f"✅ GitHub upload successful ({put_resp.status_code})")
-    return True
+    resp = requests.put(api_url, headers=headers, json=payload)
+    if resp.ok:
+        print(f"[OK] Uploaded {filename} to GitHub ({resp.status_code})")
+    else:
+        print(f"[ERROR] GitHub upload failed for {filename}: {resp.status_code} — {resp.text}", file=sys.stderr)
 
 
-# ---------------------------------------------------------------------------
-# Main
-# ---------------------------------------------------------------------------
-def main(output_file: str = GITHUB_FILE_PATH) -> bool:
-    try:
-        m3u = generate_m3u()
+# ---------------- MAIN ----------------
+def main():
+    print(f"[START] {datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')}")
 
-        out_dir = os.path.dirname(os.path.abspath(output_file))
-        if out_dir:
-            os.makedirs(out_dir, exist_ok=True)
+    channels = get_json(CHANNELS_URL)
+    if isinstance(channels, dict):
+        channels = channels.get("channels") or channels.get("data") or []
+    print(f"[INFO] Channels loaded: {len(channels)}")
 
-        with open(output_file, "w", encoding="utf-8", newline="\n") as f:
-            f.write(m3u)
-        print(f"📁 Playlist saved locally as '{output_file}'")
+    normal_cookie = get_normal_cookie()
+    print(f"[INFO] Cookie: {'found' if normal_cookie else 'not found'}")
 
-        upload_to_github(m3u)
+    sports_data = get_sports_data()
 
-        print("✅ Playlist updated successfully")
-        return True
-    except Exception as exc:
-        print(f"❌ Error: {exc}")
-        return False
+    m3u_entries  = []
+    json_entries = []
+
+    for ch in channels:
+        try:
+            m3u_entries.append(create_channel_entry(ch, normal_cookie, sports_data["sportsCookies"]))
+            json_entries.append(build_channel_object(ch, normal_cookie, sports_data["sportsCookies"]))
+        except Exception as e:
+            print(f"[WARN] Skipped channel '{ch.get('name', '?')}': {e}", file=sys.stderr)
+
+    validate(channels, m3u_entries, json_entries)
+
+    timestamp   = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+    m3u_content = f'#EXTM3U x-tvg-url="" updated="{timestamp}"\n\n' + "\n\n".join(m3u_entries)
+    json_content = json.dumps(json_entries, indent=2, ensure_ascii=False)
+
+    # Save locally
+    with open(M3U_FILE, "w", encoding="utf-8") as f:
+        f.write(m3u_content)
+    print(f"[INFO] M3U saved → {M3U_FILE}")
+
+    with open(JSON_FILE, "w", encoding="utf-8") as f:
+        f.write(json_content)
+    print(f"[INFO] JSON saved → {JSON_FILE}")
+
+    # Optional GitHub API upload
+    upload_to_github(M3U_FILE, m3u_content)
+    upload_to_github(JSON_FILE, json_content)
+
+    print("[DONE] All outputs written successfully.")
 
 
 if __name__ == "__main__":
-    sys.exit(0 if main() else 1)
+    main()
