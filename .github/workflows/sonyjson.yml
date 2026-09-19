@@ -1,4 +1,4 @@
-name: Update Sony update json 
+name: Update Sony json
 
 on:
   schedule:
@@ -8,7 +8,6 @@ on:
     branches:
       - main
     paths:
-      - 'star5.py'
       - 'sony2.py'
 
 concurrency:
@@ -37,9 +36,6 @@ jobs:
           # Or if you have requirements.txt:
           # pip install -r requirements.txt
 
-      - name: Run star5.py
-        run: python star5.py
-
       - name: Run sony2.py
         run: python sony2.py
 
@@ -48,7 +44,7 @@ jobs:
           git config --global user.name "sportlive18"
           git config --global user.email "271363488+sportlive18@users.noreply.github.com"
 
-          git add star.json sony.json
+          git add sony.json
           git commit -m "Auto-update playlists: $(date -u)" || echo "No changes to commit"
 
           for i in 1 2 3 4 5; do
