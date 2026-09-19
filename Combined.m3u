@@ -1,11 +1,14 @@
 #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
-#===== Fancode | Sportlink (2 channels) =====
+#===== Fancode | Sportlink (3 channels) =====
 # Written and Directed by ✨ D O C T O R - S T R A N G E ✨
 # Join us on Telegram: https://t.me/jitendraunatti_github
-#DATE:- Saturday, 19 September 2026 at 9:35:20 am
+#DATE:- Saturday, 19 September 2026 at 12:00:20 pm
 
 #EXTINF:-1 tvg-id="4249276" tvg-name="Queensland Vs Victoria @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249276_53072_QUN_VCT_FC-Web.jpg" tvg-language="English" group-title="Fancode | Sportlink",ENG | Queensland Vs Victoria
 https://dai-fancode.pages.dev/mumbai/4249276_english_hls_378ac145ab6124_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
+
+#EXTINF:-1 tvg-id="139970" tvg-name="Day 2 @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Moto-GP-Austria_Web.jpg" tvg-language="English" group-title="Fancode | Sportlink",ENG | Day 2
+https://dai-fancode.pages.dev/mumbai/139970_english_hls_f5b9397be494139_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
 #===== Willow | Sportlink (1 channels) =====
 #PLAYLIST:Willow Cricket Event Info
@@ -15,20 +18,20 @@ https://dai-fancode.pages.dev/mumbai/4249276_english_hls_378ac145ab6124_1ta-di_h
 #LIVE_COUNT:0
 #UPCOMING_COUNT:5
 
-#===== Prime Video | Sportlink (5 channels) =====
+#===== Prime Video | Sportlink (6 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:12:02 PM 19-09-2026
+#LAST_UPDATE:12:32 PM 19-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:4
-#UPCOMING_COUNT:0
+#UPCOMING_COUNT:1
 
 #EXTINF:-1 tvg-id="B0HFHJZTYX" tvg-name="Predator Pro Billiard Series: Vietnam @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.97c308f7-4df4-4358-b7b8-5f8edb70f55c/12/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Predator Pro Billiard Series: Vietnam
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=18ebe4e0e59f5ff07ed9879c4c0e0008:e172cb6887761bf883aa925e173e7b67
-https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0HF49T24K" tvg-name="PPA Tour Arizona Open: Quarterfinals @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.77dbe9ca-c15b-462e-92af-c1b5a02b3d19/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",PPA Tour Arizona Open: Quarterfinals
 #KODIPROP:inputstream=inputstream.adaptive
@@ -37,41 +40,48 @@ https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa
 #KODIPROP:inputstream.adaptive.license_key=2be100252a42be3a17d29c93e28eaacc:07c5e72df3602e9652dd06d839776e72
 https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/bg4402bdnz/out/v1/466e19ef15204befaa3ee4eda7d6cd24/cenc.mpd
 
-#EXTINF:-1 tvg-id="B0HJD5DRK4" tvg-name="U23 World Cup, Quarterfinals @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.6fda25d6-893b-414c-a005-3b6c78536b49/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",U23 World Cup, Quarterfinals
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b
-https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/3e2jwzlivy/out/v1/8093f930120e4a9ca62422f5b18ded4f/cenc.mpd
-
 #EXTINF:-1 tvg-id="B0HJTRTYWZ" tvg-name="Orix Buffaloes vs. Hokkaido Nippon-Ham Fighters @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.15baabc5-131f-4954-8a4c-7193b1fad4be/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Orix Buffaloes vs. Hokkaido Nippon-Ham Fighters
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6670dbc6eb97a1c7fc6395d952fb00b7:72a3574c534811db5a4804695a184221
-https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/nl9acyq8n3/out/v1/5dc4b6dd4c094ccb8c3c92e03e87cda7/cenc.mpd
+https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/nl9acyq8n3/out/v1/5dc4b6dd4c094ccb8c3c92e03e87cda7/cenc.mpd
+
+#EXTINF:-1 tvg-id="B0HJD5DRK4" tvg-name="U23 World Cup, Quarterfinals @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.6fda25d6-893b-414c-a005-3b6c78536b49/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",U23 World Cup, Quarterfinals
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b
+https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/3e2jwzlivy/out/v1/8093f930120e4a9ca62422f5b18ded4f/cenc.mpd
+
+#EXTINF:-1 tvg-id="B0HG3LBN7C" tvg-name="Qatar Airways Grand Prix of Austria, Qualifying @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.57a4635b-55eb-472f-ad7c-b70527aab0d8/4/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Qatar Airways Grand Prix of Austria, Qualifying
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e03f302ec4dabcccca82cc9f76731ec9:53ea1027d2bf2893a552cf15bc0366de
+https://ABDBVRVAAAAAAAAMBPY7SB3G3MUT2.ta.emt-cf.live.pv-cdn.net/$T$2D3RhEOhAQWhBFgkYzQ1OWU1YmItZDgxMS00NGM2LTgwYzQtNTNkZDc3NTIwODk5WJSnAWpwcmltZXZpZGVvBBpqwfL1Bhpqrix1A2pjbG91ZGZyb250Angpc3NpZDoyNWI1YWU2YS02MWJkLTQ0NjQtYWMyNS1hZDBkMmExYjAzZGEZATihBaECeDMva3B0cW54djF1bi9vdXQvdjEvMzBmM2FkOWJhMmMzNDA3MzllYTI5NDNmMjlkNDRiMzIZATyBYlVTWCAn24iMhydKMYwkvBJ8iTkIGEEAP5hR8N4HvYkJzmUExQ/PDX/709b3c4313a9405ab5e8634864c7cc3b/v1/dash/590183725645/imdb_amagi_amzn1_dv_live_csid_5357cf2a-51c8-4fa5-b996-cd307e0b7edc_us-west-2_pdx_dash_h264/startover/clients/dash/manipulated-manifest-pdx-prod/enc/kptqnxv1un/out/v1/30f3ad9ba2c340739ea2943f29d44b32/7949aca0-b31e-4615-bce1-70e6b02e7eec-cenc.mpd?aws.sessionId=df5b8cf6-c98f-4190-8da2-918b5912f028
 
 #===== AXS | Sportlink (4 channels) =====
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
 #special thanks to: MR. Joy Chowdhury
-#last update time: 12:02:29 PM 19-09-2026
-
-#EXTINF:-1 tvg-name="Wellington vs Northland - FPC @virat10" tvg-id="71751" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Wellington%20vs%20Northland.jpg" group-title="AXS | Sportlink", Wellington vs Northland - FPC
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/143070/720p/chunks.m3u8?is_vip=false&token=1789884150-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-232a1a0fc1d8f2c231e287d1c6bae1e6
+#last update time: 12:32:27 PM 19-09-2026
 
 #EXTINF:-1 tvg-name="Waikato vs Manawatū - NPC @virat10" tvg-id="65117" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Waikato%20vs%20Manawat%C5%AB.jpg" group-title="AXS | Sportlink", Waikato vs Manawatū - NPC
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/143072/720p/chunks.m3u8?is_vip=false&token=1789884154-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-316156cbeda8e669bc038ceb9fcd7bc3
+https://livecdn-tc-iptv.rumsport10.live/live_abr/143072/720p/chunks.m3u8?is_vip=false&token=1789885950-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-743cff00288751b876ff16d3a13c9e69
 
 #EXTINF:-1 tvg-name="Oakleigh Cannons vs Avondale - Victoria NPL @virat10" tvg-id="67357" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Oakleigh%20Cannons%20vs%20Avondale.jpg" group-title="AXS | Sportlink", Oakleigh Cannons vs Avondale - Victoria NPL
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6aa6f9ed8b0323bfec98f7cc/chunks.m3u8?is_vip=false&token=1789884155-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-4a6647111f30d3f45da27148880af792
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6aa6f9ed8b0323bfec98f7cc/chunks.m3u8?is_vip=false&token=1789885952-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-9c821c65f7d654479fd93c124a12bfd0
+
+#EXTINF:-1 tvg-name="Wellington vs Northland - NPC @virat10" tvg-id="65118" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Wellington%20vs%20Northland.jpg" group-title="AXS | Sportlink", Wellington vs Northland - NPC
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/143070/720p/chunks.m3u8?is_vip=false&token=1789885958-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d73959b8544367a0854f14e10863a347
 
 #===== Jio Hotstar | Sportlink (126 channels) =====
 #EXTINF:-1 tvg-name="Bigboss 24/7 live-HINDI @virat10" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/2305/1788708712305-h.jpg" group-title="Jio Hotstar | Sportlink", Bigboss 24/7 live-HINDI
