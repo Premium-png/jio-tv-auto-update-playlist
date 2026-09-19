@@ -4,7 +4,7 @@ import requests
 from datetime import datetime, timezone, timedelta
 
 # ---------- configuration ----------
-CHANNELS_URL = "https://sportlink18.pages.dev/jtvp.json"
+CHANNELS_URL = "https://sportlink-jtv.pages.dev/jtvp.json"
 COOKIES_URL  = "https://allinonereborn2.online/jtv-fetch/jstarcookie/cookie.json"
 OUTPUT_FILE  = "Star.m3u"
 
