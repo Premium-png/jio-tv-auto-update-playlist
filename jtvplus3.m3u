@@ -86,7 +86,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/CNTelugu_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=a23b609b33e254a48e4fc6fa7af0fd8d:4064c52328bfe9e6008776b48a431e4b
-#EXTHTTP:{"cookie": "__hdnea__=st=1789795004~exp=1789798604~acl=/bpk-tv/ZeeTVHD_BTS/WDVLive/*~hmac=52752a00fff205f6c4ac4c0f7e070199e9075d7277199a8ac7109e7147d768d9"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1789798694~exp=1789802294~acl=/bpk-tv/ZeeTVHD_BTS/WDVLive/*~hmac=b50cc145f3e93f92b70421829747877fccef7650864c11d2fc2a733c0e5a3f4f"}
 #EXTVLCOPT:http-user-agent=Virat Kohli 🐐
 https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeTVHD_BTS/WDVLive/index.mpd
 
@@ -519,7 +519,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/ZeeYuva_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8ab0674eba3f5adf96a9b65a6e82d208:476f813d8651987fc1b4074693676fd8
-#EXTHTTP:{"cookie": "__hdnea__=st=1789795622~exp=1789799222~acl=/bpk-tv/ZeeAnmolCinema_BTS/WDVLive/*~hmac=724f52c9b1fecc25922c55cd4c27570ee9c3388e04847ccceedb6e069f35060b"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1789799292~exp=1789802892~acl=/bpk-tv/ZeeAnmolCinema_BTS/WDVLive/*~hmac=38c4c9c54b2a5813a34e7287a74e0c309062f9d15dc8740ce01b12652c3432f6"}
 #EXTVLCOPT:http-user-agent=Virat Kohli 🐐
 https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeAnmolCinema_BTS/WDVLive/index.mpd
 
@@ -4826,7 +4826,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/DD_Gyandarshan_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=45fc661aa1af51c98950c43329391d18:c2677c874886e78d24b3fb656c5734e0
-#EXTHTTP:{"cookie": "__hdnea__=st=1789795327~exp=1789798927~acl=/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/*~hmac=679b5dd0e084108bb3d906b32e7645a77b821220f9bfe4d34e859760fc5155cd"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1789798995~exp=1789802595~acl=/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/*~hmac=576898ae23f8125c3bcf5f0a52e4023a48af177b467f3a822704d887924ec872"}
 #EXTVLCOPT:http-user-agent=Virat Kohli 🐐
 https://jiotvpllive.cdn.jio.com/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/index.mpd
 
