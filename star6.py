@@ -11,7 +11,7 @@ from datetime import datetime, timezone, timedelta
 from urllib.parse import urlparse, parse_qs, unquote
 
 M3U_URL  = "https://premiumplugx.top/jiostb/mjelo.php?view=raw"
-JSON_URL = "https://sportlink18.pages.dev/Star.json"
+JSON_URL = "https://sportlink-jtv.pages.dev//Star.json"
 OUT_FILE = "star2.json"
 
 IST = timezone(timedelta(hours=5, minutes=30))
