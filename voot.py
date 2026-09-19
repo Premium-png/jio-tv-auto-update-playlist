@@ -59,7 +59,7 @@ def generate_m3u(data, cookie, output_file):
 
 def main():
     m3u_url = 'https://premiumplugx.com/htt/hot.php?playlist=1'
-    json_url = 'https://sportlink18.pages.dev/jhs.json'
+    json_url = 'https://sportlink-jtv.pages.dev//jhs.json'
     output = 'digital.m3u'
 
     try:
