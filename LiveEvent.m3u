@@ -1,6 +1,6 @@
 #EXTM3U
 #PLAYLIST:Live Events
-#LAST_UPDATE:12:57 AM 09-20-2026
+#LAST_UPDATE:04:47 AM 09-20-2026
 #Created by - Sayan 10
 #EXTINF:-1 tvg-id="11" tvg-name="T20 International: JPN vs IND - Willow Cricbuzz - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="Cricket",T20 International: JPN vs IND - Willow Cricbuzz - AQ
 #KODIPROP:inputstream=inputstream.adaptive
@@ -642,8 +642,8 @@ https://seriealeague.akamaized.net/hls/live/2107107/A1@257-tapmad/master.m3u8
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=3b8b2e5fc6b2ff6a1becfaa770e0807f:0f7f907364870c16af43744cb481f6a3
-https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/bfndy3gddh/out/v1/67564cfec34b448bb3f24c8bf11e03f1/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=41af1e2d71a5921c8c32ea209f3e1846:5d8a2cf9110731f4f0bf40833f0c98cc
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/1ti5wh1erw/out/v1/0a22d40d486f4a62a36a4865e1544c31/cenc.mpd
 
 #EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women: BAN-W vs IND-W - SonyLiv HIN - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women: BAN-W vs IND-W - SonyLiv HIN - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
@@ -651,7 +651,7 @@ https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/bfnd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
 #EXTVLCOPT:http-referrer=https://www.sonyliv.com/
 #EXTVLCOPT:http-origin=https://www.sonyliv.com
-https://sonymtmnew-akamaized.pages.dev/hls/live/2094590/cricodi1109/HIN/master.m3u8
+https://sonymtmnew-akamaized.pages.dev/hls/live/2105080/cricodi2009/HIN/master.m3u8
 
 #EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women: BAN-W vs IND-W - SonyLiv ENG - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women: BAN-W vs IND-W - SonyLiv ENG - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
@@ -659,7 +659,7 @@ https://sonymtmnew-akamaized.pages.dev/hls/live/2094590/cricodi1109/HIN/master.m
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
 #EXTVLCOPT:http-referrer=https://www.sonyliv.com/
 #EXTVLCOPT:http-origin=https://www.sonyliv.com
-https://sonymtmnew-akamaized.pages.dev/hls/live/2105079/cricodi1109/ENG/master.m3u8
+https://sonymtmnew-akamaized.pages.dev/hls/live/2037143/cricodi2009/ENG/master.m3u8
 
 #EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women: BAN-W vs IND-W - SonyLiv TAM - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women: BAN-W vs IND-W - SonyLiv TAM - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
@@ -667,7 +667,7 @@ https://sonymtmnew-akamaized.pages.dev/hls/live/2105079/cricodi1109/ENG/master.m
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
 #EXTVLCOPT:http-referrer=https://www.sonyliv.com/
 #EXTVLCOPT:http-origin=https://www.sonyliv.com
-https://sonymtmnew-akamaized.pages.dev/hls/live/2037143/cricodi1109/TAM/master.m3u8
+https://sonymtmnew-akamaized.pages.dev/hls/live/2105079/cricodi2009/TAM/master.m3u8
 
 #EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women: BAN-W vs IND-W - SonyLiv TEL - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women: BAN-W vs IND-W - SonyLiv TEL - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
@@ -675,7 +675,7 @@ https://sonymtmnew-akamaized.pages.dev/hls/live/2037143/cricodi1109/TAM/master.m
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
 #EXTVLCOPT:http-referrer=https://www.sonyliv.com/
 #EXTVLCOPT:http-origin=https://www.sonyliv.com
-https://sonymtmnew-akamaized.pages.dev/hls/live/2043696/cricodi1109/TEL/master.m3u8
+https://sonymtmnew-akamaized.pages.dev/hls/live/2043696/cricodi2009/TEL/master.m3u8
 
 #EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women: BAN-W vs IND-W - SonyLiv KAN - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women: BAN-W vs IND-W - SonyLiv KAN - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
@@ -1141,7 +1141,7 @@ http://193.47.62.44/hls/DTTT.m3u8
 #EXTVLCOPT:http-origin=https://streame.center
 https://edgestream2.pro/hls/dza5z8f69.m3u8
 
-#EXTINF:-1 tvg-id="826" tvg-name="Ligue 1: Angers vs Troyes - Ligue+ Live HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="Football",Ligue 1: Angers vs Troyes - Ligue+ Live HD
+#EXTINF:-1 tvg-id="826" tvg-name="Ligue 1: Auxerre vs Brest - Ligue+ Live HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="Football",Ligue 1: Auxerre vs Brest - Ligue+ Live HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
@@ -1149,7 +1149,7 @@ https://edgestream2.pro/hls/dza5z8f69.m3u8
 #EXTVLCOPT:http-origin=https://streame.center
 https://edgestream2.pro/hls/hflfkrtib42.m3u8
 
-#EXTINF:-1 tvg-id="826" tvg-name="Ligue 1: Angers vs Troyes - Ligue+ Live SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="Football",Ligue 1: Angers vs Troyes - Ligue+ Live SD
+#EXTINF:-1 tvg-id="826" tvg-name="Ligue 1: Auxerre vs Brest - Ligue+ Live SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="Football",Ligue 1: Auxerre vs Brest - Ligue+ Live SD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
@@ -1157,14 +1157,14 @@ https://edgestream2.pro/hls/hflfkrtib42.m3u8
 #EXTVLCOPT:http-origin=https://ondemand.st/embed/?id=ligue1/2026-09-19/ang-try
 https://messi.damitv.st/live-hls/channel/ligue1/2026-09-19/ang-try/playlist.m3u8?tk=r9-xH4Ys2mZ451hiS9T8OQ&e=1789885810
 
-#EXTINF:-1 tvg-id="826" tvg-name="Ligue 1: Angers vs Troyes - Ligue+ Live LQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="Football",Ligue 1: Angers vs Troyes - Ligue+ Live LQ
+#EXTINF:-1 tvg-id="826" tvg-name="Ligue 1: Auxerre vs Brest - Ligue+ Live LQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="Football",Ligue 1: Auxerre vs Brest - Ligue+ Live LQ
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
 https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8db522fd629e492f4abcab-hd/chunks.m3u8?is_vip=false&token=1789929160-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-6522af2b844d4bb560be082cd9443917
 
-#EXTINF:-1 tvg-id="826" tvg-name="Ligue 1: Angers vs Troyes - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="Football",Ligue 1: Angers vs Troyes - GHD SPORTS HD
+#EXTINF:-1 tvg-id="826" tvg-name="Ligue 1: Auxerre vs Brest - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="Football",Ligue 1: Auxerre vs Brest - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
@@ -1551,12 +1551,6 @@ https://messi.damitv.st/live-hls/channel/ligue1/2026-09-19/tou-hac/playlist.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.50/hls/AAA444.m3u8
-
-#EXTINF:-1 tvg-id="1065" tvg-name="Liga F Moeve: AtlÃ©tico de Madrid vs LogroÃ±o" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: AtlÃ©tico de Madrid vs LogroÃ±o
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.50/hls/RFRFRFQ.m3u8
 
 #EXTINF:-1 tvg-id="1067" tvg-name="Liga F Moeve: Real Madrid vs Valencia - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1127/image/dark" group-title="Football",Liga F Moeve: Real Madrid vs Valencia - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
