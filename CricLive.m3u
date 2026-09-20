@@ -2,6 +2,16 @@
 #"name": "Live Sports Events"
 #"owner": "Md Sohanur Rahman Hady"
 #"telegram": "https://t.me/livesportsplay"
-#"last updated": "2026-09-20 11:00:33 AM (BD Time)"
-# Total Active Links: 0
+#"last updated": "2026-09-20 04:00:39 PM (BD Time)"
+# Total Active Links: 2
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Zimbabwe%20vs%20Australia.png" group-title="Australia tour of Zimbabwe 2026", Zimbabwe vs Australia - CricGo 2
+#EXTVLCOPT:http-referrer=https://playerr03.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://mz01.playerr03.com:7060/hls/cricgo2.m3u8?md5=02UnyC3eIrWpveeO_eSEfQ&expires=1789903234&ch=cricgo2&s=ecd336b01617b4a35de54d04bfa710eb
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Zimbabwe%20vs%20Australia.png" group-title="Australia tour of Zimbabwe 2026", Zimbabwe vs Australia - Fox Cricket
+#EXTVLCOPT:http-referrer=https://playerr03.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://mz01.playerr03.com:7060/hls/cf0sp1.m3u8?md5=MUztVv7L17BBXAxOcT2QYw&expires=1789903238&ch=cf0sp1&s=89e78ab45bcbbf6b4b61b47471c002e1
 
