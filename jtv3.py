@@ -13,7 +13,7 @@ ORIGIN = "https://www.jiotv.com/"
 FALLBACK_USER_AGENT = "Sayan10"
 
 INPUT_URL = "https://raw.githubusercontent.com/sixpg/zeyo-test/refs/heads/main/jtv.m3u"
-OUTPUT_FILE = "jtv.m3u"
+OUTPUT_FILE = "jtv3.m3u"
 
 
 def fetch(url: str) -> str:
@@ -44,10 +44,10 @@ def parse_m3u(content: str) -> List[dict]:
             continue
 
         if line.startswith("#EXTINF:"):
-            tvg_id     = re.search(r'tvg-id="([^"]*)"', line)
-            tvg_name   = re.search(r'tvg-name="([^"]*)"', line)
-            tvg_logo   = re.search(r'tvg-logo="([^"]*)"', line)
-            group      = re.search(r'group-title="([^"]*)"', line)
+            tvg_id   = re.search(r'tvg-id="([^"]*)"', line)
+            tvg_name = re.search(r'tvg-name="([^"]*)"', line)
+            tvg_logo = re.search(r'tvg-logo="([^"]*)"', line)
+            group    = re.search(r'group-title="([^"]*)"', line)
 
             name_parts = line.split(",")
             name = name_parts[-1].strip() if len(name_parts) > 1 else "Unknown"
