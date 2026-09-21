@@ -1598,8 +1598,8 @@ https://onekey.virey40690.workers.dev/mpd/143
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://onekey.virey40690.workers.dev/key/146
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"st=1790019787~exp=1790023387~acl=/bpk-tv/History_HD_BTS/WDVLive/*~hmac=97a985589d8e78f40ba9cc984042acf39613e71cfa9c5c11eb3a0ec4afe2f253","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/History_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1790019787~exp=1790023387~acl=/bpk-tv/History_HD_BTS/WDVLive/*~hmac=97a985589d8e78f40ba9cc984042acf39613e71cfa9c5c11eb3a0ec4afe2f253
+#EXTHTTP:{"cookie":"st=1790023389~exp=1790026989~acl=/bpk-tv/History_HD_BTS/WDVLive/*~hmac=06d50cfd66b34e0ed1254646d41f2aa4a43f8a9e2aa4cbcd8cf9da9ef59ba1bf","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/History_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1790023389~exp=1790026989~acl=/bpk-tv/History_HD_BTS/WDVLive/*~hmac=06d50cfd66b34e0ed1254646d41f2aa4a43f8a9e2aa4cbcd8cf9da9ef59ba1bf
 
 #EXTINF:-1 tvg-id="151" group-title="JIO ⭕|English" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Movies_Now_HD.png",Movies Now HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1612,8 +1612,8 @@ https://onekey.virey40690.workers.dev/mpd/151
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://onekey.virey40690.workers.dev/key/164
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"st=1790019790~exp=1790023390~acl=/bpk-tv/Travel_XP_HD_BTS/WDVLive/*~hmac=bd4f438cda8036df51de92e6d103c9be2c433e82020f7799409f8084d748b444","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Travel_XP_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1790019790~exp=1790023390~acl=/bpk-tv/Travel_XP_HD_BTS/WDVLive/*~hmac=bd4f438cda8036df51de92e6d103c9be2c433e82020f7799409f8084d748b444
+#EXTHTTP:{"cookie":"st=1790023391~exp=1790026991~acl=/bpk-tv/Travel_XP_HD_BTS/WDVLive/*~hmac=a296cf7a974edbbfe5ac8d0b8cab3c81a651fd513a3f5ef2a42ccc0ade7d6f0f","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Travel_XP_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1790023391~exp=1790026991~acl=/bpk-tv/Travel_XP_HD_BTS/WDVLive/*~hmac=a296cf7a974edbbfe5ac8d0b8cab3c81a651fd513a3f5ef2a42ccc0ade7d6f0f
 
 #EXTINF:-1 tvg-id="193" group-title="JIO ⭕|English" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/CNN.png",CNN
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -4160,8 +4160,8 @@ https://onekey.virey40690.workers.dev/mpd/561
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://onekey.virey40690.workers.dev/key/562
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"st=1790019495~exp=1790023095~acl=/bpk-tv/Travel_XP_BTS/WDVLive/*~hmac=7e7a8b5daf2e517d51198c733f3ebb33a43c016178fed44b006f5f3170dd369b","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Travel_XP_BTS/WDVLive/index.mpd?__hdnea__=st=1790019495~exp=1790023095~acl=/bpk-tv/Travel_XP_BTS/WDVLive/*~hmac=7e7a8b5daf2e517d51198c733f3ebb33a43c016178fed44b006f5f3170dd369b
+#EXTHTTP:{"cookie":"st=1790023091~exp=1790026691~acl=/bpk-tv/Travel_XP_BTS/WDVLive/*~hmac=afd2059f5614517077685206d12a6794b716eca7eb6fea755e13fd701c1d7f8a","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Travel_XP_BTS/WDVLive/index.mpd?__hdnea__=st=1790023091~exp=1790026691~acl=/bpk-tv/Travel_XP_BTS/WDVLive/*~hmac=afd2059f5614517077685206d12a6794b716eca7eb6fea755e13fd701c1d7f8a
 
 #EXTINF:-1 tvg-id="571" group-title="JIO ⭕|Lifestyle" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/TLCHindi.png",TLC Hindi
 #KODIPROP:inputstream.adaptive.license_type=clearkey
