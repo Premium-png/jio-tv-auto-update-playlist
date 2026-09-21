@@ -2,257 +2,183 @@
 
 import re
 import json
+import sys
 import requests
-import urllib.parse
+from typing import Dict, List
+from urllib.parse import unquote
 
-# --- JioTV defaults (used when the source M3U doesn't provide them) ---
-DEFAULT_USER_AGENT = "Virat🐐"
-DEFAULT_REFERER = "https://www.jiotv.com/"
-DEFAULT_ORIGIN = "https://www.jiotv.com/"
+# --- JioTV defaults ---
+REFERER = "https://www.jiotv.com/"
+ORIGIN = "https://www.jiotv.com/"
+FALLBACK_USER_AGENT = "Sayan10"
+
+INPUT_URL = "https://raw.githubusercontent.com/sixpg/zeyo-test/refs/heads/main/jtv.m3u"
+OUTPUT_FILE = "jtvplus6.m3u"
 
 
-def parse_m3u(m3u_content):
-    """Parse M3U content and extract channels."""
-    lines = m3u_content.split('\n')
-    channels = []
-    current = {}
+def fetch(url: str) -> str:
+    r = requests.get(url, timeout=30)
+    r.raise_for_status()
+    return r.text
 
-    for raw_line in lines:
-        line = raw_line.strip()
+
+def parse_kv_pairs(s: str) -> Dict[str, str]:
+    """Parse 'A=1&B=2&C=3' into {'A': '1', 'B': '2', 'C': '3'} (values are URL-decoded)."""
+    out: Dict[str, str] = {}
+    for pair in s.split("&"):
+        if "=" not in pair:
+            continue
+        k, v = pair.split("=", 1)
+        out[k.strip()] = unquote(v.strip())
+    return out
+
+
+def parse_m3u(content: str) -> List[dict]:
+    """Parse an M3U where the stream line is: URL|Header=value&Header=value"""
+    channels: List[dict] = []
+    current: dict = {}
+
+    for raw in content.splitlines():
+        line = raw.strip()
         if not line:
             continue
 
-        if line.startswith('#EXTINF:'):
-            tvg_id = re.search(r'tvg-id="([^"]*)"', line)
-            tvg_name = re.search(r'tvg-name="([^"]*)"', line)
-            tvg_logo = re.search(r'tvg-logo="([^"]*)"', line)
-            group_title = re.search(r'group-title="([^"]*)"', line)
+        if line.startswith("#EXTINF:"):
+            tvg_id     = re.search(r'tvg-id="([^"]*)"', line)
+            tvg_name   = re.search(r'tvg-name="([^"]*)"', line)
+            tvg_logo   = re.search(r'tvg-logo="([^"]*)"', line)
+            group      = re.search(r'group-title="([^"]*)"', line)
 
-            name_parts = line.split(',')
-            channel_name = name_parts[-1].strip() if len(name_parts) > 1 else "Unknown"
+            name_parts = line.split(",")
+            name = name_parts[-1].strip() if len(name_parts) > 1 else "Unknown"
 
             current = {
-                'id': tvg_id.group(1) if tvg_id else '',
-                'name': tvg_name.group(1) if tvg_name else channel_name,
-                'logo': tvg_logo.group(1) if tvg_logo else '',
-                'group': group_title.group(1) if group_title else 'Unknown',
-                'url': None,
-                'license_key': None,
-                'user_agent': None,      # <-- no default here; set later
-                'referrer': None,
-                'origin': None,
-                'cookie': None,
-                'headers': {},
+                "id":    tvg_id.group(1)   if tvg_id   else "",
+                "name":  tvg_name.group(1) if tvg_name else name,
+                "logo":  tvg_logo.group(1) if tvg_logo else "",
+                "group": group.group(1)    if group    else "Other",
+                "license_type": None,
+                "license_key":  None,
+                "url": None,
+                "headers": {},
             }
             continue
 
         if not current:
             continue
 
-        if line.startswith('#KODIPROP:inputstream.adaptive.license_key='):
-            license_key = line.split('=', 1)[1].strip()
-            if ':' in license_key:
-                current['license_key'] = license_key
+        if line.startswith("#KODIPROP:inputstream.adaptive.license_type="):
+            current["license_type"] = line.split("=", 1)[1].strip()
 
-        elif line.startswith('#KODIPROP:inputstream.adaptive.stream_headers='):
-            raw = line.split('=', 1)[1].strip()
-            try:
-                for pair in raw.split('&'):
-                    if '=' not in pair:
-                        continue
-                    k, v = pair.split('=', 1)
-                    k_dec = urllib.parse.unquote(k)
-                    v_dec = urllib.parse.unquote(v)
-                    current['headers'][k_dec] = v_dec
-                    lk = k_dec.lower()
-                    if lk == 'cookie':
-                        current['cookie'] = v_dec
-                    elif lk == 'referer':
-                        current['referrer'] = v_dec
-                    elif lk == 'origin':
-                        current['origin'] = v_dec
-                    elif lk == 'user-agent':
-                        current['user_agent'] = v_dec
-            except Exception:
-                pass
+        elif line.startswith("#KODIPROP:inputstream.adaptive.license_key="):
+            current["license_key"] = line.split("=", 1)[1].strip()
 
-        elif line.startswith('#EXTVLCOPT:http-user-agent='):
-            current['user_agent'] = line.split('=', 1)[1].strip()
+        elif not line.startswith("#"):
+            url = line
+            headers: Dict[str, str] = {}
 
-        elif line.startswith('#EXTVLCOPT:http-referrer='):
-            current['referrer'] = line.split('=', 1)[1].strip()
+            if "|" in line:
+                url, header_blob = line.split("|", 1)
+                headers = parse_kv_pairs(header_blob)
 
-        elif line.startswith('#EXTVLCOPT:http-cookie='):
-            current['cookie'] = line.split('=', 1)[1].strip()
-
-        elif line.startswith('#EXTHTTP:'):
-            payload = line[len('#EXTHTTP:'):].strip()
-            try:
-                hdrs = json.loads(payload)
-                if isinstance(hdrs, dict):
-                    for k, v in hdrs.items():
-                        if v is None:
-                            continue
-                        current['headers'][k] = str(v)
-                        lk = k.lower()
-                        if lk == 'cookie':
-                            current['cookie'] = str(v)
-                        elif lk == 'referer':
-                            current['referrer'] = str(v)
-                        elif lk == 'origin':
-                            current['origin'] = str(v)
-                        elif lk == 'user-agent':
-                            current['user_agent'] = str(v)
-            except (json.JSONDecodeError, ValueError):
-                pass
-
-        elif not line.startswith('#'):
-            current['url'] = line
-            if current['url']:
-                channels.append(current.copy())
+            current["url"] = url.strip()
+            current["headers"] = headers
+            channels.append(current.copy())
             current = {}
 
     return channels
 
 
-def _build_headers_dict(channel):
-    """Combine parsed values with JioTV defaults."""
-    headers = {}
+def build_entry(ch: dict) -> str:
+    headers = dict(ch.get("headers") or {})
 
-    # Start from parsed headers (if any)
-    for k, v in (channel.get('headers') or {}).items():
-        headers[k] = v
+    user_agent = headers.pop("User-Agent", None) or headers.pop("User-agent", None) or FALLBACK_USER_AGENT
+    cookie = headers.pop("Cookie", None) or headers.pop("cookie", None) or ""
 
-    # User-Agent: prefer parsed, else default
-    ua = channel.get('user_agent') or DEFAULT_USER_AGENT
-    headers['User-Agent'] = ua
-    channel['user_agent'] = ua  # persist for EXTVLCOPT line
-
-    # Referer: prefer parsed, else default
-    referer = channel.get('referrer') or DEFAULT_REFERER
-    headers['Referer'] = referer
-    channel['referrer'] = referer
-
-    # Origin: prefer parsed, else default
-    origin = channel.get('origin') or DEFAULT_ORIGIN
-    headers['Origin'] = origin
-    channel['origin'] = origin
-
-    # Cookie: only if we have one
-    if channel.get('cookie'):
-        headers['Cookie'] = channel['cookie']
-
-    return headers
-
-
-def convert_channel(channel):
-    """Convert a single channel to the target (Kodi-friendly) format."""
     lines = []
 
     lines.append(
-        f'#EXTINF:-1 tvg-id="{channel["id"]}" tvg-name="{channel["name"]}" '
-        f'tvg-logo="{channel["logo"]}" group-title="{channel["group"]}",{channel["name"]}'
+        f'#EXTINF:-1 tvg-id="{ch["id"]}" tvg-name="{ch["name"]}" '
+        f'tvg-logo="{ch["logo"]}" group-title="{ch["group"]}",{ch["name"]}'
     )
 
-    lines.append('#KODIPROP:inputstream=inputstream.adaptive')
-    lines.append('#KODIPROP:inputstream.adaptive.manifest_type=mpd')
+    lines.append("#KODIPROP:inputstream=inputstream.adaptive")
+    lines.append("#KODIPROP:inputstream.adaptive.manifest_type=mpd")
 
-    if channel.get('license_key'):
-        lines.append('#KODIPROP:inputstream.adaptive.license_type=clearkey')
+    if ch.get("license_key"):
         lines.append(
-            f'#KODIPROP:inputstream.adaptive.license_key={channel["license_key"]}'
+            f'#KODIPROP:inputstream.adaptive.license_type='
+            f'{ch.get("license_type") or "clearkey"}'
         )
+        lines.append(f'#KODIPROP:inputstream.adaptive.license_key={ch["license_key"]}')
 
-    headers = _build_headers_dict(channel)
+    full_headers = {
+        "User-Agent": user_agent,
+        "Referer": REFERER,
+        "Origin": ORIGIN,
+    }
+    if cookie:
+        full_headers["Cookie"] = cookie
 
-    # stream_headers (URL-encoded) — ExoPlayer / Kodi / TiviMate / OTT Nav
-    if headers:
-        sh = '&'.join(
-            f"{urllib.parse.quote(str(k), safe='')}={urllib.parse.quote(str(v), safe='')}"
-            for k, v in headers.items()
-        )
-        lines.append(f'#KODIPROP:inputstream.adaptive.stream_headers={sh}')
+    stream_headers = "&".join(f"{k}={v}" for k, v in full_headers.items())
+    lines.append(f"#KODIPROP:inputstream.adaptive.stream_headers={stream_headers}")
 
-    # VLC options
-    lines.append(f'#EXTVLCOPT:http-user-agent={channel["user_agent"]}')
-    lines.append(f'#EXTVLCOPT:http-referrer={channel["referrer"]}')
-    if channel.get('cookie'):
-        lines.append(f'#EXTVLCOPT:http-cookie={channel["cookie"]}')
+    lines.append(f"#EXTVLCOPT:http-user-agent={user_agent}")
+    lines.append(f"#EXTVLCOPT:http-referrer={REFERER}")
+    if cookie:
+        lines.append(f"#EXTVLCOPT:http-cookie={cookie}")
 
-    # EXTHTTP JSON
-    lines.append(f'#EXTHTTP:{json.dumps(headers, ensure_ascii=False)}')
+    lines.append(f'#EXTHTTP:{json.dumps(full_headers, ensure_ascii=False)}')
 
-    # Clean URL
-    url = channel.get('url') or ''
-    if '|' in url:
-        url = url.split('|', 1)[0]
+    lines.append(ch["url"])
 
-    if '?' in url:
-        base_url, params = url.split('?', 1)
-        keep = [
-            p for p in params.split('&')
-            if not p.startswith(('User-Agent=', 'Cookie=', 'Referer=', 'Origin='))
-        ]
-        url = f"{base_url}?{'&'.join(keep)}" if keep else base_url
-
-    lines.append(url)
-    return '\n'.join(lines) + '\n\n'
+    return "\n".join(lines)
 
 
-def generate_converted_m3u():
-    m3u_url = "https://raw.githubusercontent.com/sixpg/zeyo-test/refs/heads/main/jtv.m3u"
-
+def main():
     print("=" * 60)
-    print("M3U to Kodi Format Converter")
+    print("JioTV M3U Converter (pipe-suffix headers → full Kodi format)")
     print("=" * 60)
 
     try:
-        print(f"\n[*] Downloading M3U: {m3u_url}")
-        response = requests.get(m3u_url, timeout=30)
-        response.raise_for_status()
-        m3u_content = response.text
-        print(f"[+] Downloaded {len(m3u_content)} bytes")
+        print(f"\n[*] Downloading: {INPUT_URL}")
+        content = fetch(INPUT_URL)
+        print(f"[+] Downloaded {len(content)} bytes")
 
         print("\n[*] Parsing M3U...")
-        channels = parse_m3u(m3u_content)
-        print(f"[+] Found {len(channels)} channels")
+        channels = parse_m3u(content)
+        print(f"[+] Parsed {len(channels)} channels")
 
         if channels:
-            print("\n[*] Sample channel:")
             s = channels[0]
-            print(f"  ID:         {s['id']}")
-            print(f"  Name:       {s['name']}")
-            print(f"  License:    {s.get('license_key', 'None')}")
-            print(f"  User-Agent: {s.get('user_agent') or '(will use default)'}")
-            print(f"  Referrer:   {s.get('referrer') or '(will use default)'}")
-            print(f"  Cookie:     {(s.get('cookie') or 'None')[:60]}...")
+            print("\n[*] Sample parsed channel:")
+            print(f"  ID:      {s['id']}")
+            print(f"  Name:    {s['name']}")
+            print(f"  URL:     {s['url']}")
+            print(f"  Headers: {s['headers']}")
 
-        print("\n[*] Converting channels...")
-        output_file = "jtvplus6.m3u"
+        print("\n[*] Converting...")
+        entries = []
+        for ch in channels:
+            try:
+                entries.append(build_entry(ch))
+            except Exception as e:
+                print(f"  [-] Skipped {ch.get('name', '?')}: {e}", file=sys.stderr)
 
-        with open(output_file, "w", encoding="utf-8") as f:
-            f.write('#EXTM3U\n\n')
-            converted = 0
-            skipped = 0
-            for ch in channels:
-                try:
-                    f.write(convert_channel(ch))
-                    converted += 1
-                except Exception as e:
-                    skipped += 1
-                    print(f"  [-] Error converting {ch.get('name', 'Unknown')}: {e}")
+        out = "#EXTM3U\n\n" + "\n\n".join(entries)
 
-        print(f"\n[+] Successfully converted {converted} channels")
-        if skipped:
-            print(f"[!] Skipped {skipped} channels")
-        print(f"[+] Output saved to: {output_file}")
+        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+            f.write(out)
+
+        print(f"\n[+] Wrote {len(entries)} channels → {OUTPUT_FILE}")
         print("=" * 60)
 
     except Exception as e:
         print(f"\n[-] Error: {e}")
         import traceback
         traceback.print_exc()
+        sys.exit(1)
 
 
 if __name__ == "__main__":
-    generate_converted_m3u()
+    main()
