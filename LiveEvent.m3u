@@ -1,6 +1,6 @@
 #EXTM3U
 #PLAYLIST:Live Events
-#LAST_UPDATE:12:06 AM 09-21-2026
+#LAST_UPDATE:04:51 AM 09-21-2026
 #Created by - Sayan 10
 #EXTINF:-1 tvg-id="11" tvg-name="T20 International: JPN vs IND - Willow Cricbuzz - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="Cricket",T20 International: JPN vs IND - Willow Cricbuzz - AQ
 #KODIPROP:inputstream=inputstream.adaptive
@@ -127,6 +127,14 @@ https://ubuntu.fromthyheart.site/dailymotion/live/playlist/5.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.44/hls/DQQQAQQ.m3u8
+
+#EXTINF:-1 tvg-id="735" tvg-name="BrasileirÃ£o SÃ©rie B: CriciÃºma vs OperÃ¡rio-PR - Premier Sports BR" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/390/image/dark" group-title="Football",BrasileirÃ£o SÃ©rie B: CriciÃºma vs OperÃ¡rio-PR - Premier Sports BR
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9dc40460c93087aea84d6315f08ecb64:f69c8d4624fddff4ca89bd0b31bdc4a7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd
 
 #EXTINF:-1 tvg-id="739" tvg-name="Premier League: Bournemouth vs Liverpool - FUBO SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/17/image/dark" group-title="Football",Premier League: Bournemouth vs Liverpool - FUBO SPORTS FHD
 #KODIPROP:inputstream=inputstream.adaptive
@@ -1177,4 +1185,16 @@ http://193.47.62.59/hls/DLLLQ.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
 #EXTVLCOPT:http-origin=https://amazon.com
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
+
+#EXTINF:-1 tvg-id="1064" tvg-name="Liga Profesional de FÃºtbol: Aldosivi vs AtlÃ©tico TucumÃ¡n" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/155/image/dark" group-title="Football",Liga Profesional de FÃºtbol: Aldosivi vs AtlÃ©tico TucumÃ¡n
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.44/hls/MMMM.m3u8
+
+#EXTINF:-1 tvg-id="1065" tvg-name="Liga Profesional de FÃºtbol: Barracas vs Ind. Rivadavia" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/155/image/dark" group-title="Football",Liga Profesional de FÃºtbol: Barracas vs Ind. Rivadavia
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.50/hls/RFRFRFQ.m3u8
 
