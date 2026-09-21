@@ -1,7 +1,6 @@
 import os
 import re
 import json
-import base64
 import time
 import sys
 import requests
@@ -69,21 +68,6 @@ def get_normal_cookie() -> str:
 
 # ---------------- COOKIE EXTRACTION ----------------
 def _extract_cookie_from_url(url: str) -> Tuple[str, str]:
-    """
-    Extract embedded token/cookie params from a JioTV URL.
-
-    JioTV sports URLs embed the Akamai token as a query param:
-        https://.../WDVLive/index.mpd?__hdnea__=st=...~exp=...~hmac=...
-
-    This token must be sent as an HTTP cookie header, NOT left in the URL
-    query string, because many DASH/M3U players ignore query-string tokens.
-
-    Also handles generic params: __cookie__, cookie, cookies.
-
-    Returns (clean_url, cookie_string) where cookie_string includes the
-    param name, e.g. "__hdnea__=st=...". If no cookie param exists,
-    returns (url, "") with the URL untouched.
-    """
     if not url:
         return url, ""
 
@@ -94,7 +78,6 @@ def _extract_cookie_from_url(url: str) -> Tuple[str, str]:
     params = parse_qs(parsed.query, keep_blank_values=True)
     cookie_val = ""
 
-    # Priority: __hdnea__ (Akamai) first, then generic cookie params
     for key in ("__hdnea__", "__cookie__", "cookie", "cookies"):
         if key in params:
             raw = params.pop(key)[0]
@@ -114,15 +97,6 @@ def _extract_cookie_from_url(url: str) -> Tuple[str, str]:
 
 # ---------------- SPORTS DATA ----------------
 def get_sports_data() -> Dict[str, Any]:
-    """
-    Returns:
-        {
-            "sportsIds": {channel_id, ...},
-            "sportsCookies": {
-                channel_id: {"url": clean_url, "cookie": cookie_string}
-            }
-        }
-    """
     empty = {"sportsIds": set(), "sportsCookies": {}}
 
     try:
@@ -173,21 +147,11 @@ def extract_keys(channel):
 
 
 def _clean_base_url(raw_url: str) -> str:
-    """Strip the query string from a base channel URL."""
     parsed = urlparse(raw_url)
     return urlunparse((parsed.scheme, parsed.netloc, parsed.path, parsed.params, "", ""))
 
 
 def resolve_channel(channel, normal_cookie, sports_cookies):
-    """
-    Single source of truth for URL + cookie resolution.
-
-    Returns (final_url, cookie_value, is_sports).
-
-    - Sports channel -> clean sports URL + extracted __hdnea__/cookie
-    - Normal channel -> __hdnea__ extracted from URL if present,
-                        else base URL + normal cookie
-    """
     channel_id = str(channel.get("id") or "")
 
     if channel_id in sports_cookies:
@@ -197,7 +161,6 @@ def resolve_channel(channel, normal_cookie, sports_cookies):
             return url, cookie, True
         return entry.get("url", ""), entry.get("cookie", ""), True
 
-    # Normal channel: extract __hdnea__ if the URL carries one
     raw_url = channel.get("url") or ""
     clean_url, embedded_cookie = _extract_cookie_from_url(raw_url)
     if embedded_cookie:
@@ -224,13 +187,11 @@ def create_channel_entry(channel, normal_cookie="", sports_cookies=None):
 
     lines = []
 
-    # EXTINF
     lines.append(
         f'#EXTINF:-1 tvg-id="{channel_id}" tvg-name="{name}" '
         f'tvg-logo="{logo}" group-title="{group}",{name}'
     )
 
-    # DASH / MPD
     is_mpd = (
         channel.get("type") == "dash"
         or bool(re.search(r"\.mpd(?:\?|$)", final_url, re.I))
@@ -247,7 +208,6 @@ def create_channel_entry(channel, normal_cookie="", sports_cookies=None):
             lines.append("#KODIPROP:inputstream.adaptive.license_type=clearkey")
             lines.append(f'#KODIPROP:inputstream.adaptive.license_key={channel["license_url"]}')
 
-    # Cookie — same treatment for sports AND normal channels
     if cookie_to_use:
         cookie_json = json.dumps({"cookie": cookie_to_use})
         lines.append(f"#EXTHTTP:{cookie_json}")
@@ -303,50 +263,6 @@ def validate(channels, m3u_entries, json_entries):
     print(f"[OK] Validation passed: {len(m3u_entries)} channels")
 
 
-# ---------------- GITHUB UPLOAD ----------------
-def to_base64(text: str) -> str:
-    return base64.b64encode(text.encode("utf-8")).decode("ascii")
-
-
-def upload_to_github(filename: str, content: str):
-    repo_owner = os.environ.get("GITHUB_OWNER") or os.environ.get("GITHUB_REPOSITORY", "").split("/")[0]
-    repo_name  = os.environ.get("GITHUB_REPO")  or os.environ.get("GITHUB_REPOSITORY", "").split("/")[-1]
-    token      = os.environ.get("GITHUB_TOKEN")
-
-    if not all([repo_owner, repo_name, token]):
-        print(f"[WARN] GitHub credentials missing — skipping upload for {filename}")
-        return
-
-    api_url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/contents/{filename}"
-    headers = {
-        "Authorization": f"Bearer {token}",
-        "User-Agent": "Python-Script",
-        "Accept": "application/vnd.github.v3+json",
-    }
-
-    existing = requests.get(api_url, headers=headers)
-    sha = None
-    if existing.status_code == 200:
-        sha = existing.json().get("sha")
-        existing_content = base64.b64decode(existing.json().get("content", "")).decode("utf-8")
-        if existing_content.strip().replace("\r", "") == content.strip().replace("\r", ""):
-            print(f"[INFO] No changes in {filename} — skipping commit")
-            return
-
-    payload = {
-        "message": f"Auto-update {filename}: {datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')}",
-        "content": to_base64(content),
-    }
-    if sha:
-        payload["sha"] = sha
-
-    resp = requests.put(api_url, headers=headers, json=payload)
-    if resp.ok:
-        print(f"[OK] Uploaded {filename} to GitHub ({resp.status_code})")
-    else:
-        print(f"[ERROR] GitHub upload failed for {filename}: {resp.status_code} — {resp.text}", file=sys.stderr)
-
-
 # ---------------- MAIN ----------------
 def main():
     print(f"[START] {datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')}")
@@ -373,11 +289,11 @@ def main():
 
     validate(channels, m3u_entries, json_entries)
 
-    timestamp   = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
-    m3u_content = f'#EXTM3U x-tvg-url="" updated="{timestamp}"\n\n' + "\n\n".join(m3u_entries)
+    timestamp    = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+    m3u_content  = f'#EXTM3U x-tvg-url="" updated="{timestamp}"\n\n' + "\n\n".join(m3u_entries)
     json_content = json.dumps(json_entries, indent=2, ensure_ascii=False)
 
-    # Save locally
+    # Save locally — workflow handles git commit/push
     with open(M3U_FILE, "w", encoding="utf-8") as f:
         f.write(m3u_content)
     print(f"[INFO] M3U saved → {M3U_FILE}")
@@ -385,10 +301,6 @@ def main():
     with open(JSON_FILE, "w", encoding="utf-8") as f:
         f.write(json_content)
     print(f"[INFO] JSON saved → {JSON_FILE}")
-
-    # Optional GitHub API upload
-    upload_to_github(M3U_FILE, m3u_content)
-    upload_to_github(JSON_FILE, json_content)
 
     print("[DONE] All outputs written successfully.")
 
