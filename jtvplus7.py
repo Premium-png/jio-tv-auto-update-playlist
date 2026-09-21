@@ -10,8 +10,10 @@ CHANNELS_URL = "https://sportlink10-ajp.pages.dev/jtv.json"
 COOKIE_URL = "https://allinonereborn2.online/jstrweb2/cookies.json"
 SPORTS_COOKIE_URL = "https://allinonereborn2.online/jtv-fetch/jstarcookie/cookie.json"
 
-USER_AGENT = "Virat🐐"     
-UPLOAD_TO_GITHUB = True         
+USER_AGENT = "Virat🐐"
+REFERER = "https://www.jiotv.com/"
+ORIGIN = "https://www.jiotv.com/"
+UPLOAD_TO_GITHUB = True
 
 
 def to_base64(text: str) -> str:
@@ -80,7 +82,6 @@ def create_channel_entry(channel: Dict[str, Any],
 
     lines.append(f'#EXTINF:-1 tvg-id="{channel_id}" tvg-name="{name}" tvg-logo="{logo}" group-title="{group}",{name}')
 
-   
     is_mpd = (channel.get("type") == "dash") or (".mpd" in url.lower() and ("?" in url.lower() or url.lower().endswith(".mpd")))
 
     if is_mpd:
@@ -99,7 +100,7 @@ def create_channel_entry(channel: Dict[str, Any],
             lines.append("#KODIPROP:inputstream.adaptive.license_type=clearkey")
             lines.append(f"#KODIPROP:inputstream.adaptive.license_key={channel['license_url']}")
 
-    
+    # Resolve final URL (sports override or append normal cookie as query)
     sports_url = sports_cookies.get(channel_id)
     if sports_url:
         final_url_with_query = sports_url
@@ -110,17 +111,38 @@ def create_channel_entry(channel: Dict[str, Any],
         else:
             final_url_with_query = url
 
-   
     base_url, cookie_query = split_url_query(final_url_with_query)
 
-    
+    # --- Optional: KODIPROP stream_headers (useful for ExoPlayer / TiviMate) ---
     if cookie_query:
-        lines.append(f'#EXTHTTP:{{"cookie": "{cookie_query}"}}')
+        stream_headers = (
+            f"User-Agent={USER_AGENT}"
+            f"&Referer={REFERER}"
+            f"&Origin={ORIGIN}"
+            f"&Cookie={cookie_query}"
+        )
+        lines.append(
+            "#KODIPROP:inputstream.adaptive.stream_headers="
+            + stream_headers
+        )
 
-   
+    # --- VLC-style options (what you asked to add) ---
     lines.append(f"#EXTVLCOPT:http-user-agent={USER_AGENT}")
+    lines.append(f"#EXTVLCOPT:http-referrer={REFERER}")
 
-   
+    if cookie_query:
+        lines.append(f"#EXTVLCOPT:http-cookie={cookie_query}")
+
+    # --- EXTHTTP JSON blob (used by some IPTV players) ---
+    if cookie_query:
+        exthttp = {
+            "User-Agent": USER_AGENT,
+            "Referer": REFERER,
+            "Origin": ORIGIN,
+            "Cookie": cookie_query,
+        }
+        lines.append(f"#EXTHTTP:{json.dumps(exthttp)}")
+
     lines.append(base_url)
 
     return "\n".join(lines)
@@ -163,7 +185,6 @@ def upload_to_github(content: str) -> bool:
         "Accept": "application/vnd.github.v3+json",
     }
 
-    # Fetch existing file
     existing_resp = requests.get(api_url, headers=headers)
     sha = None
     existing_content = ""
@@ -194,23 +215,22 @@ def upload_to_github(content: str) -> bool:
     print(f"✅ GitHub upload successful ({put_resp.status_code})")
     return True
 
-# ---------- Main ----------
+
 def main(output_file: str = "jtvplus7.m3u"):
     try:
         m3u = generate_m3u()
 
-        # Always save locally
         with open(output_file, "w", encoding="utf-8") as f:
             f.write(m3u)
         print(f"📁 Playlist saved locally as '{output_file}'")
 
-        # Try GitHub upload if enabled and credentials exist
         upload_to_github(m3u)
 
         print("✅ Playlist updated successfully")
     except Exception as e:
         print(f"❌ Error: {e}")
         raise
+
 
 if __name__ == "__main__":
     main()
