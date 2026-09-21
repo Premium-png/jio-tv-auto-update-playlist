@@ -6,7 +6,7 @@ import time
 import sys
 import requests
 from typing import Dict, Any, Tuple
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from urllib.parse import urlparse, urlunparse, parse_qs, urlencode
 
 CHANNELS_URL = "https://sportlink10-ajp.pages.dev/jtv.json"
@@ -72,17 +72,10 @@ def _extract_cookie_from_url(url: str) -> Tuple[str, str]:
     """
     Extract embedded token/cookie params from a JioTV URL.
 
-    JioTV sports URLs embed the Akamai token as a query param:
-        https://.../WDVLive/index.mpd?__hdnea__=st=...~exp=...~hmac=...
-
-    This token must be sent as an HTTP cookie header, NOT left in the URL
-    query string, because many DASH/M3U players ignore query-string tokens.
-
-    Also handles generic params: __cookie__, cookie, cookies.
-
-    Returns (clean_url, cookie_string) where cookie_string includes the
-    param name, e.g. "__hdnea__=st=...". If no cookie param exists,
-    returns (url, "") with the URL untouched.
+    Handles both URL-ENCODED query strings (from requests/json) and RAW
+    query strings. The Akamai token contains '~' and '*' which urlencode
+    will percent-encode; players expect the raw form, so we always return
+    the cookie in its decoded/original shape.
     """
     if not url:
         return url, ""
@@ -91,33 +84,52 @@ def _extract_cookie_from_url(url: str) -> Tuple[str, str]:
     if not parsed.query:
         return url, ""
 
+    # keep_blank_values=True so params survive round-trip
     params = parse_qs(parsed.query, keep_blank_values=True)
-    cookie_val = ""
 
-    # Priority: __hdnea__ (Akamai) first, then generic cookie params
+    cookie_name = ""
+    cookie_raw = ""
+
     for key in ("__hdnea__", "__cookie__", "cookie", "cookies"):
         if key in params:
-            raw = params.pop(key)[0]
-            cookie_val = f"{key}={raw}"
+            cookie_raw = params.pop(key)[0]
+            cookie_name = key
             break
 
-    if not cookie_val:
+    # Also handle the form '__hdnea__' appearing raw (unencoded) in the query
+    if not cookie_raw:
+        m = re.search(r"(?:^|&)(__hdnea__|__cookie__|cookie|cookies)=([^&]+)", parsed.query)
+        if m:
+            cookie_name = m.group(1)
+            cookie_raw = m.group(2)
+            # Rebuild params without that token
+            params = parse_qs(
+                re.sub(r"(?:^|&)" + re.escape(cookie_name) + r"=[^&]+", "", parsed.query).lstrip("&"),
+                keep_blank_values=True,
+            )
+
+    if not cookie_raw:
         return url, ""
+
+    # The JioTV hdnea token is NOT url-encoded on the wire, so make sure
+    # we're not returning 'st%3D...%7Ehmac%3D...' form.
+    from urllib.parse import unquote
+    cookie_val = unquote(cookie_raw)
+    cookie_string = f"{cookie_name}={cookie_val}"
 
     new_query = urlencode(params, doseq=True)
     clean_url = urlunparse((
         parsed.scheme, parsed.netloc, parsed.path,
         parsed.params, new_query, parsed.fragment,
     ))
-    return clean_url, cookie_val
+    return clean_url, cookie_string
 
 
 # ---------------- COOKIE EXPIRY ----------------
 def get_cookie_expiry(cookie: str) -> str:
     """
     Parse `exp=<unix_ts>` from an __hdnea__ cookie and return it as
-    a human-readable IST string, e.g. "20/9/2026 12:45:42 AM IST".
-    Returns "" if no exp is present.
+    a human-readable IST string.
     """
     if not cookie:
         return ""
@@ -126,13 +138,14 @@ def get_cookie_expiry(cookie: str) -> str:
         return ""
     try:
         exp = int(m.group(1))
-        # UTC -> IST (UTC+05:30)
-        dt = datetime.utcfromtimestamp(exp) + timedelta(hours=5, minutes=30)
-        hour12 = dt.hour % 12 or 12
-        ampm = "AM" if dt.hour < 12 else "PM"
+        # Use timezone-aware conversion to avoid deprecation warning
+        dt_utc = datetime.fromtimestamp(exp, tz=timezone.utc)
+        dt_ist = dt_utc + timedelta(hours=5, minutes=30)
+        hour12 = dt_ist.hour % 12 or 12
+        ampm = "AM" if dt_ist.hour < 12 else "PM"
         return (
-            f"{dt.day}/{dt.month}/{dt.year} "
-            f"{hour12}:{dt.minute:02d}:{dt.second:02d} {ampm} IST"
+            f"{dt_ist.day}/{dt_ist.month}/{dt_ist.year} "
+            f"{hour12}:{dt_ist.minute:02d}:{dt_ist.second:02d} {ampm} IST"
         )
     except Exception:
         return ""
@@ -140,15 +153,6 @@ def get_cookie_expiry(cookie: str) -> str:
 
 # ---------------- SPORTS DATA ----------------
 def get_sports_data() -> Dict[str, Any]:
-    """
-    Returns:
-        {
-            "sportsIds": {channel_id, ...},
-            "sportsCookies": {
-                channel_id: {"url": clean_url, "cookie": cookie_string}
-            }
-        }
-    """
     empty = {"sportsIds": set(), "sportsCookies": {}}
 
     try:
@@ -199,20 +203,16 @@ def extract_keys(channel):
 
 
 def _clean_base_url(raw_url: str) -> str:
-    """Strip the query string from a base channel URL."""
     parsed = urlparse(raw_url)
     return urlunparse((parsed.scheme, parsed.netloc, parsed.path, parsed.params, "", ""))
 
 
 def resolve_channel(channel, normal_cookie, sports_cookies):
     """
-    Single source of truth for URL + cookie resolution.
-
     Returns (final_url, cookie_value, is_sports).
 
-    - Sports channel -> clean sports URL + extracted __hdnea__/cookie
-    - Normal channel -> __hdnea__ extracted from URL if present,
-                        else base URL + normal cookie
+    FIX: Sports channels whose cookie is missing fall back to the normal cookie,
+    so the stream doesn't 403 when the sports endpoint is stale.
     """
     channel_id = str(channel.get("id") or "")
 
@@ -220,10 +220,14 @@ def resolve_channel(channel, normal_cookie, sports_cookies):
         entry = sports_cookies[channel_id]
         if isinstance(entry, str):
             url, cookie = _extract_cookie_from_url(entry)
-            return url, cookie, True
-        return entry.get("url", ""), entry.get("cookie", ""), True
+            return url, cookie or normal_cookie, True
+        url = entry.get("url", "")
+        cookie = entry.get("cookie", "")
+        # FIX: fall back to the global cookie when the sports entry has none
+        if not cookie:
+            cookie = normal_cookie
+        return url, cookie, True
 
-    # Normal channel: extract __hdnea__ if the URL carries one
     raw_url = channel.get("url") or ""
     clean_url, embedded_cookie = _extract_cookie_from_url(raw_url)
     if embedded_cookie:
@@ -250,13 +254,11 @@ def create_channel_entry(channel, normal_cookie="", sports_cookies=None):
 
     lines = []
 
-    # EXTINF
     lines.append(
         f'#EXTINF:-1 tvg-id="{channel_id}" tvg-name="{name}" '
         f'tvg-logo="{logo}" group-title="{group}",{name}'
     )
 
-    # DASH / MPD
     is_mpd = (
         channel.get("type") == "dash"
         or bool(re.search(r"\.mpd(?:\?|$)", final_url, re.I))
@@ -273,12 +275,31 @@ def create_channel_entry(channel, normal_cookie="", sports_cookies=None):
             lines.append("#KODIPROP:inputstream.adaptive.license_type=clearkey")
             lines.append(f'#KODIPROP:inputstream.adaptive.license_key={channel["license_url"]}')
 
-    # Cookie — same treatment for sports AND normal channels
     if cookie_to_use:
-        cookie_json = json.dumps({"cookie": cookie_to_use})
-        lines.append(f"#EXTHTTP:{cookie_json}")
+        # FIX: full header set, not just cookie — VLC/TiviMate need Referer + UA too
+        stream_headers = (
+            f"User-Agent={USER_AGENT}"
+            f"&Referer=https://www.jiotv.com/"
+            f"&Origin=https://www.jiotv.com/"
+            f"&Cookie={cookie_to_use}"
+        )
+        lines.append("#KODIPROP:inputstream.adaptive.stream_headers=" + stream_headers)
 
-    lines.append(f"#EXTVLCOPT:http-user-agent={USER_AGENT}")
+        lines.append(f"#EXTVLCOPT:http-user-agent={USER_AGENT}")
+        lines.append("#EXTVLCOPT:http-referrer=https://www.jiotv.com/")
+        lines.append(f"#EXTVLCOPT:http-cookie={cookie_to_use}")
+
+        exthttp = {
+            "User-Agent": USER_AGENT,
+            "Referer": "https://www.jiotv.com/",
+            "Origin": "https://www.jiotv.com/",
+            "Cookie": cookie_to_use,
+        }
+        lines.append(f'#EXTHTTP:{json.dumps(exthttp, ensure_ascii=False)}')
+    else:
+        lines.append(f"#EXTVLCOPT:http-user-agent={USER_AGENT}")
+        lines.append("#EXTVLCOPT:http-referrer=https://www.jiotv.com/")
+
     lines.append(final_url)
 
     return "\n".join(lines)
@@ -353,14 +374,18 @@ def upload_to_github(filename: str, content: str):
     existing = requests.get(api_url, headers=headers)
     sha = None
     if existing.status_code == 200:
-        sha = existing.json().get("sha")
-        existing_content = base64.b64decode(existing.json().get("content", "")).decode("utf-8")
-        if existing_content.strip().replace("\r", "") == content.strip().replace("\r", ""):
+        existing_json = existing.json()
+        sha = existing_json.get("sha")
+        # FIX: GitHub may not return 'content' for files > 1MB — handle that
+        existing_content = ""
+        if existing_json.get("content"):
+            existing_content = base64.b64decode(existing_json["content"]).decode("utf-8")
+        if existing_content and existing_content.strip().replace("\r", "") == content.strip().replace("\r", ""):
             print(f"[INFO] No changes in {filename} — skipping commit")
             return
 
     payload = {
-        "message": f"Auto-update {filename}: {datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')}",
+        "message": f"Auto-update {filename}: {datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')}",
         "content": to_base64(content),
     }
     if sha:
@@ -375,7 +400,7 @@ def upload_to_github(filename: str, content: str):
 
 # ---------------- MAIN ----------------
 def main():
-    print(f"[START] {datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')}")
+    print(f"[START] {datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')}")
 
     channels = get_json(CHANNELS_URL)
     if isinstance(channels, dict):
@@ -399,11 +424,10 @@ def main():
 
     validate(channels, m3u_entries, json_entries)
 
-    timestamp   = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+    timestamp   = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     m3u_content = f'#EXTM3U x-tvg-url="" updated="{timestamp}"\n\n' + "\n\n".join(m3u_entries)
     json_content = json.dumps(json_entries, indent=2, ensure_ascii=False)
 
-    # Save locally
     with open(M3U_FILE, "w", encoding="utf-8") as f:
         f.write(m3u_content)
     print(f"[INFO] M3U saved → {M3U_FILE}")
@@ -412,7 +436,6 @@ def main():
         f.write(json_content)
     print(f"[INFO] JSON saved → {JSON_FILE}")
 
-    # Optional GitHub API upload
     upload_to_github(M3U_FILE, m3u_content)
     upload_to_github(JSON_FILE, json_content)
 
