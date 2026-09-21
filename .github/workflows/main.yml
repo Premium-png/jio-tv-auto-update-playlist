@@ -8,11 +8,11 @@ on:
     branches:
       - main
     paths:
-      - 'jtv.py'  # Only trigger on script changes, not playlist updates
+      - 'jtv.py'
 
 concurrency:
   group: update-playlist
-  cancel-in-progress: false  # Don't cancel running jobs, queue them
+  cancel-in-progress: false
 
 jobs:
   update-playlist:
@@ -68,6 +68,10 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
+          # Pull with rebase first to get latest state before staging
+          git pull --rebase origin main
+
+          # Stage files after rebase so nothing gets dropped
           git add -f jtv.m3u jtv.json
 
           if git diff --cached --quiet; then
@@ -77,8 +81,5 @@ jobs:
 
           # [skip ci] prevents this commit from triggering another workflow run
           git commit -m "Auto-update playlists: $(date -u) [skip ci]"
-
-          # Pull with rebase just before push to avoid conflicts
-          git pull --rebase origin main
 
           git push origin main
