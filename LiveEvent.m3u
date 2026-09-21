@@ -1,6 +1,6 @@
 #EXTM3U
 #PLAYLIST:Live Events
-#LAST_UPDATE:09:58 PM 09-20-2026
+#LAST_UPDATE:12:06 AM 09-21-2026
 #Created by - Sayan 10
 #EXTINF:-1 tvg-id="11" tvg-name="T20 International: JPN vs IND - Willow Cricbuzz - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="Cricket",T20 International: JPN vs IND - Willow Cricbuzz - AQ
 #KODIPROP:inputstream=inputstream.adaptive
@@ -571,6 +571,82 @@ https://instreams.pro/live/tv401882857/index.m3u8?st=zLlPcNdgXfJ-TcIl_E8BGg&e=17
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://www.rtmpcdn.com/live/0c856cf7-24e1-47eb-b211-af32abf2d9be.m3u8
 
+#EXTINF:-1 tvg-id="758" tvg-name="Asian Games Women: PAK-W vs BAN-W - Willow Cricbuzz - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women: PAK-W vs BAN-W - Willow Cricbuzz - AQ
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=630d9cfcc288011decb8f32841f7f7a0:52e742871730efd0e690968f4c999a06
+https://ss-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/m3c3bftznc/out/v1/c9e6e1ffc66b4bd4943aa600ac102b1a/cenc.mpd
+
+#EXTINF:-1 tvg-id="758" tvg-name="Asian Games Women: PAK-W vs BAN-W - SonyLiv ENG - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women: PAK-W vs BAN-W - SonyLiv ENG - AQ
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#EXTVLCOPT:http-origin=https://www.sonyliv.com
+https://sonymtmnew-akamaized.pages.dev/hls/live/2120308/criclive1909/ENG/master.m3u8
+
+#EXTINF:-1 tvg-id="758" tvg-name="Asian Games Women: PAK-W vs BAN-W - TAPMADE PAK - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women: PAK-W vs BAN-W - TAPMADE PAK - AQ
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=https://tapmad.com
+https://seriealeague.akamaized.net/hls/live/2107107/A1@257-tapmad/master.m3u8
+
+#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - Willow Cricbuzz - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Football",Asian Games Women, Final: SL-W vs IND-W - Willow Cricbuzz - AQ
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=41af1e2d71a5921c8c32ea209f3e1846:5d8a2cf9110731f4f0bf40833f0c98cc
+https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/1ti5wh1erw/out/v1/0a22d40d486f4a62a36a4865e1544c31/cenc.mpd
+
+#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - Willow Cricbuzz - alt" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Football",Asian Games Women, Final: SL-W vs IND-W - Willow Cricbuzz - alt
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=41af1e2d71a5921c8c32ea209f3e1846:5d8a2cf9110731f4f0bf40833f0c98cc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/k9yu7gqx4l/out/v1/802932ae129a4f7db700113d6598b50f/cenc.mpd
+
+#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - SonyLiv HIN - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Football",Asian Games Women, Final: SL-W vs IND-W - SonyLiv HIN - AQ
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#EXTVLCOPT:http-origin=https://www.sonyliv.com
+https://sonymtmnew-akamaized.pages.dev/hls/live/2105080/cricodi2009/HIN/master.m3u8
+
+#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - SonyLiv ENG - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Football",Asian Games Women, Final: SL-W vs IND-W - SonyLiv ENG - AQ
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#EXTVLCOPT:http-origin=https://www.sonyliv.com
+https://sonymtmnew-akamaized.pages.dev/hls/live/2037143/cricodi2009/ENG/master.m3u8
+
+#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - SonyLiv TAM - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Football",Asian Games Women, Final: SL-W vs IND-W - SonyLiv TAM - AQ
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#EXTVLCOPT:http-origin=https://www.sonyliv.com
+https://sonymtmnew-akamaized.pages.dev/hls/live/2105079/cricodi2009/TAM/master.m3u8
+
+#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - SonyLiv TEL - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Football",Asian Games Women, Final: SL-W vs IND-W - SonyLiv TEL - AQ
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#EXTVLCOPT:http-origin=https://www.sonyliv.com
+https://sonymtmnew-akamaized.pages.dev/hls/live/2043696/cricodi2009/TEL/master.m3u8
+
+#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - SonyLiv KAN - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Football",Asian Games Women, Final: SL-W vs IND-W - SonyLiv KAN - AQ
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#EXTVLCOPT:http-origin=https://www.sonyliv.com
+https://sonymtmnew-akamaized.pages.dev/hls/live/2094590/cricodi2009/KAN/master.m3u8
+
 #EXTINF:-1 tvg-id="764" tvg-name="Bundesliga: Leverkusen vs Leipzig - SPORT TV - FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/35/image/dark" group-title="Football",Bundesliga: Leverkusen vs Leipzig - SPORT TV - FHD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -611,20 +687,24 @@ https://www.rtmpcdn.com/live/2a2734b3-43b4-414a-aef1-9f745d58dba7.m3u8
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.44/hls/SYYYAAAAA.m3u8
+http://193.47.62.41/hls/SKKKQQQQQ.m3u8
 
 #EXTINF:-1 tvg-id="767" tvg-name="MLS: Inter Miami vs San Diego - APPLE  TV - SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/242/image/dark" group-title="Football",MLS: Inter Miami vs San Diego - APPLE  TV - SD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com/
-https://cdn8.zohanayaan.com:1686/hls/do34.m3u8?md5=Ks5cx4UPUh387H1al5zpVA&expires=1789261230
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ondemand.st/embed/?id=mls/2026-09-20/mia-sd
+https://messi.damitv.st/live-hls/channel/mls/2026-09-20/mia-sd/playlist.m3u8?tk=VZJv_BqOWR009JkyQDwXSw&e=1789986609
+
+#EXTINF:-1 tvg-id="767" tvg-name="MLS: Inter Miami vs San Diego - APPLE  TV - LQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/242/image/dark" group-title="Football",MLS: Inter Miami vs San Diego - APPLE  TV - LQ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/new-stream-embed/56881?ad=111
+https://chatgpt.hereisman.net/playlist/56881/load-playlist
 
 #EXTINF:-1 tvg-id="767" tvg-name="MLS: Inter Miami vs San Diego - FAST SERVER HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/242/image/dark" group-title="Football",MLS: Inter Miami vs San Diego - FAST SERVER HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://live05.meung.app/live/75748097.m3u8
+https://hwyypull.ncctrials.com/live/stream-557437_lhd.m3u8
 
 #EXTINF:-1 tvg-id="768" tvg-name="LaLiga: Valencia vs Real Sociedad - Premier Sports FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="Football",LaLiga: Valencia vs Real Sociedad - Premier Sports FHD
 #KODIPROP:inputstream=inputstream.adaptive
@@ -1010,22 +1090,15 @@ http://193.47.62.59/hls/FRRRAAAAA.m3u8
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=3f556ce52c9162e87e8fddb1fb41b874:a786dba73d7f1fde1cc2d2c0f051947c
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qxf3t6uovz/out/v1/0e4b5f368309487c852a212b34ea2fbf/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=a983a40b395d5c3fc017322b8c4b1695:559dd7742a6c8dd7be5edb904a9a550f
+https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/zqttnrpszn/out/v1/4e3561c0771c46aaa625bff2338290da/cenc.mpd
 
 #EXTINF:-1 tvg-id="981" tvg-name="CARIBBEAN PREMIER LEAGUE, FINAL - TNT Sports - AQ" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuB49Ots999ksA_7_rM-ogMqW8S0hxDN58ogYa5SNHhhgHQOuyJ3vzohU&s=10" group-title="Cricket",CARIBBEAN PREMIER LEAGUE, FINAL - TNT Sports - AQ
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd
-
-#EXTINF:-1 tvg-id="981" tvg-name="CARIBBEAN PREMIER LEAGUE, FINAL - Tapmad ENG - AQ" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuB49Ots999ksA_7_rM-ogMqW8S0hxDN58ogYa5SNHhhgHQOuyJ3vzohU&s=10" group-title="Cricket",CARIBBEAN PREMIER LEAGUE, FINAL - Tapmad ENG - AQ
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=https://tapmad.com/
-https://saseries.akamaized.net/hls/live/2110097/2353jkiL-tapmad/master.m3u8
+#KODIPROP:inputstream.adaptive.license_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd
 
 #EXTINF:-1 tvg-id="989" tvg-name="Liga Portugal Betclic: Estoril vs Casa Pia - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/238/image/dark" group-title="Football",Liga Portugal Betclic: Estoril vs Casa Pia - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
