@@ -1,6 +1,6 @@
 #EXTM3U
 #PLAYLIST:Live Events
-#LAST_UPDATE:11:35 PM 09-21-2026
+#LAST_UPDATE:01:52 AM 09-22-2026
 #Created by - Sayan 10
 #EXTINF:-1 tvg-id="11" tvg-name="T20 International: JPN vs IND - Willow Cricbuzz - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="Cricket",T20 International: JPN vs IND - Willow Cricbuzz - AQ
 #KODIPROP:inputstream=inputstream.adaptive
@@ -175,19 +175,7 @@ https://melancholy.fromthyheart.site/dailymotion/live/playlist/5.m3u8
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-https://ubuntu.fromthyheart.site/dailymotion/live/playlist/5.m3u8
-
-#EXTINF:-1 tvg-id="389" tvg-name="WWE Monday Night RAW - RAW NETWORK SD" tvg-logo="https://images2.minutemediacdn.com/image/upload/c_crop,w_1920,h_1080,x_0,y_0/c_fill,w_1080,ar_16:9,f_auto,q_auto,g_auto/images%2FvoltaxMediaLibrary%2Fmmsport%2Fwrestling_on_fannation%2F01j7cr769n5sz41833rh.jpg" group-title="WWE",WWE Monday Night RAW - RAW NETWORK SD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.44/hls/DQQQAQQ.m3u8
-
-#EXTINF:-1 tvg-id="735" tvg-name="BrasileirÃ£o SÃ©rie B: CriciÃºma vs OperÃ¡rio-PR - Premier Sports BR" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/390/image/dark" group-title="Football",BrasileirÃ£o SÃ©rie B: CriciÃºma vs OperÃ¡rio-PR - Premier Sports BR
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.59/hls/bbbbaqqqq.m3u8
+http://193.47.62.59/hls/K999QQ.m3u8
 
 #EXTINF:-1 tvg-id="739" tvg-name="Premier League: Arsenal vs Leeds - FUBO SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/17/image/dark" group-title="Football",Premier League: Arsenal vs Leeds - FUBO SPORTS FHD
 #KODIPROP:inputstream=inputstream.adaptive
@@ -645,8 +633,14 @@ https://edgestream1.pro/hls/377qj1h2727.m3u8
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=630d9cfcc288011decb8f32841f7f7a0:52e742871730efd0e690968f4c999a06
-https://ss-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/m3c3bftznc/out/v1/c9e6e1ffc66b4bd4943aa600ac102b1a/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=fffbd595a239d4e97d8f4bc9704a2d76:614232c4a473ebbd72e77c860c03db2f
+https://ss-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/k8bzrz6q6c/out/v1/3271c6590df74153a1e57c50fe47b94b/cenc.mpd
+
+#EXTINF:-1 tvg-id="758" tvg-name="Asian Games Women: PAK-W vs BAN-W - Willow Cricbuzz - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women: PAK-W vs BAN-W - Willow Cricbuzz - HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.59/hls/K999.m3u8
 
 #EXTINF:-1 tvg-id="758" tvg-name="Asian Games Women: PAK-W vs BAN-W - SonyLiv ENG - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women: PAK-W vs BAN-W - SonyLiv ENG - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
@@ -654,22 +648,22 @@ https://ss-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/m3c3bftznc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
 #EXTVLCOPT:http-referrer=https://www.sonyliv.com/
 #EXTVLCOPT:http-origin=https://www.sonyliv.com
-https://sonymtmnew-akamaized.pages.dev/hls/live/2120308/criclive1909/ENG/master.m3u8
+https://sonymtmnew-akamaized.pages.dev/hls/live/2120300/AG2026_D2109/ENG/master.m3u8
 
-#EXTINF:-1 tvg-id="758" tvg-name="Asian Games Women: PAK-W vs BAN-W - TAPMADE PAK - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women: PAK-W vs BAN-W - TAPMADE PAK - AQ
+#EXTINF:-1 tvg-id="758" tvg-name="Asian Games Women: PAK-W vs BAN-W - TAPMAD ENG- AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women: PAK-W vs BAN-W - TAPMAD ENG- AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=https://tapmad.com
 https://seriealeague.akamaized.net/hls/live/2107107/A1@257-tapmad/master.m3u8
 
-#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - Willow Cricbuzz - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Football",Asian Games Women, Final: SL-W vs IND-W - Willow Cricbuzz - AQ
+#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - Willow Cricbuzz - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women, Final: SL-W vs IND-W - Willow Cricbuzz - AQ
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=41af1e2d71a5921c8c32ea209f3e1846:5d8a2cf9110731f4f0bf40833f0c98cc
 https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/1ti5wh1erw/out/v1/0a22d40d486f4a62a36a4865e1544c31/cenc.mpd
 
-#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - Willow Cricbuzz - alt" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Football",Asian Games Women, Final: SL-W vs IND-W - Willow Cricbuzz - alt
+#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - Willow Cricbuzz - alt" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women, Final: SL-W vs IND-W - Willow Cricbuzz - alt
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -677,7 +671,7 @@ https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clie
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/k9yu7gqx4l/out/v1/802932ae129a4f7db700113d6598b50f/cenc.mpd
 
-#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - SonyLiv HIN - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Football",Asian Games Women, Final: SL-W vs IND-W - SonyLiv HIN - AQ
+#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - SonyLiv HIN - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women, Final: SL-W vs IND-W - SonyLiv HIN - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
@@ -685,7 +679,7 @@ https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/k9yu7gqx4l/out/v1
 #EXTVLCOPT:http-origin=https://www.sonyliv.com
 https://sonymtmnew-akamaized.pages.dev/hls/live/2105080/cricodi2009/HIN/master.m3u8
 
-#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - SonyLiv ENG - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Football",Asian Games Women, Final: SL-W vs IND-W - SonyLiv ENG - AQ
+#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - SonyLiv ENG - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women, Final: SL-W vs IND-W - SonyLiv ENG - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
@@ -693,7 +687,7 @@ https://sonymtmnew-akamaized.pages.dev/hls/live/2105080/cricodi2009/HIN/master.m
 #EXTVLCOPT:http-origin=https://www.sonyliv.com
 https://sonymtmnew-akamaized.pages.dev/hls/live/2037143/cricodi2009/ENG/master.m3u8
 
-#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - SonyLiv TAM - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Football",Asian Games Women, Final: SL-W vs IND-W - SonyLiv TAM - AQ
+#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - SonyLiv TAM - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women, Final: SL-W vs IND-W - SonyLiv TAM - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
@@ -701,7 +695,7 @@ https://sonymtmnew-akamaized.pages.dev/hls/live/2037143/cricodi2009/ENG/master.m
 #EXTVLCOPT:http-origin=https://www.sonyliv.com
 https://sonymtmnew-akamaized.pages.dev/hls/live/2105079/cricodi2009/TAM/master.m3u8
 
-#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - SonyLiv TEL - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Football",Asian Games Women, Final: SL-W vs IND-W - SonyLiv TEL - AQ
+#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - SonyLiv TEL - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women, Final: SL-W vs IND-W - SonyLiv TEL - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
@@ -709,7 +703,7 @@ https://sonymtmnew-akamaized.pages.dev/hls/live/2105079/cricodi2009/TAM/master.m
 #EXTVLCOPT:http-origin=https://www.sonyliv.com
 https://sonymtmnew-akamaized.pages.dev/hls/live/2043696/cricodi2009/TEL/master.m3u8
 
-#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - SonyLiv KAN - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Football",Asian Games Women, Final: SL-W vs IND-W - SonyLiv KAN - AQ
+#EXTINF:-1 tvg-id="759" tvg-name="Asian Games Women, Final: SL-W vs IND-W - SonyLiv KAN - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11159/image/dark" group-title="Cricket",Asian Games Women, Final: SL-W vs IND-W - SonyLiv KAN - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
@@ -924,12 +918,6 @@ http://193.47.62.59/hls/BB55AAAAAAA.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://www.rtmpcdn.com/live/add98371-b40a-4c3d-bc85-bd00e69df78c.m3u8
 
-#EXTINF:-1 tvg-id="831" tvg-name="International Friendly Games: Dominica vs Anguilla - GHD SPORTS - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Dominica vs Anguilla - GHD SPORTS - HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.57/hls/TITITI.m3u8
-
 #EXTINF:-1 tvg-id="843" tvg-name="AEW Dynamite - FOX SPORTS FHD" tvg-logo="https://static.wixstatic.com/media/815952_5964d86934774f97a1a12b104c8b0a7a~mv2.png/v1/fill/w_146,h_54,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/aewlogo24b.png" group-title="WWE",AEW Dynamite - FOX SPORTS FHD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -1123,17 +1111,23 @@ http://193.47.62.59/hls/ZLLLQQQ.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://193.47.62.59/hls/ZLLLQQQQ.m3u8
 
-#EXTINF:-1 tvg-id="1064" tvg-name="Liga Profesional de FÃºtbol: Aldosivi vs AtlÃ©tico TucumÃ¡n" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/155/image/dark" group-title="Football",Liga Profesional de FÃºtbol: Aldosivi vs AtlÃ©tico TucumÃ¡n
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-http://193.47.62.59/hls/ZYYY.m3u8
-
 #EXTINF:-1 tvg-id="1065" tvg-name="Liga Profesional de FÃºtbol: Barracas vs Ind. Rivadavia" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/155/image/dark" group-title="Football",Liga Profesional de FÃºtbol: Barracas vs Ind. Rivadavia
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.59/hls/bbbbaqq.m3u8
+
+#EXTINF:-1 tvg-id="1066" tvg-name="Liga Profesional de FÃºtbol: LanÃºs vs Estudiantes" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/155/image/dark" group-title="Football",Liga Profesional de FÃºtbol: LanÃºs vs Estudiantes
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.59/hls/K999QQQ.m3u8
+
+#EXTINF:-1 tvg-id="1070" tvg-name="BrasileirÃ£o SÃ©rie B: CuiabÃ¡ vs NÃ¡utico" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/390/image/dark" group-title="Football",BrasileirÃ£o SÃ©rie B: CuiabÃ¡ vs NÃ¡utico
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.59/hls/K999QQQQQ.m3u8
 
 #EXTINF:-1 tvg-id="770" tvg-name="Serie A: Inter vs Parma - BEIN SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="Football",Serie A: Inter vs Parma - BEIN SPORTS FHD
 #KODIPROP:inputstream=inputstream.adaptive
