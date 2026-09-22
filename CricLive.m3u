@@ -2,26 +2,26 @@
 #"name": "Live Sports Events"
 #"owner": "Md Sohanur Rahman Hady"
 #"telegram": "https://t.me/livesportsplay"
-#"last updated": "2026-09-22 10:00:57 AM (BD Time)"
+#"last updated": "2026-09-22 01:00:52 PM (BD Time)"
 # Total Active Links: 4
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Japan%20vs%20India.png" group-title="India tour of Japan, 2026", Japan vs India - Willow Cricket
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Japan%20vs%20India.png" group-title="India tour of Japan, 2026", India vs Japan - Willow Cricket
 #EXTVLCOPT:http-referrer=https://playerr03.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://mz02.playerr03.com:7060/hls/willowsd.m3u8?md5=wRRe49Fga86atDU-i2fn6A&expires=1790054444&ch=willowsd&s=01c7deb147c499bfe8fed3f06d2c0226
+https://mz02.playerr03.com:7060/hls/willowsd.m3u8?md5=K4qlcgxPqlZb0ebcYDXTmg&expires=1790065239&ch=willowsd&s=3587bea64f9c6e7b9120d79bdb54076f
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Japan%20vs%20India.png" group-title="India tour of Japan, 2026", Japan vs India - Willow HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Japan%20vs%20India.png" group-title="India tour of Japan, 2026", India vs Japan - Willow HD
 #EXTVLCOPT:http-referrer=https://playerr03.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://mz02.playerr03.com:7060/hls/hdwillos5.m3u8?md5=Xalj1cE3_gZeitzq2aPt6A&expires=1790054447&ch=hdwillos5&s=b21f4f643e10e0e6844d0e03c26fe949
+https://mz01.playerr03.com:7060/hls/hdwillos5.m3u8?md5=27is8ZyogyrM3XiRqXynQA&expires=1790065244&ch=hdwillos5&s=65b6389b39e8cad6cb5bda236dbcabaa
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Japan%20vs%20India.png" group-title="India tour of Japan, 2026", Japan vs India - CricGo 1
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Japan%20vs%20India.png" group-title="India tour of Japan, 2026", India vs Japan - CricGo 1
 #EXTVLCOPT:http-referrer=https://playerr03.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://mz01.playerr03.com:7060/hls/cricgo1.m3u8?md5=qnPHzIeeF2LCDx0IrpJlIA&expires=1790054451&ch=cricgo1&s=9affa10e4ee666813bbaae4db8a20f24
+https://mz01.playerr03.com:7060/hls/cricgo1.m3u8?md5=grm7aM_yxfH2y-htVBLaMg&expires=1790065246&ch=cricgo1&s=1da004050b267356cb3b5205b68e71f4
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Queensland%20vs%20New%20South%20Wales.png" group-title="Australia Domestic One-Day Cup 2026-27", Queensland vs New South Wales - CricGo 6
 #EXTVLCOPT:http-referrer=https://playerr03.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://mz01.playerr03.com:7060/hls/cricgo6.m3u8?md5=RZJEtDkuRdR0ldJUEiqovw&expires=1790054455&ch=cricgo6&s=c5401cb0364ca819c194f88fb3191d8a
+https://mz01.playerr03.com:7060/hls/cricgo6.m3u8?md5=Yh-XC5u70hJQMGWGHRkxyA&expires=1790065250&ch=cricgo6&s=0a05c954d6f600f5092d41e658f9b909
 
