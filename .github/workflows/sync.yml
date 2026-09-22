@@ -5,34 +5,14 @@ on:
     - cron: '*/5 * * * *' # हर 5 मिनट में बैकग्राउंड में चेक करेगा
   workflow_dispatch: # मैनुअली तुरंत रन करने के लिए
 
-permissions:
-  contents: write
-
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout target repo
-        uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Fetch and Force Sync Upstream
+      - name: Open Source Fast-Forward Sync
         run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
-          
-          # ओरिजिनल रिपॉजिटरी को जोड़ें
-          git remote add upstream https://github.com
-          
-          # वहां से लेटेस्ट बदलाव खींचें
-          git fetch upstream
-          
-          # अपनी मुख्य ब्रांच पर स्विच करें
-          git checkout main
-          
-          # अपने लोकल कोड को ओरिजिनल के कोड से पूरी तरह बदलें (Force Reset)
-          git reset --hard upstream/main
-          
-          # बदलावों को अपनी रिपॉजिटरी में फ़ोर्स पुश करें
-          git push origin main --force
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            https://github.com \
+            -d '{"branch":"main"}'
