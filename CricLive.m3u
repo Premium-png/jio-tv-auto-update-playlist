@@ -2,26 +2,36 @@
 #"name": "Live Sports Events"
 #"owner": "Md Sohanur Rahman Hady"
 #"telegram": "https://t.me/livesportsplay"
-#"last updated": "2026-09-22 02:00:52 PM (BD Time)"
-# Total Active Links: 4
+#"last updated": "2026-09-22 06:00:55 PM (BD Time)"
+# Total Active Links: 6
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Japan%20vs%20India.png" group-title="India tour of Japan, 2026", India vs Japan - Willow Cricket
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/England%20vs%20Sri%20Lanka.png" group-title="Sri Lanka tour of England, 2026", England vs Sri Lanka - Willow Cricket
 #EXTVLCOPT:http-referrer=https://playerr03.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://mz02.playerr03.com:7060/hls/willowsd.m3u8?md5=0EvrPKo_hX_iSRWp632scQ&expires=1790068842&ch=willowsd&s=7c41c4080eaa9618d490df55b41b6201
+https://mz01.playerr03.com:7060/hls/willowsd.m3u8?md5=K9UNLOyBj6NA6Q01KucFwg&expires=1790083239&ch=willowsd&s=54eceb3538b69640b2292e761d1a9505
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Japan%20vs%20India.png" group-title="India tour of Japan, 2026", India vs Japan - Willow HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/England%20vs%20Sri%20Lanka.png" group-title="Sri Lanka tour of England, 2026", England vs Sri Lanka - Willow Xtra
 #EXTVLCOPT:http-referrer=https://playerr03.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://mz01.playerr03.com:7060/hls/hdwillos5.m3u8?md5=ZwBb_f2aGtgysh6m9UNBTQ&expires=1790068845&ch=hdwillos5&s=f26c6a41bd251c2f1b7854ec6eeaaac2
+https://mz01.playerr03.com:7060/hls/wextres5.m3u8?md5=HyXy2kHLzJK2r2hpBpEJsw&expires=1790083242&ch=wextres5&s=4bc5d80d73d6fdd9acd38b73a4d14826
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Japan%20vs%20India.png" group-title="India tour of Japan, 2026", India vs Japan - CricGo 1
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/England%20vs%20Sri%20Lanka.png" group-title="Sri Lanka tour of England, 2026", England vs Sri Lanka - Sony Sports Ten 1
 #EXTVLCOPT:http-referrer=https://playerr03.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://mz02.playerr03.com:7060/hls/cricgo1.m3u8?md5=qTiXaC2E2GEOrIAsx7fQAQ&expires=1790068847&ch=cricgo1&s=329731401cd435c6605770b519769369
+https://mz01.playerr03.com:7060/hls/ten1co.m3u8?md5=5uG4SLfPHmMNApWeWq2CTA&expires=1790083245&ch=ten1co&s=8c951a409356337e86db862a52aae9f8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/Queensland%20vs%20New%20South%20Wales.png" group-title="Australia Domestic One-Day Cup 2026-27", Queensland vs New South Wales - CricGo 6
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/England%20vs%20Sri%20Lanka.png" group-title="Sri Lanka tour of England, 2026", England vs Sri Lanka - Willow HD
 #EXTVLCOPT:http-referrer=https://playerr03.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://mz01.playerr03.com:7060/hls/cricgo6.m3u8?md5=Sjx26t3NjcoKVuaer6zq7g&expires=1790068851&ch=cricgo6&s=7ff304a9c7643ca163c0ee46cef76ffa
+https://mz01.playerr03.com:7060/hls/hdwillos5.m3u8?md5=S_b7C8X1VcLlayX2Eevi3g&expires=1790083248&ch=hdwillos5&s=4ec8b81384232a5a50bf978e8e08f4a9
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/England%20vs%20Sri%20Lanka.png" group-title="Sri Lanka tour of England, 2026", England vs Sri Lanka - CricLife 1
+#EXTVLCOPT:http-referrer=https://playerr03.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://mz02.playerr03.com:7060/hls/criclife1.m3u8?md5=jP_OibjhYU3VK4D4JrcNew&expires=1790083251&ch=criclife1&s=bdc120c0af5509e7a399755a135f9ec8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/CricketLive/main/posters/England%20vs%20Sri%20Lanka.png" group-title="Sri Lanka tour of England, 2026", England vs Sri Lanka - Sky Cricket
+#EXTVLCOPT:http-referrer=https://playerr03.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://mz02.playerr03.com:7060/hls/dodosky2.m3u8?md5=6CUJHb8WBdC5wpDsNXHJYw&expires=1790083254&ch=dodosky2&s=608cb6c45860b404edc25abf5872a898
 
