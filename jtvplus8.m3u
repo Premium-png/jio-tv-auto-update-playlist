@@ -782,6 +782,21 @@ https://premiumplug.fun/zee/zee5.php/0-9-tvpictureshd.m3u8
 #EXTVLCOPT:http-user-agent=com.graymatrix.did;Android TV;5.82.6(203230929);Android(10);Xiaomi(Redmi Note 8 Pro)
 https://premiumplug.fun/zee/zee5.php/0-9-pictures.m3u8
 
+# ------------=== ⛨ 𝔼𝕩𝕥𝕣𝕒 | SonyLiv ===---------------
+
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024374/1789994269611612_INDvsSL_Finla_live_landscpae_thumb.jpg" group-title="⛨ 𝔼𝕩𝕥𝕣𝕒  | SonyLiv",Sri Lanka Women vs India Women - Gold Medal Match - 22 Sep 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2105079/cricodi2209/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790096135~acl=/*~id=55690982493796958097914243973765~hmac=94dcbd710b87cccc31a3d20c04d03d853e3e84813f8c2d6ff8ccc060b324829d
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024374/1789994269611612_INDvsSL_Finla_live_landscpae_thumb.jpg" group-title="⛨ 𝔼𝕩𝕥𝕣𝕒  | SonyLiv",Sri Lanka Women vs India Women - Gold Medal Match - 22 Sep 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2037143/cricodi2209/HIN/std_lrh-800300010.m3u8?hdnea=exp=1790096135~acl=/*~id=55690982493796958097914243973765~hmac=94dcbd710b87cccc31a3d20c04d03d853e3e84813f8c2d6ff8ccc060b324829d
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024374/1789994269611612_INDvsSL_Finla_live_landscpae_thumb.jpg" group-title="⛨ 𝔼𝕩𝕥𝕣𝕒  | SonyLiv",Sri Lanka Women vs India Women - Gold Medal Match - 22 Sep 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2043696/cricodi2209/TAM/std_lrh-800300010.m3u8?hdnea=exp=1790096135~acl=/*~id=55690982493796958097914243973765~hmac=94dcbd710b87cccc31a3d20c04d03d853e3e84813f8c2d6ff8ccc060b324829d
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024374/1789994269611612_INDvsSL_Finla_live_landscpae_thumb.jpg" group-title="⛨ 𝔼𝕩𝕥𝕣𝕒  | SonyLiv",Sri Lanka Women vs India Women - Gold Medal Match - 22 Sep 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2105080/cricodi2209/TEL/std_lrh-800300010.m3u8?hdnea=exp=1790096135~acl=/*~id=55690982493796958097914243973765~hmac=94dcbd710b87cccc31a3d20c04d03d853e3e84813f8c2d6ff8ccc060b324829d
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024374/1789994269611612_INDvsSL_Finla_live_landscpae_thumb.jpg" group-title="⛨ 𝔼𝕩𝕥𝕣𝕒  | SonyLiv",Sri Lanka Women vs India Women - Gold Medal Match - 22 Sep 2026 [KAN]
+https://sonydaimenew.akamaized.net/hls/live/2094590/cricodi2209/KAN/std_lrh-800300010.m3u8?hdnea=exp=1790096135~acl=/*~id=55690982493796958097914243973765~hmac=94dcbd710b87cccc31a3d20c04d03d853e3e84813f8c2d6ff8ccc060b324829d
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024412/1790026339390518_AG26_22Sep_Table_Tennis_Mens_Republic_of_Korea_vs_India_live_landscape_thumb.jpg" group-title="⛨ 𝔼𝕩𝕥𝕣𝕒  | SonyLiv",Table Tennis - 22 Sep 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2120308/AG_DX6_22109/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790096135~acl=/*~id=55690982493796958097914243973765~hmac=94dcbd710b87cccc31a3d20c04d03d853e3e84813f8c2d6ff8ccc060b324829d
+
 # ------------=== ⛨ 𝔼𝕩𝕥𝕣𝕒 | FanCode ===---------------
 
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/JPN-vs-IND_FC-WEB.jpg" group-title="⛨ 𝔼𝕩𝕥𝕣𝕒  | FanCode",ENGLISH - Japan vs India
