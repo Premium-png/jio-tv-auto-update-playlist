@@ -5,6 +5,10 @@ on:
     - cron: '*/5 * * * *' # हर 5 मिनट में बैकग्राउंड में चेक करेगा
   workflow_dispatch: # मैनुअली तुरंत रन करने के लिए
 
+# यहाँ गिटहब को कोड अपडेट करने की अनुमति (Permissions) दी जा रही है
+permissions:
+  contents: write
+
 jobs:
   sync:
     runs-on: ubuntu-latest
