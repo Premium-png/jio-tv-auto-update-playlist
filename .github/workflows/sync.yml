@@ -2,8 +2,8 @@ name: Sync Fork
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # हर 5 मिनट में ऑटोमैटिकली सिंक करेगा
-  workflow_dispatch: # मैनुअली रन करने का विकल्प
+    - cron: '*/5 * * * *' # हर 5 मिनट में बैकग्राउंड में चेक करेगा
+  workflow_dispatch: # मैनुअली तुरंत रन करने के लिए
 
 jobs:
   sync:
@@ -11,14 +11,9 @@ jobs:
     steps:
       - name: Checkout target repo
         uses: actions/checkout@v3
-        with:
-          repository: SlamDevs/JioTV_Live
-          persist-credentials: false
 
-      - name: Sync Upstream
-        uses: aormsby/Fork-Sync-With-Upstream-action@v3.4
-        with:
-          target_sync_branch: main
-          target_repo_token: ${{ secrets.GITHUB_TOKEN }}
-          upstream_sync_branch: main
-          upstream_sync_repo: SlamDevs/JioTV_Live
+      - name: Sync with Upstream using GH CLI
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh repo sync Premium-png/jio-tv-auto-update-playlist -b main
