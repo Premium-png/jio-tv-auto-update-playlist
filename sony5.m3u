@@ -1,186 +1,186 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_HD.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonySAB.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_SAB.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyMAX.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyMAX1.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyMAX2.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyPIX.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyPAL.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyWAH.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyMarathi.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyAATH.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyBBCEarthHin.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyBBCEarthEng.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyBBCEarthTam.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyBBCEarthTel.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyYAYHin.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyYAYTam.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyYAYTel.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyYAYKan.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyYAYMal.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyYAYBen.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Animax.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten_HD.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten2_HD.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten3_HD.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Six_HD.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten_1.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten3_HD.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Six_SD.png" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://img.media.jio.com/tvpimages/21/10/304240_1787558465564_l_medium.jpg" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://img.media.jio.com/tvpimages/69/98/301739_1758886924465_l_medium.jpg" group-title="",
-#EXTVLCOPT:http-cookie=hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c
+#EXTVLCOPT:http-cookie=hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed
 #EXTVLCOPT:http-user-agent=virat@10
-#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790554525~acl=/*~id=80661201369437394174007866954677~hmac=0f8aee4b99b4afcb4418c2b8b224967452e90d0bed4180ffb805147f6d0eca5c"}
+#EXTHTTP:{"User-Agent": "virat@10", "Cookie": "hdnea=exp=1790598020~acl=/*~id=47196741891599891569878928646720~hmac=4104a7e2b08b17867d83e176abc78e0089ff3a6cc300bbdc235875d29ab8a3ed"}
 
