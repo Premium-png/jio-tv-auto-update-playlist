@@ -59,7 +59,7 @@ https://jiotvpllive.cdn.jio.com//bpk-tv/Star_Sports_1_BTS/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=400131994b445d8c8817202248760fda:2d56cb6f07a75b9aff165d534ae2bfc4
-#EXTHTTP:{"cookie": "__hdnea__=st=1791048017~exp=1791069617~acl=/bpk-tv/Star_Sports_HD1_Hindi_BTS/WDVLive/*~hmac=69bbb6bdae2328e24a497077abfba36a6aff993e923e9f7171070e07224fa615"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1791069627~exp=1791091227~acl=/bpk-tv/Star_Sports_HD1_Hindi_BTS/WDVLive/*~hmac=41d323bc49989467984c8ee55eda6e1031cbfd66ec00a8f430f0453b6637ed55"}
 #EXTVLCOPT:http-user-agent=Virat🐐
 https://jiotvpllive.cdn.jio.com//bpk-tv/Star_Sports_HD1_Hindi_BTS/WDVLive/index.mpd
 
