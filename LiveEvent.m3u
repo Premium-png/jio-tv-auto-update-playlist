@@ -1,6 +1,6 @@
 #EXTM3U
 #PLAYLIST:Live Events
-#LAST_UPDATE:07:15 PM 10-04-2026
+#LAST_UPDATE:10:22 PM 10-04-2026
 #Created by - Sayan 10
 #EXTINF:-1 tvg-id="12" tvg-name="WEST INDIES TOUR OF INDIA: IND vs WI - Willow Cricbuzz - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Cricket",WEST INDIES TOUR OF INDIA: IND vs WI - Willow Cricbuzz - AQ
 #KODIPROP:inputstream=inputstream.adaptive
@@ -508,17 +508,26 @@ https://tmaxapp.site/8wirwjs76erftg/bein3ar.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 https://www.rtmpcdn.com/live/122be195-67b3-4ee4-a9ee-4f697f6ffef2.m3u8
 
+#EXTINF:-1 tvg-id="1083" tvg-name="UEFA Nations League: Greece vs Germany - DAZN SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Greece vs Germany - DAZN SPORTS HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ondemand.st/embed/?id=uefa-nations-league/2026-10-04/gre-ger
+https://messi.damitv.st/live-hls/channel/uefa-nations-league/2026-10-04/gre-ger/playlist.m3u8?tk=lNUL151a6JcBAGynSYgVSQ&e=1791181858
+
+#EXTINF:-1 tvg-id="1083" tvg-name="UEFA Nations League: Greece vs Germany - FAST SERVER HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Greece vs Germany - FAST SERVER HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://streame.center
+https://edgestream4.pro/hls/b0h5fNwDKH.m3u8
+
 #EXTINF:-1 tvg-id="1084" tvg-name="UEFA Nations League: Netherlands vs Serbia - beIN SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Netherlands vs Serbia - beIN SPORTS FHD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
-
-#EXTINF:-1 tvg-id="1084" tvg-name="UEFA Nations League: Netherlands vs Serbia - BEIN ARABIC HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Netherlands vs Serbia - BEIN ARABIC HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tmaxapp.site/8wirwjs76erftg/bein4ar.m3u8
 
 #EXTINF:-1 tvg-id="1084" tvg-name="UEFA Nations League: Netherlands vs Serbia - DAZN SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Netherlands vs Serbia - DAZN SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
@@ -557,6 +566,11 @@ https://www.rtmpcdn.com/live/8eeff044-5373-418b-b161-dae89bf4f08b.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://streame.center
 https://edgestream4.pro/hls/eJmauBDCIf.m3u8
+
+#EXTINF:-1 tvg-id="1084" tvg-name="UEFA Nations League: Netherlands vs Serbia - BEIN ARABIC HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Netherlands vs Serbia - BEIN ARABIC HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://tmaxapp.site/8wirwjs76erftg/bein4ar.m3u8
 
 #EXTINF:-1 tvg-id="1086" tvg-name="UEFA Nations League: Portugal vs Norway - BeIN SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Portugal vs Norway - BeIN SPORTS FHD
 #KODIPROP:inputstream=inputstream.adaptive
@@ -626,43 +640,34 @@ http://193.47.62.50/hls/JKKKQQQQQ.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 https://www.rtmpcdn.com/live/1f722df2-1ed8-4269-ade1-7d92e67d61d9.m3u8
 
-#EXTINF:-1 tvg-id="1087" tvg-name="UEFA Nations League: Ireland vs Israel - beIN SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Ireland vs Israel - beIN SPORTS FHD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
-
-#EXTINF:-1 tvg-id="1087" tvg-name="UEFA Nations League: Ireland vs Israel - FOX SPORTS FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Ireland vs Israel - FOX SPORTS FHD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd
-
-#EXTINF:-1 tvg-id="1087" tvg-name="UEFA Nations League: Ireland vs Israel - SPORTV BR FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Ireland vs Israel - SPORTV BR FHD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3
-https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd
-
-#EXTINF:-1 tvg-id="1087" tvg-name="UEFA Nations League: Ireland vs Israel - TVE La 1 FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Ireland vs Israel - TVE La 1 FHD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=745cd6ec34a58f2f7ac2af35dc3da6d2:ae008f1e47e6567fe4201a6ff8f1ae54
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/c7di7zkdor/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd
-
-#EXTINF:-1 tvg-id="1087" tvg-name="UEFA Nations League: Ireland vs Israel - FOX SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Ireland vs Israel - FOX SPORTS HD
+#EXTINF:-1 tvg-id="1087" tvg-name="UEFA Nations League: Ireland vs Israel - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Ireland vs Israel - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://streame.center
-#EXTVLCOPT:http-origin=https://streame.center
-https://edgestream2.pro/hls/24SDAZFcsqnj24.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+http://193.47.62.59/hls/JKKKQQ.m3u8
+
+#EXTINF:-1 tvg-id="1087" tvg-name="UEFA Nations League: Ireland vs Israel - GHD SPORTS SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Ireland vs Israel - GHD SPORTS SD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+https://www.rtmpcdn.com/live/23b5cd6e-b0e0-4fdb-b68e-d9511ca418c4.m3u8
+
+#EXTINF:-1 tvg-id="1087" tvg-name="UEFA Nations League: Ireland vs Israel - SPORTV BR FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Ireland vs Israel - SPORTV BR FHD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist/57572/load-playlist?&.m3u8
+
+#EXTINF:-1 tvg-id="1087" tvg-name="UEFA Nations League: Ireland vs Israel - DAZN SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Ireland vs Israel - DAZN SPORTS HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ondemand.st/embed/?id=uefa-nations-league/2026-10-04/irl-isr
+https://messi.damitv.st/live-hls/channel/uefa-nations-league/2026-10-04/irl-isr/playlist.m3u8?tk=lNUL151a6JcBAGynSYgVSQ&e=1791181858
 
 #EXTINF:-1 tvg-id="1087" tvg-name="UEFA Nations League: Ireland vs Israel - SonyLiv ENG AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Ireland vs Israel - SonyLiv ENG AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
@@ -670,27 +675,7 @@ https://edgestream2.pro/hls/24SDAZFcsqnj24.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:157.0) Gecko/20100101 Firefox/157.0
 #EXTVLCOPT:http-referrer=https://www.sonyliv.com/
 #EXTVLCOPT:http-origin=https://www.sonyliv.com
-https://sonymtmnew-akamaized.pages.dev/hls/live/2120304/Footlive0310/ENG/master.m3u8
-
-#EXTINF:-1 tvg-id="1087" tvg-name="UEFA Nations League: Ireland vs Israel - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Ireland vs Israel - GHD SPORTS HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-http://193.47.62.50/hls/GMMMQQ.m3u8
-
-#EXTINF:-1 tvg-id="1087" tvg-name="UEFA Nations League: Ireland vs Israel - GHD SPORTS SD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Ireland vs Israel - GHD SPORTS SD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://www.rtmpcdn.com/live/de3b8061-d18f-48df-8754-cabf576c02c8.m3u8
-
-#EXTINF:-1 tvg-id="1087" tvg-name="UEFA Nations League: Ireland vs Israel - ESPN SPORTS  FHD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/10783/image/dark" group-title="Football",UEFA Nations League: Ireland vs Israel - ESPN SPORTS  FHD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=cb004fb100bd92f23793562891e3236b:b3e4e74ae2080b137e68bbd0ef8a7e05
-https://vcdn.mn10.entel.bo/Content/DASH/Live/Channel(8757cb0a-3584-40cd-901e-8937c7deba83)/master.mpd
+https://sonymtmnew-akamaized.pages.dev/hls/live/2005444/Footlive0410/ENG/master.m3u8
 
 #EXTINF:-1 tvg-id="20" tvg-name="One Day International Women: ZIM-W vs WI-W - FANCODE - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11221/image/dark" group-title="Cricket",One Day International Women: ZIM-W vs WI-W - FANCODE - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
