@@ -1,6 +1,6 @@
 #EXTM3U
 #PLAYLIST:Live Events
-#LAST_UPDATE:07:01 AM 10-05-2026
+#LAST_UPDATE:03:57 PM 10-05-2026
 #Created by - Sayan 10
 #EXTINF:-1 tvg-id="12" tvg-name="WEST INDIES TOUR OF INDIA: IND vs WI - Willow Cricbuzz - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Cricket",WEST INDIES TOUR OF INDIA: IND vs WI - Willow Cricbuzz - AQ
 #KODIPROP:inputstream=inputstream.adaptive
@@ -93,11 +93,6 @@ https://d8j84o343a5m2.cloudfront.net/live/testtapmad3/master.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://tvsen7.aynaott.com/ssport2hd/index.m3u8
 
-#EXTINF:-1 tvg-id="20" tvg-name="One Day International Women: ZIM-W vs WI-W - FANCODE - AQ" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/11221/image/dark" group-title="Cricket",One Day International Women: ZIM-W vs WI-W - FANCODE - AQ
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://51.77.217.114:8089/WIvsZIM/index.m3u8
-
 #EXTINF:-1 tvg-id="42" tvg-name="WORLD CHAMPIONSHIP OF LEGENDS - Willow Cricbuzz AQ" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-ZeuyJWISeEmbhmenzrcpMLz1Ws0AOc2CAlm4QodO7A&s=10" group-title="Cricket",WORLD CHAMPIONSHIP OF LEGENDS - Willow Cricbuzz AQ
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -123,10 +118,7 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vgvtvcvqun/
 #EXTINF:-1 tvg-id="831" tvg-name="International Friendly Games: Uganda vs DR Congo - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Uganda vs DR Congo - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-http://193.47.62.59/hls/EUUU.m3u8
+https://auto-china.spown.workers.dev/&.m3u8?id=Uganda,hd-j
 
 #EXTINF:-1 tvg-id="856" tvg-name="International Friendly Games: Mauritius vs Sri Lanka - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Mauritius vs Sri Lanka - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
@@ -179,6 +171,25 @@ http://193.47.62.59/hls/JKKKQ.m3u8
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://www.rtmpcdn.com/live/bf31d277-1715-4960-847c-39e0ca7e754c.m3u8
+
+#EXTINF:-1 tvg-id="859" tvg-name="International Friendly Games: Ecuador vs Panama - GHD SPORTS - HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Ecuador vs Panama - GHD SPORTS - HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc/
+http://193.47.62.55/hls/ekkkk.m3u8
+
+#EXTINF:-1 tvg-id="859" tvg-name="International Friendly Games: Ecuador vs Panama - HD SERVER" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Ecuador vs Panama - HD SERVER
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.zundrixmediapipeline.com/live/channel14.m3u8
+
+#EXTINF:-1 tvg-id="859" tvg-name="International Friendly Games: Ecuador vs Panama - HD SERVER" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/851/image/dark" group-title="Football",International Friendly Games: Ecuador vs Panama - HD SERVER
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=https://player.online909.com/
+https://live.vivo155.com/live/sd-1-4652341.m3u8?txSecret=8b19d0d2a10275d94d208e9419455723&txTime=6AC3532E
 
 #EXTINF:-1 tvg-id="1060" tvg-name="PremiÃ¨re Ligue, FÃ©minine: Fleury vs PSG - Fleury 91 W vs PSG W" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/1139/image/dark" group-title="Football",PremiÃ¨re Ligue, FÃ©minine: Fleury vs PSG - Fleury 91 W vs PSG W
 #KODIPROP:inputstream=inputstream.ffmpeg
@@ -1336,48 +1347,6 @@ https://chatgpt.hereisman.net/playlist/54227/load-playlist?&.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.44/hls/IFFFA.m3u8
-
-#EXTINF:-1 tvg-id="863" tvg-name="Moto - GP - TNT SPORTS - AQ" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAYDLoG8PO84Lixg4bDtE2CcMOAgci5Iznuw&s" group-title="Racing",Moto - GP - TNT SPORTS - AQ
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd
-
-#EXTINF:-1 tvg-id="863" tvg-name="Moto - GP - MotoGp Live - AQ" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAYDLoG8PO84Lixg4bDtE2CcMOAgci5Iznuw&s" group-title="Racing",Moto - GP - MotoGp Live - AQ
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=e03f302ec4dabcccca82cc9f76731ec9:53ea1027d2bf2893a552cf15bc0366de
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wjeweupwyc/out/v1/8197c8e055c94a868623653ac55c10bf/cenc.mpd
-
-#EXTINF:-1 tvg-id="863" tvg-name="Moto - GP - SPOTV - FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAYDLoG8PO84Lixg4bDtE2CcMOAgci5Iznuw&s" group-title="Racing",Moto - GP - SPOTV - FHD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7eea72d6075245a99ee3255603d58853:6848ef60575579bf4d415db1032153ed
-https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd
-
-#EXTINF:-1 tvg-id="863" tvg-name="Moto - GP - FANCODE - FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAYDLoG8PO84Lixg4bDtE2CcMOAgci5Iznuw&s" group-title="Racing",Moto - GP - FANCODE - FHD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca
-https://ABGPU4GAAAAAAAAME77EHQQ2GEEW7.ta.bia-cf.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd
-
-#EXTINF:-1 tvg-id="863" tvg-name="Moto - GP - TNT SPORTS HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAYDLoG8PO84Lixg4bDtE2CcMOAgci5Iznuw&s" group-title="Racing",Moto - GP - TNT SPORTS HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-http://193.47.62.41/hls/duuuAAAAAA.m3u8
-
-#EXTINF:-1 tvg-id="863" tvg-name="Moto - GP - GHD SPORTS HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAYDLoG8PO84Lixg4bDtE2CcMOAgci5Iznuw&s" group-title="Racing",Moto - GP - GHD SPORTS HD
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://admin2.formaturamaxi.com.br/mlb2.m3u8
 
 #EXTINF:-1 tvg-id="989" tvg-name="Liga Portugal Betclic: AcadÃ©mico Viseu vs Estoril - GHD SPORTS HD" tvg-logo="https://api.sofascore.com/api/v1/unique-tournament/238/image/dark" group-title="Football",Liga Portugal Betclic: AcadÃ©mico Viseu vs Estoril - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
